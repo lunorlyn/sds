@@ -1,0 +1,4037 @@
+﻿
+  dump.cs:19040:	public int[] unlockedMap; // 0x190
+  dump.cs:19041:	public int[] lockedMap; // 0x198
+  dump.cs:19042:	public List<int> mapAvailable; // 0x1A0
+> dump.cs:19043:	public weaponChoose wc; // 0x1A8
+  dump.cs:19044:	public TextMeshProUGUI r; // 0x1B0
+  dump.cs:19045:	public TextMeshProUGUI t; // 0x1B8
+  dump.cs:19046:	[CompilerGenerated]
+  dump.cs:19047:	private static GameBegin <iby>k__BackingField; // 0x0
+  dump.cs:19048:	public bool mapReady; // 0x1C0
+  dump.cs:19049:	public int numberOfGame; // 0x1C4
+  dump.cs:19050:
+  dump.cs:19051:	// Properties
+  dump.cs:19052:	public static GameBegin teg { get; set; }
+  dump.cs:19053:
+  dump.cs:19054:	// Methods
+  dump.cs:19055:
+  dump.cs:19056:	[CompilerGenerated]
+  dump.cs:19057:	// RVA: 0x19721C8 Offset: 0x196E1C8 VA: 0x19721C8
+  dump.cs:19058:	private void clh(AsyncOperationHandle<GameObject> a) { }
+  dump.cs:33707:public abstract class S_Weapon : MonoBehaviour // TypeDefIndex: 504
+  dump.cs:33708:{
+  dump.cs:33709:	// Fields
+> dump.cs:33710:	public SO_WeaponData WeaponData; // 0x20
+  dump.cs:33711:
+  dump.cs:33712:	// Properties
+  dump.cs:33713:	public abstract Collider2D[] tju { get; }
+  dump.cs:33714:	public abstract Rigidbody2D[] tjv { get; }
+  dump.cs:33715:	public abstract EIFJDCHIGFGDJDF tjt { get; }
+  dump.cs:33716:
+  dump.cs:33717:	// Methods
+  dump.cs:33718:
+  dump.cs:33719:	// RVA: 0x1AA3D2C Offset: 0x1A9FD2C VA: 0x1AA3D2C Slot: 4
+  dump.cs:33720:	protected virtual void gwg(int a, S_PlayerMovement b) { }
+  dump.cs:33721:
+  dump.cs:33722:	// RVA: 0x1AA3DD4 Offset: 0x1A9FDD4 VA: 0x1AA3DD4 Slot: 5
+  dump.cs:33723:	protected virtual void kvn(int a, S_PlayerMovement b) { }
+  dump.cs:33724:
+  dump.cs:33725:	// RVA: 0x1AA3E7C Offset: 0x1A9FE7C VA: 0x1AA3E7C Slot: 6
+  dump.cs:35823:}
+  dump.cs:35824:
+  dump.cs:35825:// Namespace: 
+> dump.cs:35826:public struct weaponChoose.ECIEDDGHHJFJEEH // TypeDefIndex: 552
+  dump.cs:35827:{
+  dump.cs:35828:	// Fields
+  dump.cs:35829:	public List<int> numWeap; // 0x0
+  dump.cs:35830:}
+  dump.cs:35831:
+  dump.cs:35832:// Namespace: 
+  dump.cs:35833:[CompilerGenerated]
+> dump.cs:35834:private sealed class weaponChoose.ys // TypeDefIndex: 553
+  dump.cs:35835:{
+  dump.cs:35836:	// Fields
+> dump.cs:35837:	public weaponChoose jbb; // 0x10
+  dump.cs:35838:	public int jbc; // 0x18
+  dump.cs:35839:
+  dump.cs:35840:	// Methods
+  dump.cs:35841:
+  dump.cs:35842:	// RVA: 0x1AC8ED4 Offset: 0x1AC4ED4 VA: 0x1AC8ED4
+  dump.cs:35843:	public void .ctor() { }
+  dump.cs:35844:
+  dump.cs:35845:	// RVA: 0x1AC8EDC Offset: 0x1AC4EDC VA: 0x1AC8EDC
+  dump.cs:35846:	internal void dax(AsyncOperationHandle<GameObject> a) { }
+  dump.cs:35847:}
+  dump.cs:35848:
+  dump.cs:35849:// Namespace: 
+> dump.cs:35850:public class weaponChoose : MonoBehaviour // TypeDefIndex: 554
+  dump.cs:35851:{
+  dump.cs:35852:	// Fields
+  dump.cs:35853:	public GameObject prefabWeapons; // 0x20
+  dump.cs:35854:	private GameManager jbd; // 0x28
+  dump.cs:35855:	public int weaponPL1_Sel; // 0x30
+  dump.cs:35856:	public int weaponPL2_Sel; // 0x34
+  dump.cs:35857:	public int weaponPL3_Sel; // 0x38
+  dump.cs:35858:	public int weaponPL4_Sel; // 0x3C
+  dump.cs:35859:	public int Choose1; // 0x40
+  dump.cs:35860:	public int Choose2; // 0x44
+  dump.cs:35861:	public int Choose3; // 0x48
+  dump.cs:35862:	public int Choose4; // 0x4C
+  dump.cs:35863:	[SerializeField]
+  dump.cs:35864:	private AssetReference[] weapons; // 0x50
+  dump.cs:35865:	public GameObject[] player; // 0x58
+  dump.cs:35885:	private zert1 bfd; // 0xE8
+  dump.cs:35886:	private Dictionary<int, AsyncOperationHandle<GameObject>> jbe; // 0xF0
+  dump.cs:35887:	public Texture2D tzxt; // 0xF8
+> dump.cs:35888:	public weaponChoose.ECIEDDGHHJFJEEH pl1; // 0x100
+> dump.cs:35889:	public weaponChoose.ECIEDDGHHJFJEEH pl2; // 0x108
+> dump.cs:35890:	public weaponChoose.ECIEDDGHHJFJEEH pl3; // 0x110
+> dump.cs:35891:	public weaponChoose.ECIEDDGHHJFJEEH pl4; // 0x118
+  dump.cs:35892:
+  dump.cs:35893:	// Methods
+  dump.cs:35894:
+  dump.cs:35895:	// RVA: 0x1AC4C74 Offset: 0x1AC0C74 VA: 0x1AC4C74
+  dump.cs:35896:	private void dbb() { }
+  dump.cs:35897:
+  dump.cs:35898:	// RVA: 0x1AC4D28 Offset: 0x1AC0D28 VA: 0x1AC4D28
+  dump.cs:35899:	public void InitWeapon() { }
+  dump.cs:35900:
+  dump.cs:35901:	// RVA: 0x1AC51DC Offset: 0x1AC11DC VA: 0x1AC51DC
+  dump.cs:35902:	private void daz(GameObject a, int b, int c) { }
+  dump.cs:35903:
+  dump.cs:35904:	// RVA: 0x1AC5598 Offset: 0x1AC1598 VA: 0x1AC5598
+  dump.cs:35905:	private void Start() { }
+  dump.cs:35906:
+  dump.cs:36223:}
+  dump.cs:36224:
+  dump.cs:36225:// Namespace: 
+> dump.cs:36226:public class WeaponData : ScriptableObject // TypeDefIndex: 558
+  dump.cs:36227:{
+  dump.cs:36228:	// Fields
+  dump.cs:36229:	public int[] ActiveDuration; // 0x18
+  dump.cs:36230:	public int[] Cooldown; // 0x20
+  dump.cs:36231:	public Color[] col; // 0x28
+  dump.cs:36232:
+  dump.cs:36233:	// Methods
+  dump.cs:36234:
+  dump.cs:36235:	// RVA: 0x1AD2668 Offset: 0x1ACE668 VA: 0x1AD2668
+  dump.cs:36236:	public void .ctor() { }
+  dump.cs:36237:}
+  dump.cs:36238:
+  dump.cs:36239:// Namespace: 
+  dump.cs:36240:[Serializable]
+  dump.cs:36241:public class SO_Arena : ScriptableObject // TypeDefIndex: 559
+  dump.cs:36716:}
+  dump.cs:36717:
+  dump.cs:36718:// Namespace: 
+> dump.cs:36719:public class SO_WeaponData : ScriptableObject // TypeDefIndex: 575
+  dump.cs:36720:{
+  dump.cs:36721:	// Fields
+  dump.cs:36722:	public int[] ActiveDuration; // 0x18
+  dump.cs:36723:	public int[] Cooldown; // 0x20
+  dump.cs:36724:	public Color[] Colors; // 0x28
+  dump.cs:36725:
+  dump.cs:36726:	// Methods
+  dump.cs:36727:
+  dump.cs:36728:	// RVA: 0x1AD28B8 Offset: 0x1ACE8B8 VA: 0x1AD28B8
+  dump.cs:36729:	public void .ctor() { }
+  dump.cs:36730:}
+  dump.cs:36731:
+  dump.cs:36732:// Namespace: 
+  dump.cs:36733:public class adaptRond : MonoBehaviour // TypeDefIndex: 576
+  dump.cs:36734:{
+  dump.cs:38871:}
+  dump.cs:38872:
+  dump.cs:38873:// Namespace: 
+> dump.cs:38874:public abstract class ABILITY_CLASS : NetworkBehaviour // TypeDefIndex: 623
+  dump.cs:38875:{
+  dump.cs:38876:	// Methods
+  dump.cs:38877:
+  dump.cs:38878:	// RVA: 0x1B02704 Offset: 0x1AFE704 VA: 0x1B02704 Slot: 25
+  dump.cs:38879:	public override bool nft() { }
+  dump.cs:38880:
+  dump.cs:38881:	// RVA: -1 Offset: -1 Slot: 26
+  dump.cs:38882:	public abstract void activated(int EGJCJDIECFIDECF, PlayerDirection CHJGHGJIJEFCDIJ, int IGCDHCEGIJIEG
+GE, int JCDDGEFEGHIDHIG);
+  dump.cs:38883:
+  dump.cs:38884:	// RVA: 0x1B0270C Offset: 0x1AFE70C VA: 0x1B0270C Slot: 27
+  dump.cs:38885:	public override bool cdp() { }
+  dump.cs:38886:
+  dump.cs:38887:	// RVA: 0x1B02714 Offset: 0x1AFE714 VA: 0x1B02714
+  dump.cs:38888:	protected void .ctor() { }
+  dump.cs:38889:
+  dump.cs:39062:}
+  dump.cs:39063:
+  dump.cs:39064:// Namespace: 
+> dump.cs:39065:public class anchorAb : ABILITY_CLASS // TypeDefIndex: 630
+  dump.cs:39066:{
+  dump.cs:39067:	// Fields
+  dump.cs:39068:	public float LaunchHeight; // 0x68
+  dump.cs:39069:	public bool canGroundExp; // 0x6C
+  dump.cs:39070:	public anchorCont anchor; // 0x70
+  dump.cs:39071:	public Vector2 PowerHit; // 0x78
+  dump.cs:39072:	public PlayerDirection playDir; // 0x80
+  dump.cs:39073:	public int time; // 0x88
+  dump.cs:39074:	public Transform SpawnPoint; // 0x90
+  dump.cs:39075:	public anchorBase anchorB; // 0x98
+  dump.cs:39076:	public AudioSource source; // 0xA0
+  dump.cs:39077:	public AudioClip fire; // 0xA8
+  dump.cs:39078:	public AudioClip laser; // 0xB0
+  dump.cs:39079:	public ParticleConteneur ListPrefabEffect; // 0xB8
+  dump.cs:39080:	public bool FirstTime; // 0xC0
+  dump.cs:39211:}
+  dump.cs:39212:
+  dump.cs:39213:// Namespace: 
+> dump.cs:39214:public class anchorCont : WEAPON_CLASS // TypeDefIndex: 632
+  dump.cs:39215:{
+  dump.cs:39216:	// Fields
+  dump.cs:39217:	public int TypeWeapon; // 0x6C
+  dump.cs:39218:	public int numTeam; // 0x70
+  dump.cs:39219:	public HingeJoint2D hj; // 0x78
+  dump.cs:39220:	public HingeJoint2D hj2; // 0x80
+  dump.cs:39221:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:39222:	public Transform chainAnchorPoint; // 0x90
+  dump.cs:39223:	public Vector2 direction; // 0x98
+  dump.cs:39224:	public PlayerDirection playDir; // 0xA0
+> dump.cs:39225:	public WeaponData weapData; // 0xA8
+> dump.cs:39226:	public ABILITY_CLASS[] Abilities; // 0xB0
+  dump.cs:39227:	public bool AbilityEnabled; // 0xB8
+  dump.cs:39228:	public int TimeAbilityActive; // 0xBC
+  dump.cs:39229:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:39230:	public SpriteRenderer sp; // 0xC8
+  dump.cs:39231:	public SpriteRenderer sp2; // 0xD0
+  dump.cs:39232:	public SpriteRenderer spBullot; // 0xD8
+  dump.cs:39233:	public LineRenderer chain; // 0xE0
+  dump.cs:39234:	public int AbilityActive; // 0xE8
+  dump.cs:39235:	public CollisionWeapon colWeap; // 0xF0
+  dump.cs:39236:	public CollisionWeapon colWeap2; // 0xF8
+  dump.cs:39237:	public int StartGame; // 0x100
+  dump.cs:39238:	public Rigidbody2D Rb; // 0x108
+  dump.cs:39239:	public Rigidbody2D Rb2; // 0x110
+  dump.cs:39240:	public Collider2D cl2; // 0x118
+  dump.cs:39241:	public teleportable telep; // 0x120
+  dump.cs:39604:}
+  dump.cs:39605:
+  dump.cs:39606:// Namespace: 
+> dump.cs:39607:public class ArmCannonCont : WEAPON_CLASS // TypeDefIndex: 638
+  dump.cs:39608:{
+  dump.cs:39609:	// Fields
+  dump.cs:39610:	public ColorSheme colSch; // 0x70
+  dump.cs:39611:	public int TypeWeapon; // 0x78
+  dump.cs:39612:	public int numTeam; // 0x7C
+  dump.cs:39613:	public HingeJoint2D hj; // 0x80
+  dump.cs:39614:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:39615:	public Vector2 direction; // 0x90
+  dump.cs:39616:	public PlayerDirection playDir; // 0x98
+> dump.cs:39617:	public WeaponData weapData; // 0xA0
+> dump.cs:39618:	public ABILITY_CLASS[] Abilities; // 0xA8
+> dump.cs:39619:	public ABILITY_CLASS ConstantShot; // 0xB0
+  dump.cs:39620:	public bool AbilityEnabled; // 0xB8
+  dump.cs:39621:	public int TimeAbilityActive; // 0xBC
+  dump.cs:39622:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:39623:	public SpriteRenderer sp; // 0xC8
+  dump.cs:39624:	public int AbilityActive; // 0xD0
+  dump.cs:39625:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:39626:	public int StartGame; // 0xE0
+  dump.cs:39627:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:39628:	public int PartEquipped; // 0xF0
+  dump.cs:39629:	public float maniement; // 0xF4
+  dump.cs:39630:	public int TimeRepeatShoot; // 0xF8
+  dump.cs:39631:	public int TimeShoot; // 0xFC
+  dump.cs:39632:	public bool Multiplayer; // 0x100
+  dump.cs:39633:	public GameObject[] Effects; // 0x108
+  dump.cs:39634:	public InstanteProjectil[] skills; // 0x110
+  dump.cs:39832:}
+  dump.cs:39833:
+  dump.cs:39834:// Namespace: 
+> dump.cs:39835:public class ArmCannonGreen : ABILITY_CLASS // TypeDefIndex: 639
+  dump.cs:39836:{
+  dump.cs:39837:	// Fields
+  dump.cs:39838:	public GameObject arme; // 0x68
+  dump.cs:39839:	public Rigidbody2D rb; // 0x70
+  dump.cs:39840:	public Vector2 PowerHit; // 0x78
+  dump.cs:39841:	public PlayerDirection playDir; // 0x80
+  dump.cs:39842:	public int time; // 0x88
+  dump.cs:39843:	public Transform SpawnPoint; // 0x90
+  dump.cs:39844:	public AudioSource source; // 0x98
+  dump.cs:39845:	public AudioClip shot; // 0xA0
+  dump.cs:39846:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:39847:	public Rigidbody2D bullets; // 0xB0
+  dump.cs:39848:	public GameObject effectShot; // 0xB8
+  dump.cs:39849:	public bool FirstTime; // 0xC0
+  dump.cs:39850:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:39948:}
+  dump.cs:39949:
+  dump.cs:39950:// Namespace: 
+> dump.cs:39951:public class ArmCannonRedLaser : ABILITY_CLASS // TypeDefIndex: 640
+  dump.cs:39952:{
+  dump.cs:39953:	// Fields
+  dump.cs:39954:	public GameObject arme; // 0x68
+  dump.cs:39955:	public Rigidbody2D rb; // 0x70
+  dump.cs:39956:	public Vector2 PowerHit; // 0x78
+  dump.cs:39957:	public PlayerDirection playDir; // 0x80
+  dump.cs:39958:	public int time; // 0x88
+  dump.cs:39959:	public int timeMax; // 0x8C
+  dump.cs:39960:	public Transform SpawnPoint; // 0x90
+  dump.cs:39961:	public AudioSource source; // 0x98
+  dump.cs:39962:	public AudioClip shot; // 0xA0
+  dump.cs:39963:	public AudioClip prep; // 0xA8
+  dump.cs:39964:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:39965:	public Rigidbody2D Laser; // 0xB8
+  dump.cs:39966:	public GameObject LaserPrep; // 0xC0
+  dump.cs:40180:}
+  dump.cs:40181:
+  dump.cs:40182:// Namespace: 
+> dump.cs:40183:public class atomCont : WEAPON_CLASS // TypeDefIndex: 642
+  dump.cs:40184:{
+  dump.cs:40185:	// Fields
+  dump.cs:40186:	public int TypeWeapon; // 0x6C
+  dump.cs:40187:	public int numTeam; // 0x70
+  dump.cs:40188:	public int equipedP; // 0x74
+  dump.cs:40189:	public HingeJoint2D hj; // 0x78
+  dump.cs:40190:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:40191:	public Vector2 direction; // 0x88
+  dump.cs:40192:	public PlayerDirection playDir; // 0x90
+> dump.cs:40193:	public WeaponData weapData; // 0x98
+> dump.cs:40194:	public ABILITY_CLASS[] abilities; // 0xA0
+  dump.cs:40195:	public bool AbilityEnabled; // 0xA8
+  dump.cs:40196:	public int TimeAbilityActive; // 0xAC
+  dump.cs:40197:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:40198:	public SpriteRenderer sp; // 0xB8
+  dump.cs:40199:	public int AbilityActive; // 0xC0
+  dump.cs:40200:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:40201:	public int StartGame; // 0xD0
+  dump.cs:40202:	public float maniment; // 0xD4
+  dump.cs:40203:	public Rigidbody2D rb; // 0xD8
+  dump.cs:40204:	public string[] weapSet; // 0xE0
+  dump.cs:40205:	public ParticleSystem particle; // 0xE8
+  dump.cs:40206:
+  dump.cs:40207:	// Methods
+  dump.cs:40208:
+  dump.cs:40209:	// RVA: 0x1B30050 Offset: 0x1B2C050 VA: 0x1B30050
+  dump.cs:40444:}
+  dump.cs:40445:
+  dump.cs:40446:// Namespace: 
+> dump.cs:40447:public class createGraviton : ABILITY_CLASS // TypeDefIndex: 645
+  dump.cs:40448:{
+  dump.cs:40449:	// Fields
+  dump.cs:40450:	public atomCont atom; // 0x68
+  dump.cs:40451:	public GameObject arme; // 0x70
+  dump.cs:40452:	public Rigidbody2D rb; // 0x78
+  dump.cs:40453:	public Vector2 PowerHit; // 0x80
+  dump.cs:40454:	public PlayerDirection playDir; // 0x88
+  dump.cs:40455:	public int time; // 0x90
+  dump.cs:40456:	public Transform SpawnPoint; // 0x98
+  dump.cs:40457:	public AudioSource source; // 0xA0
+  dump.cs:40458:	public AudioClip shot; // 0xA8
+  dump.cs:40459:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:40460:	public GameObject champ; // 0xB8
+  dump.cs:40461:	public bool FirstTime; // 0xC0
+  dump.cs:40462:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:40610:}
+  dump.cs:40611:
+  dump.cs:40612:// Namespace: 
+> dump.cs:40613:public class AxeCont : WEAPON_CLASS // TypeDefIndex: 647
+  dump.cs:40614:{
+  dump.cs:40615:	// Fields
+  dump.cs:40616:	public int TypeWeapon; // 0x6C
+  dump.cs:40617:	public int numTeam; // 0x70
+  dump.cs:40618:	public HingeJoint2D hj; // 0x78
+  dump.cs:40619:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:40620:	public Vector2 direction; // 0x88
+  dump.cs:40621:	public PlayerDirection playDir; // 0x90
+> dump.cs:40622:	public WeaponData weapData; // 0x98
+> dump.cs:40623:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:40624:	public bool AbilityEnabled; // 0xA8
+  dump.cs:40625:	public int TimeAbilityActive; // 0xAC
+  dump.cs:40626:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:40627:	public SpriteRenderer sp; // 0xB8
+  dump.cs:40628:	public int AbilityActive; // 0xC0
+  dump.cs:40629:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:40630:	public int StartGame; // 0xD0
+  dump.cs:40631:	public float maniment; // 0xD4
+  dump.cs:40632:	public Rigidbody2D rbAxe; // 0xD8
+  dump.cs:40633:	public bool Multiplayer; // 0xE0
+  dump.cs:40634:
+  dump.cs:40635:	// Methods
+  dump.cs:40636:
+  dump.cs:40637:	// RVA: 0x1B3BAAC Offset: 0x1B37AAC VA: 0x1B3BAAC
+  dump.cs:40638:	private void Start() { }
+  dump.cs:40801:}
+  dump.cs:40802:
+  dump.cs:40803:// Namespace: 
+> dump.cs:40804:public class AxeExplosion : ABILITY_CLASS // TypeDefIndex: 648
+  dump.cs:40805:{
+  dump.cs:40806:	// Fields
+  dump.cs:40807:	public AxeCont Axe; // 0x68
+  dump.cs:40808:	public Vector2 PowerHit; // 0x70
+  dump.cs:40809:	public PlayerDirection playDir; // 0x78
+  dump.cs:40810:	public int time; // 0x80
+  dump.cs:40811:	public float TotalTime; // 0x84
+  dump.cs:40812:	public AudioSource source; // 0x88
+  dump.cs:40813:	public AudioClip explosion; // 0x90
+  dump.cs:40814:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:40815:	public Montagne ExplosionAxe; // 0xA0
+  dump.cs:40816:	public bool FirstTime; // 0xA8
+  dump.cs:40817:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:40818:	public float speedDash; // 0xB8
+  dump.cs:40819:	public bool Impact; // 0xBC
+  dump.cs:40846:}
+  dump.cs:40847:
+  dump.cs:40848:// Namespace: 
+> dump.cs:40849:public class ballonCont : WEAPON_CLASS // TypeDefIndex: 649
+  dump.cs:40850:{
+  dump.cs:40851:	// Fields
+  dump.cs:40852:	public int TypeWeapon; // 0x6C
+  dump.cs:40853:	public int numTeam; // 0x70
+  dump.cs:40854:	public HingeJoint2D hj; // 0x78
+  dump.cs:40855:	public Rigidbody2D rb; // 0x80
+  dump.cs:40856:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:40857:	public Vector2 direction; // 0x90
+  dump.cs:40858:	public PlayerDirection playDir; // 0x98
+> dump.cs:40859:	public WeaponData weapData; // 0xA0
+> dump.cs:40860:	public ABILITY_CLASS[] abilities; // 0xA8
+  dump.cs:40861:	public bool AbilityEnabled; // 0xB0
+  dump.cs:40862:	public int TimeAbilityActive; // 0xB4
+  dump.cs:40863:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:40864:	public SpriteRenderer sp; // 0xC0
+  dump.cs:40865:	public SpriteRenderer spArrow; // 0xC8
+  dump.cs:40866:	public int AbilityActive; // 0xD0
+  dump.cs:40867:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:40868:	public int StartGame; // 0xE0
+  dump.cs:40869:	public float speedFollow; // 0xE4
+  dump.cs:40870:	public GameObject trail; // 0xE8
+  dump.cs:40871:	public Transform gradientIndic; // 0xF0
+  dump.cs:40872:	public SpriteRenderer spBar; // 0xF8
+  dump.cs:40873:	public SpriteRenderer spIndic; // 0x100
+  dump.cs:40874:	public Gradient colPower; // 0x108
+  dump.cs:40875:	public AnimationCurve powerShot; // 0x110
+  dump.cs:40962:}
+  dump.cs:40963:
+  dump.cs:40964:// Namespace: 
+> dump.cs:40965:public class ballonShotGround : ABILITY_CLASS // TypeDefIndex: 650
+  dump.cs:40966:{
+  dump.cs:40967:	// Fields
+  dump.cs:40968:	public ballonCont ballonC; // 0x68
+  dump.cs:40969:	public ParticleSystem ps; // 0x70
+  dump.cs:40970:	public Vector2 PowerHit; // 0x78
+  dump.cs:40971:	public PlayerDirection playDir; // 0x80
+  dump.cs:40972:	public int time; // 0x88
+  dump.cs:40973:	public float TotalTime; // 0x8C
+  dump.cs:40974:	public AudioSource source; // 0x90
+  dump.cs:40975:	public teleportable telep; // 0x98
+  dump.cs:40976:	public bool FirstTime; // 0xA0
+  dump.cs:40977:	public EFFECT_CLASS effect; // 0xA8
+  dump.cs:40978:	public AudioClip ability; // 0xB0
+  dump.cs:40979:	public float mass; // 0xB8
+  dump.cs:40980:	public float speedPush; // 0xBC
+  dump.cs:41059:}
+  dump.cs:41060:
+  dump.cs:41061:// Namespace: 
+> dump.cs:41062:public class esquiveB : ABILITY_CLASS // TypeDefIndex: 651
+  dump.cs:41063:{
+  dump.cs:41064:	// Fields
+  dump.cs:41065:	public ballonCont ballonC; // 0x68
+  dump.cs:41066:	public Vector2 PowerHit; // 0x70
+  dump.cs:41067:	public PlayerDirection playDir; // 0x78
+  dump.cs:41068:	public int time; // 0x80
+  dump.cs:41069:	public float TotalTime; // 0x84
+  dump.cs:41070:	public AudioSource source; // 0x88
+  dump.cs:41071:	public bool FirstTime; // 0x90
+  dump.cs:41072:	public EFFECT_CLASS effect; // 0x98
+  dump.cs:41073:	public AudioClip ability; // 0xA0
+  dump.cs:41074:	public float mass; // 0xA8
+  dump.cs:41075:	public float speedPush; // 0xAC
+  dump.cs:41076:	private float jjh; // 0xB0
+  dump.cs:41077:	[SerializeField]
+  dump.cs:41275:}
+  dump.cs:41276:
+  dump.cs:41277:// Namespace: 
+> dump.cs:41278:public class basketCont : WEAPON_CLASS // TypeDefIndex: 654
+  dump.cs:41279:{
+  dump.cs:41280:	// Fields
+  dump.cs:41281:	public ColorSheme colSch; // 0x70
+  dump.cs:41282:	public int TypeWeapon; // 0x78
+  dump.cs:41283:	public int numTeam; // 0x7C
+  dump.cs:41284:	public HingeJoint2D hj; // 0x80
+  dump.cs:41285:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:41286:	public Vector2 direction; // 0x90
+  dump.cs:41287:	public PlayerDirection playDir; // 0x98
+> dump.cs:41288:	public WeaponData weapData; // 0xA0
+> dump.cs:41289:	public ABILITY_CLASS throwBall; // 0xA8
+  dump.cs:41290:	public bool AbilityEnabled; // 0xB0
+  dump.cs:41291:	public int TimeAbilityActive; // 0xB4
+  dump.cs:41292:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:41293:	public SpriteRenderer sp; // 0xC0
+  dump.cs:41294:	public SpriteRenderer spAbCenter; // 0xC8
+  dump.cs:41295:	public ParticleSystem ps; // 0xD0
+  dump.cs:41296:	public int AbilityActive; // 0xD8
+  dump.cs:41297:	public CollisionWeapon colWeap; // 0xE0
+  dump.cs:41298:	public int StartGame; // 0xE8
+  dump.cs:41299:	public Rigidbody2D Rb; // 0xF0
+  dump.cs:41300:	public Transform visor; // 0xF8
+  dump.cs:41301:	public int PartEquipped; // 0x100
+  dump.cs:41302:	public float maniement; // 0x104
+  dump.cs:41303:
+  dump.cs:41304:	// Methods
+  dump.cs:41399:}
+  dump.cs:41400:
+  dump.cs:41401:// Namespace: 
+> dump.cs:41402:public class launchBaskBall : ABILITY_CLASS // TypeDefIndex: 657
+  dump.cs:41403:{
+  dump.cs:41404:	// Fields
+  dump.cs:41405:	public float rotCorps1; // 0x68
+  dump.cs:41406:	public float rotCorps2; // 0x6C
+  dump.cs:41407:	public float rotLeg1; // 0x70
+  dump.cs:41408:	public float rotLeg2; // 0x74
+  dump.cs:41409:	public float rotBras1; // 0x78
+  dump.cs:41410:	public float rotBras2; // 0x7C
+  dump.cs:41411:	public float rotHand1; // 0x80
+  dump.cs:41412:	public float rotHand2; // 0x84
+  dump.cs:41413:	public bool firstThrow; // 0x88
+  dump.cs:41414:	public basketCont baskBall; // 0x90
+  dump.cs:41415:	public teleportable telep; // 0x98
+  dump.cs:41416:	public Vector2 vel; // 0xA0
+  dump.cs:41417:	public Vector2 PowerHit; // 0xA8
+  dump.cs:41581:}
+  dump.cs:41582:
+  dump.cs:41583:// Namespace: 
+> dump.cs:41584:public class BatteAxeHit : ABILITY_CLASS // TypeDefIndex: 659
+  dump.cs:41585:{
+  dump.cs:41586:	// Fields
+  dump.cs:41587:	public BattleAxedCont Axe; // 0x68
+  dump.cs:41588:	public Rigidbody2D rbAxe; // 0x70
+  dump.cs:41589:	public Vector2 PowerHit; // 0x78
+  dump.cs:41590:	public PlayerDirection playDir; // 0x80
+  dump.cs:41591:	public int time; // 0x88
+  dump.cs:41592:	public int maxTime; // 0x8C
+  dump.cs:41593:	public SpriteRenderer sp; // 0x90
+  dump.cs:41594:	public float TotalTime; // 0x98
+  dump.cs:41595:	public AudioSource source; // 0xA0
+  dump.cs:41596:	public AudioClip PowerPunch; // 0xA8
+  dump.cs:41597:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:41598:	public GameObject Flow; // 0xB8
+  dump.cs:41599:	public bool FirstTime; // 0xC0
+  dump.cs:41703:}
+  dump.cs:41704:
+  dump.cs:41705:// Namespace: 
+> dump.cs:41706:public class BattleAxedCont : WEAPON_CLASS // TypeDefIndex: 661
+  dump.cs:41707:{
+  dump.cs:41708:	// Fields
+  dump.cs:41709:	public ColorSheme colSch; // 0x70
+  dump.cs:41710:	public int TypeWeapon; // 0x78
+  dump.cs:41711:	public int numTeam; // 0x7C
+  dump.cs:41712:	public HingeJoint2D hj; // 0x80
+  dump.cs:41713:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:41714:	public Vector2 direction; // 0x90
+  dump.cs:41715:	public PlayerDirection playDir; // 0x98
+> dump.cs:41716:	public WeaponData weapData; // 0xA0
+> dump.cs:41717:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:41718:	public bool AbilityEnabled; // 0xB0
+  dump.cs:41719:	public int TimeAbilityActive; // 0xB4
+  dump.cs:41720:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:41721:	public SpriteRenderer sp; // 0xC0
+  dump.cs:41722:	public SpriteRenderer spSkin; // 0xC8
+  dump.cs:41723:	public SpriteRenderer spManche; // 0xD0
+  dump.cs:41724:	public int AbilityActive; // 0xD8
+  dump.cs:41725:	public CollisionWeapon[] colWeap; // 0xE0
+  dump.cs:41726:	public int StartGame; // 0xE8
+  dump.cs:41727:	public Rigidbody2D Rb; // 0xF0
+  dump.cs:41728:	public Rigidbody2D rbManche; // 0xF8
+  dump.cs:41729:	public int PartEquipped; // 0x100
+  dump.cs:41730:	public float maniement; // 0x104
+  dump.cs:41731:	public teleportable[] tele; // 0x108
+  dump.cs:41732:	public float posXHj; // 0x110
+  dump.cs:41927:}
+  dump.cs:41928:
+  dump.cs:41929:// Namespace: 
+> dump.cs:41930:public class BattleAxeLaunch : ABILITY_CLASS // TypeDefIndex: 662
+  dump.cs:41931:{
+  dump.cs:41932:	// Fields
+  dump.cs:41933:	public BattleAxedCont Axe; // 0x68
+  dump.cs:41934:	public Rigidbody2D rbAxe; // 0x70
+  dump.cs:41935:	public Vector2 PowerHit; // 0x78
+  dump.cs:41936:	public PlayerDirection playDir; // 0x80
+  dump.cs:41937:	public int time; // 0x88
+  dump.cs:41938:	public SpriteRenderer sp; // 0x90
+  dump.cs:41939:	public float TotalTime; // 0x98
+  dump.cs:41940:	public AudioSource source; // 0xA0
+  dump.cs:41941:	public AudioClip throwWeap; // 0xA8
+  dump.cs:41942:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:41943:	public GameObject Flow; // 0xB8
+  dump.cs:41944:	public bool FirstTime; // 0xC0
+  dump.cs:41945:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:42098:}
+  dump.cs:42099:
+  dump.cs:42100:// Namespace: 
+> dump.cs:42101:public class BattleAxeWind : ABILITY_CLASS // TypeDefIndex: 663
+  dump.cs:42102:{
+  dump.cs:42103:	// Fields
+  dump.cs:42104:	public BattleAxedCont Axe; // 0x68
+  dump.cs:42105:	public Rigidbody2D rbAxe; // 0x70
+  dump.cs:42106:	public Vector2 PowerHit; // 0x78
+  dump.cs:42107:	public PlayerDirection playDir; // 0x80
+  dump.cs:42108:	public int time; // 0x88
+  dump.cs:42109:	public SpriteRenderer sp; // 0x90
+  dump.cs:42110:	public float TotalTime; // 0x98
+  dump.cs:42111:	public AudioSource source; // 0xA0
+  dump.cs:42112:	public AudioClip wind; // 0xA8
+  dump.cs:42113:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:42114:	public GameObject Flow; // 0xB8
+  dump.cs:42115:	public bool FirstTime; // 0xC0
+  dump.cs:42116:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:42390:}
+  dump.cs:42391:
+  dump.cs:42392:// Namespace: 
+> dump.cs:42393:public class BazookaBanana : ABILITY_CLASS // TypeDefIndex: 666
+  dump.cs:42394:{
+  dump.cs:42395:	// Fields
+  dump.cs:42396:	public BazookaCont BazC; // 0x68
+  dump.cs:42397:	public GameObject arme; // 0x70
+  dump.cs:42398:	public Rigidbody2D rb; // 0x78
+  dump.cs:42399:	public Vector2 PowerHit; // 0x80
+  dump.cs:42400:	public PlayerDirection playDir; // 0x88
+  dump.cs:42401:	public int time; // 0x90
+  dump.cs:42402:	public int maxTime; // 0x94
+  dump.cs:42403:	public Transform SpawnPoint; // 0x98
+  dump.cs:42404:	public AudioSource source; // 0xA0
+  dump.cs:42405:	public AudioClip shot; // 0xA8
+  dump.cs:42406:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:42407:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:42408:	public bool FirstTime; // 0xC0
+  dump.cs:42482:}
+  dump.cs:42483:
+  dump.cs:42484:// Namespace: 
+> dump.cs:42485:public class BazookaCont : WEAPON_CLASS // TypeDefIndex: 667
+  dump.cs:42486:{
+  dump.cs:42487:	// Fields
+  dump.cs:42488:	public int TypeWeapon; // 0x6C
+  dump.cs:42489:	public int numTeam; // 0x70
+  dump.cs:42490:	public HingeJoint2D hj; // 0x78
+  dump.cs:42491:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:42492:	public Vector2 direction; // 0x88
+  dump.cs:42493:	public PlayerDirection playDir; // 0x90
+> dump.cs:42494:	public WeaponData weapData; // 0x98
+> dump.cs:42495:	public ABILITY_CLASS BananaShot; // 0xA0
+> dump.cs:42496:	public ABILITY_CLASS ConstantShot; // 0xA8
+  dump.cs:42497:	public bool AbilityEnabled; // 0xB0
+  dump.cs:42498:	public int TimeAbilityActive; // 0xB4
+  dump.cs:42499:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:42500:	public SpriteRenderer sp; // 0xC0
+  dump.cs:42501:	public SpriteRenderer spIndic; // 0xC8
+  dump.cs:42502:	public int AbilityActive; // 0xD0
+  dump.cs:42503:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:42504:	public int StartGame; // 0xE0
+  dump.cs:42505:	public Rigidbody2D RbBazzoka; // 0xE8
+  dump.cs:42506:	public float posXHj; // 0xF0
+  dump.cs:42507:	public float posSp; // 0xF4
+  dump.cs:42508:	public float posspIndic; // 0xF8
+  dump.cs:42509:	public int PartEquipped; // 0xFC
+  dump.cs:42510:	public float maniement; // 0x100
+  dump.cs:42511:	public int TimeRepeatShoot; // 0x104
+  dump.cs:42701:}
+  dump.cs:42702:
+  dump.cs:42703:// Namespace: 
+> dump.cs:42704:public class BladesAbility : ABILITY_CLASS // TypeDefIndex: 668
+  dump.cs:42705:{
+  dump.cs:42706:	// Fields
+  dump.cs:42707:	public BladesCont blades; // 0x68
+  dump.cs:42708:	public Vector2 PowerHit; // 0x70
+  dump.cs:42709:	public PlayerDirection playDir; // 0x78
+  dump.cs:42710:	public int time; // 0x80
+  dump.cs:42711:	public float TotalTime; // 0x84
+  dump.cs:42712:	public AudioSource source; // 0x88
+  dump.cs:42713:	public AudioClip lance; // 0x90
+  dump.cs:42714:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:42715:	public GameObject MiniExplose; // 0xA0
+  dump.cs:42716:	public bool FirstTime; // 0xA8
+  dump.cs:42717:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:42718:	public float LaunchSpeed; // 0xB8
+  dump.cs:42719:
+  dump.cs:42757:}
+  dump.cs:42758:
+  dump.cs:42759:// Namespace: 
+> dump.cs:42760:public class BladesCont : WEAPON_CLASS // TypeDefIndex: 669
+  dump.cs:42761:{
+  dump.cs:42762:	// Fields
+  dump.cs:42763:	public int TypeWeapon; // 0x6C
+  dump.cs:42764:	public int numTeam; // 0x70
+  dump.cs:42765:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:42766:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:42767:	public Vector2 direction; // 0x88
+  dump.cs:42768:	public PlayerDirection playDir; // 0x90
+> dump.cs:42769:	public WeaponData weapData; // 0x98
+> dump.cs:42770:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:42771:	public bool AbilityEnabled; // 0xA8
+  dump.cs:42772:	public int TimeAbilityActive; // 0xAC
+  dump.cs:42773:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:42774:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:42775:	public SpriteRenderer spIndic; // 0xC0
+  dump.cs:42776:	public int AbilityActive; // 0xC8
+  dump.cs:42777:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:42778:	public int StartGame; // 0xD8
+  dump.cs:42779:	public float speedMain; // 0xDC
+  dump.cs:42780:	public Rigidbody2D[] rbBlades; // 0xE0
+  dump.cs:42781:	public teleportable[] telep; // 0xE8
+  dump.cs:42782:	public suiveur Indic; // 0xF0
+  dump.cs:42783:	public float tempo; // 0xF8
+  dump.cs:42784:	public float Dist1; // 0xFC
+  dump.cs:42785:	public float Dist2; // 0x100
+  dump.cs:42909:}
+  dump.cs:42910:
+  dump.cs:42911:// Namespace: 
+> dump.cs:42912:public class BombCont : WEAPON_CLASS // TypeDefIndex: 670
+  dump.cs:42913:{
+  dump.cs:42914:	// Fields
+  dump.cs:42915:	public int TypeWeapon; // 0x6C
+  dump.cs:42916:	public int numTeam; // 0x70
+  dump.cs:42917:	public HingeJoint2D hj; // 0x78
+  dump.cs:42918:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:42919:	public Vector2 direction; // 0x88
+  dump.cs:42920:	public PlayerDirection playDir; // 0x90
+> dump.cs:42921:	public WeaponData weapData; // 0x98
+> dump.cs:42922:	public ABILITY_CLASS bomb; // 0xA0
+> dump.cs:42923:	public ABILITY_CLASS megaBomb; // 0xA8
+  dump.cs:42924:	public bool AbilityEnabled; // 0xB0
+  dump.cs:42925:	public int TimeAbilityActive; // 0xB4
+  dump.cs:42926:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:42927:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:42928:	public int AbilityActive; // 0xC8
+  dump.cs:42929:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:42930:	public int StartGame; // 0xD8
+  dump.cs:42931:	public int MegaBombChance; // 0xDC
+  dump.cs:42932:	public bool Multiplayer; // 0xE0
+  dump.cs:42933:	public InstanteProjectil[] skills; // 0xE8
+  dump.cs:42934:	public Rigidbody2D rb; // 0xF0
+  dump.cs:42935:	public float maniement; // 0xF8
+  dump.cs:42936:
+  dump.cs:42937:	// Methods
+  dump.cs:42938:
+  dump.cs:43130:}
+  dump.cs:43131:
+  dump.cs:43132:// Namespace: 
+> dump.cs:43133:public class BoomerangCont : WEAPON_CLASS // TypeDefIndex: 671
+  dump.cs:43134:{
+  dump.cs:43135:	// Fields
+  dump.cs:43136:	public int TypeWeapon; // 0x6C
+  dump.cs:43137:	public int numTeam; // 0x70
+  dump.cs:43138:	public HingeJoint2D hj; // 0x78
+  dump.cs:43139:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:43140:	public Vector2 direction; // 0x88
+  dump.cs:43141:	public PlayerDirection playDir; // 0x90
+> dump.cs:43142:	public WeaponData weapData; // 0x98
+> dump.cs:43143:	public ABILITY_CLASS LaunchGrappin; // 0xA0
+  dump.cs:43144:	public bool AbilityEnabled; // 0xA8
+  dump.cs:43145:	public int TimeAbilityActive; // 0xAC
+  dump.cs:43146:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:43147:	public int AbilityActive; // 0xB4
+  dump.cs:43148:	public CollisionWeapon[] colWeap; // 0xB8
+  dump.cs:43149:	public int StartGame; // 0xC0
+  dump.cs:43150:	public Rigidbody2D Rb; // 0xC8
+  dump.cs:43151:	public int PartEquipped; // 0xD0
+  dump.cs:43152:	public float retrunspeed; // 0xD4
+  dump.cs:43153:	public float Distance; // 0xD8
+  dump.cs:43154:	public float SpeedReturnFactor; // 0xDC
+  dump.cs:43155:	public int InitialLayer; // 0xE0
+  dump.cs:43156:	public float orientBoomer; // 0xE4
+  dump.cs:43157:	public int megaAb; // 0xE8
+  dump.cs:43158:	public int megaAbTot; // 0xEC
+  dump.cs:43235:}
+  dump.cs:43236:
+  dump.cs:43237:// Namespace: 
+> dump.cs:43238:public class BoomerangLaunch : ABILITY_CLASS // TypeDefIndex: 672
+  dump.cs:43239:{
+  dump.cs:43240:	// Fields
+  dump.cs:43241:	public BoomerangCont boomerang; // 0x68
+  dump.cs:43242:	public Rigidbody2D rbBoomer; // 0x70
+  dump.cs:43243:	public teleportable telep; // 0x78
+  dump.cs:43244:	public Vector2 PowerHit; // 0x80
+  dump.cs:43245:	public PlayerDirection playDir; // 0x88
+  dump.cs:43246:	public int time; // 0x90
+  dump.cs:43247:	public float TotalTime; // 0x94
+  dump.cs:43248:	public AudioSource source; // 0x98
+  dump.cs:43249:	public AudioClip launchBoomerang; // 0xA0
+  dump.cs:43250:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:43251:	public GameObject MiniExplose; // 0xB0
+  dump.cs:43252:	public GameObject MegaExplose; // 0xB8
+  dump.cs:43253:	public bool FirstTime; // 0xC0
+  dump.cs:43443:}
+  dump.cs:43444:
+  dump.cs:43445:// Namespace: 
+> dump.cs:43446:public class BootsCont : WEAPON_CLASS // TypeDefIndex: 674
+  dump.cs:43447:{
+  dump.cs:43448:	// Fields
+  dump.cs:43449:	public int TypeWeapon; // 0x6C
+  dump.cs:43450:	public int numTeam; // 0x70
+  dump.cs:43451:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:43452:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:43453:	public Vector2 direction; // 0x88
+  dump.cs:43454:	public PlayerDirection playDir; // 0x90
+> dump.cs:43455:	public WeaponData weapData; // 0x98
+> dump.cs:43456:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:43457:	public bool AbilityEnabled; // 0xA8
+  dump.cs:43458:	public int TimeAbilityActive; // 0xAC
+  dump.cs:43459:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:43460:	public ParticleSystem[] sp; // 0xB8
+  dump.cs:43461:	public int AbilityActive; // 0xC0
+  dump.cs:43462:	public CollisionWeapon[] colWeap; // 0xC8
+  dump.cs:43463:	public int StartGame; // 0xD0
+  dump.cs:43464:	public Rigidbody2D[] rbBoots; // 0xD8
+  dump.cs:43465:	public Pied[] bootPied; // 0xE0
+  dump.cs:43466:	public SpriteRenderer[] colTeamSP_1; // 0xE8
+  dump.cs:43467:	public SpriteRenderer[] colTeamSP_2; // 0xF0
+  dump.cs:43468:	public SpriteRenderer[] colTeamSP_3; // 0xF8
+  dump.cs:43469:	public ColorSheme colTeamSp_1; // 0x100
+  dump.cs:43470:	public ColorSheme colTeamSp_2; // 0x108
+  dump.cs:43471:	public ColorSheme colTeamIndic; // 0x110
+  dump.cs:43611:}
+  dump.cs:43612:
+  dump.cs:43613:// Namespace: 
+> dump.cs:43614:public class BootsDash : ABILITY_CLASS // TypeDefIndex: 675
+  dump.cs:43615:{
+  dump.cs:43616:	// Fields
+  dump.cs:43617:	public BootsCont Boots; // 0x68
+  dump.cs:43618:	public Vector2 PowerHit; // 0x70
+  dump.cs:43619:	public PlayerDirection playDir; // 0x78
+  dump.cs:43620:	public int time; // 0x80
+  dump.cs:43621:	public float TotalTime; // 0x84
+  dump.cs:43622:	public AudioSource source; // 0x88
+  dump.cs:43623:	public AudioClip dash; // 0x90
+  dump.cs:43624:	public AudioClip explose; // 0x98
+  dump.cs:43625:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:43626:	public GameObject[] PropulsePunch; // 0xA8
+  dump.cs:43627:	public GameObject ExplosionBoots; // 0xB0
+  dump.cs:43628:	public Rigidbody2D[] RbPropulsePunch; // 0xB8
+  dump.cs:43629:	public bool FirstTime; // 0xC0
+  dump.cs:43756:}
+  dump.cs:43757:
+  dump.cs:43758:// Namespace: 
+> dump.cs:43759:public class BowCont : WEAPON_CLASS // TypeDefIndex: 678
+  dump.cs:43760:{
+  dump.cs:43761:	// Fields
+  dump.cs:43762:	public int TypeWeapon; // 0x6C
+  dump.cs:43763:	public int numTeam; // 0x70
+  dump.cs:43764:	public FixedJoint2D fj; // 0x78
+  dump.cs:43765:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:43766:	public Vector2 direction; // 0x88
+  dump.cs:43767:	public PlayerDirection playDir; // 0x90
+> dump.cs:43768:	public WeaponData weapData; // 0x98
+> dump.cs:43769:	public ABILITY_CLASS FastShots; // 0xA0
+  dump.cs:43770:	public bool AbilityEnabled; // 0xA8
+  dump.cs:43771:	public int TimeAbilityActive; // 0xAC
+  dump.cs:43772:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:43773:	public SpriteRenderer sp; // 0xB8
+  dump.cs:43774:	public SpriteRenderer spIndic; // 0xC0
+  dump.cs:43775:	public int AbilityActive; // 0xC8
+  dump.cs:43776:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:43777:	public int StartGame; // 0xD8
+  dump.cs:43778:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:43779:	public LineRenderer ArcFil; // 0xE8
+  dump.cs:43780:	public float posspIndic; // 0xF0
+  dump.cs:43781:	public int PartEquipped; // 0xF4
+  dump.cs:43782:	public float maniement; // 0xF8
+  dump.cs:43783:	public GameObject AttachFil1; // 0x100
+  dump.cs:43784:	public GameObject AttachFil2; // 0x108
+  dump.cs:44018:}
+  dump.cs:44019:
+  dump.cs:44020:// Namespace: 
+> dump.cs:44021:public class BowShot : ABILITY_CLASS // TypeDefIndex: 679
+  dump.cs:44022:{
+  dump.cs:44023:	// Fields
+  dump.cs:44024:	public BowCont bow; // 0x68
+  dump.cs:44025:	public GameObject arme; // 0x70
+  dump.cs:44026:	public Rigidbody2D rb; // 0x78
+  dump.cs:44027:	public Vector2 PowerHit; // 0x80
+  dump.cs:44028:	public PlayerDirection playDir; // 0x88
+  dump.cs:44029:	public int time; // 0x90
+  dump.cs:44030:	public Transform SpawnPoint; // 0x98
+  dump.cs:44031:	public AudioSource source; // 0xA0
+  dump.cs:44032:	public AudioClip shot; // 0xA8
+  dump.cs:44033:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:44034:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:44035:	public bool FirstTime; // 0xC0
+  dump.cs:44036:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:44118:}
+  dump.cs:44119:
+  dump.cs:44120:// Namespace: 
+> dump.cs:44121:public class BoxingCont : WEAPON_CLASS // TypeDefIndex: 680
+  dump.cs:44122:{
+  dump.cs:44123:	// Fields
+  dump.cs:44124:	public int TypeWeapon; // 0x6C
+  dump.cs:44125:	public int numTeam; // 0x70
+  dump.cs:44126:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:44127:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:44128:	public Vector2 direction; // 0x88
+  dump.cs:44129:	public PlayerDirection playDir; // 0x90
+> dump.cs:44130:	public WeaponData weapData; // 0x98
+> dump.cs:44131:	public ABILITY_CLASS[] DashAttack; // 0xA0
+  dump.cs:44132:	public bool AbilityEnabled; // 0xA8
+  dump.cs:44133:	public int TimeAbilityActive; // 0xAC
+  dump.cs:44134:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:44135:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:44136:	public int AbilityActive; // 0xC0
+  dump.cs:44137:	public CollisionWeapon[] colWeap; // 0xC8
+  dump.cs:44138:	public int StartGame; // 0xD0
+  dump.cs:44139:	public float speedMain; // 0xD4
+  dump.cs:44140:	public Rigidbody2D[] rbgloves; // 0xD8
+  dump.cs:44141:	public GameObject[] Flux; // 0xE0
+  dump.cs:44142:	public bool Multiplayer; // 0xE8
+  dump.cs:44143:
+  dump.cs:44144:	// Methods
+  dump.cs:44145:
+  dump.cs:44146:	// RVA: 0x1B8B970 Offset: 0x1B87970 VA: 0x1B8B970
+  dump.cs:44319:}
+  dump.cs:44320:
+  dump.cs:44321:// Namespace: 
+> dump.cs:44322:public class BoxingDash : ABILITY_CLASS // TypeDefIndex: 681
+  dump.cs:44323:{
+  dump.cs:44324:	// Fields
+  dump.cs:44325:	public BoxingCont BoxGlove; // 0x68
+  dump.cs:44326:	public Vector2 PowerHit; // 0x70
+  dump.cs:44327:	public PlayerDirection playDir; // 0x78
+  dump.cs:44328:	public int time; // 0x80
+  dump.cs:44329:	public float TotalTime; // 0x84
+  dump.cs:44330:	public AudioSource source; // 0x88
+  dump.cs:44331:	public AudioClip dash; // 0x90
+  dump.cs:44332:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:44333:	public GameObject[] PropulsePunch; // 0xA0
+  dump.cs:44334:	public Rigidbody2D[] RbPropulsePunch; // 0xA8
+  dump.cs:44335:	public bool FirstTime; // 0xB0
+  dump.cs:44336:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:44337:	public float speedDash; // 0xC0
+  dump.cs:44415:}
+  dump.cs:44416:
+  dump.cs:44417:// Namespace: 
+> dump.cs:44418:public class clawMuliAttack : ABILITY_CLASS // TypeDefIndex: 682
+  dump.cs:44419:{
+  dump.cs:44420:	// Fields
+  dump.cs:44421:	public BoxingCont clawC; // 0x68
+  dump.cs:44422:	public Vector2 PowerHit; // 0x70
+  dump.cs:44423:	public PlayerDirection playDir; // 0x78
+  dump.cs:44424:	public int time; // 0x80
+  dump.cs:44425:	public float TotalTime; // 0x84
+  dump.cs:44426:	public AudioSource source; // 0x88
+  dump.cs:44427:	public AudioClip punch1; // 0x90
+  dump.cs:44428:	public AudioClip punch2; // 0x98
+  dump.cs:44429:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:44430:	public bool FirstTime; // 0xA8
+  dump.cs:44431:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:44432:	public float DefaultSpeedDash; // 0xB8
+  dump.cs:44433:	public float DefaultSpeedBras; // 0xBC
+  dump.cs:44606:}
+  dump.cs:44607:
+  dump.cs:44608:// Namespace: 
+> dump.cs:44609:public class carapaceCont : WEAPON_CLASS // TypeDefIndex: 685
+  dump.cs:44610:{
+  dump.cs:44611:	// Fields
+  dump.cs:44612:	public int TypeWeapon; // 0x6C
+  dump.cs:44613:	public int numTeam; // 0x70
+  dump.cs:44614:	public HingeJoint2D hj; // 0x78
+  dump.cs:44615:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:44616:	public Vector2 direction; // 0x88
+  dump.cs:44617:	public PlayerDirection playDir; // 0x90
+> dump.cs:44618:	public WeaponData weapData; // 0x98
+> dump.cs:44619:	public ABILITY_CLASS[] caraAbility; // 0xA0
+  dump.cs:44620:	public bool AbilityEnabled; // 0xA8
+  dump.cs:44621:	public int TimeAbilityActive; // 0xAC
+  dump.cs:44622:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:44623:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:44624:	public int AbilityActive; // 0xC0
+  dump.cs:44625:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:44626:	public int StartGame; // 0xD0
+  dump.cs:44627:	public int abilityNum; // 0xD4
+  dump.cs:44628:	public Rigidbody2D rb; // 0xD8
+  dump.cs:44629:	public float maniement; // 0xE0
+  dump.cs:44630:
+  dump.cs:44631:	// Methods
+  dump.cs:44632:
+  dump.cs:44633:	// RVA: 0x1B981B8 Offset: 0x1B941B8 VA: 0x1B981B8 Slot: 28
+  dump.cs:44634:	public override void activePower(int IGCDHCEGIJIEGGE, int JHDHGHGHIJEECED) { }
+  dump.cs:44799:}
+  dump.cs:44800:
+  dump.cs:44801:// Namespace: 
+> dump.cs:44802:public class CardAbility : ABILITY_CLASS // TypeDefIndex: 688
+  dump.cs:44803:{
+  dump.cs:44804:	// Fields
+  dump.cs:44805:	public GameObject arme; // 0x68
+  dump.cs:44806:	public Rigidbody2D rb; // 0x70
+  dump.cs:44807:	public Vector2 PowerHit; // 0x78
+  dump.cs:44808:	public PlayerDirection playDir; // 0x80
+  dump.cs:44809:	public int time; // 0x88
+  dump.cs:44810:	public Transform SpawnPoint; // 0x90
+  dump.cs:44811:	public AudioSource source; // 0x98
+  dump.cs:44812:	public AudioClip trow; // 0xA0
+  dump.cs:44813:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:44814:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:44815:	public bool FirstTime; // 0xB8
+  dump.cs:44816:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:44817:	public int numAb; // 0xC8
+  dump.cs:44884:}
+  dump.cs:44885:
+  dump.cs:44886:// Namespace: 
+> dump.cs:44887:public class CardCont : WEAPON_CLASS // TypeDefIndex: 689
+  dump.cs:44888:{
+  dump.cs:44889:	// Fields
+  dump.cs:44890:	public ColorSheme colSch; // 0x70
+  dump.cs:44891:	public int TypeWeapon; // 0x78
+  dump.cs:44892:	public int numTeam; // 0x7C
+  dump.cs:44893:	public HingeJoint2D hj; // 0x80
+  dump.cs:44894:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:44895:	public Vector2 direction; // 0x90
+  dump.cs:44896:	public PlayerDirection playDir; // 0x98
+> dump.cs:44897:	public WeaponData weapData; // 0xA0
+> dump.cs:44898:	public ABILITY_CLASS Abilities; // 0xA8
+  dump.cs:44899:	public bool AbilityEnabled; // 0xB0
+  dump.cs:44900:	public int TimeAbilityActive; // 0xB4
+  dump.cs:44901:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:44902:	public SpriteRenderer sp; // 0xC0
+  dump.cs:44903:	public int AbilityActive; // 0xC8
+  dump.cs:44904:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:44905:	public int StartGame; // 0xD8
+  dump.cs:44906:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:44907:	public int PartEquipped; // 0xE8
+  dump.cs:44908:	public float maniement; // 0xEC
+  dump.cs:44909:	public bool Multiplayer; // 0xF0
+  dump.cs:44910:	public GameObject[] Effects; // 0xF8
+  dump.cs:44911:
+  dump.cs:44912:	// Methods
+  dump.cs:44913:
+  dump.cs:45330:}
+  dump.cs:45331:
+  dump.cs:45332:// Namespace: 
+> dump.cs:45333:public class CircularSawCont : WEAPON_CLASS // TypeDefIndex: 691
+  dump.cs:45334:{
+  dump.cs:45335:	// Fields
+  dump.cs:45336:	public int TypeWeapon; // 0x6C
+  dump.cs:45337:	public int numTeam; // 0x70
+  dump.cs:45338:	public HingeJoint2D hj; // 0x78
+  dump.cs:45339:	public HingeJoint2D hjRot; // 0x80
+  dump.cs:45340:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:45341:	public Vector2 direction; // 0x90
+  dump.cs:45342:	public PlayerDirection playDir; // 0x98
+> dump.cs:45343:	public WeaponData weapData; // 0xA0
+> dump.cs:45344:	public ABILITY_CLASS DashAttack; // 0xA8
+  dump.cs:45345:	public bool AbilityEnabled; // 0xB0
+  dump.cs:45346:	public int TimeAbilityActive; // 0xB4
+  dump.cs:45347:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:45348:	public SpriteRenderer sp; // 0xC0
+  dump.cs:45349:	public SpriteRenderer spManche; // 0xC8
+  dump.cs:45350:	public int AbilityActive; // 0xD0
+  dump.cs:45351:	public CollisionWeapon[] colWeap; // 0xD8
+  dump.cs:45352:	public int StartGame; // 0xE0
+  dump.cs:45353:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:45354:	public Rigidbody2D rbManche; // 0xF0
+  dump.cs:45355:	public BoxCollider2D[] scie; // 0xF8
+  dump.cs:45356:	public float maniment; // 0x100
+  dump.cs:45357:	public int secondControl; // 0x104
+  dump.cs:45358:	public int unable; // 0x108
+  dump.cs:45359:	public bool Multiplayer; // 0x10C
+  dump.cs:45530:}
+  dump.cs:45531:
+  dump.cs:45532:// Namespace: 
+> dump.cs:45533:public class CircularSawGrow : ABILITY_CLASS // TypeDefIndex: 692
+  dump.cs:45534:{
+  dump.cs:45535:	// Fields
+  dump.cs:45536:	public CircularSawCont saw; // 0x68
+  dump.cs:45537:	public Rigidbody2D rbsaw; // 0x70
+  dump.cs:45538:	public Vector2 PowerHit; // 0x78
+  dump.cs:45539:	public PlayerDirection playDir; // 0x80
+  dump.cs:45540:	public int time; // 0x88
+  dump.cs:45541:	public float TotalTime; // 0x8C
+  dump.cs:45542:	public AudioSource source; // 0x90
+  dump.cs:45543:	public AudioClip grow; // 0x98
+  dump.cs:45544:	public bool FirstTime; // 0xA0
+  dump.cs:45545:	public float speedDash; // 0xA4
+  dump.cs:45546:	public float ler; // 0xA8
+  dump.cs:45547:	public CircleCollider2D cc; // 0xB0
+  dump.cs:45548:	public Vector2 solNorm; // 0xB8
+  dump.cs:45649:}
+  dump.cs:45650:
+  dump.cs:45651:// Namespace: 
+> dump.cs:45652:public class crossBowAb : ABILITY_CLASS // TypeDefIndex: 693
+  dump.cs:45653:{
+  dump.cs:45654:	// Fields
+  dump.cs:45655:	public CrossBowCont crossBow; // 0x68
+  dump.cs:45656:	public Vector2 PowerHit; // 0x70
+  dump.cs:45657:	public PlayerDirection playDir; // 0x78
+  dump.cs:45658:	public int time; // 0x80
+  dump.cs:45659:	public float TotalTime; // 0x84
+  dump.cs:45660:	public AudioSource source; // 0x88
+  dump.cs:45661:	public AudioClip Launch; // 0x90
+  dump.cs:45662:	public bool FirstTime; // 0x98
+  dump.cs:45663:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:45664:	public GameObject explosion; // 0xA8
+  dump.cs:45665:
+  dump.cs:45666:	// Methods
+  dump.cs:45667:
+  dump.cs:45811:}
+  dump.cs:45812:
+  dump.cs:45813:// Namespace: 
+> dump.cs:45814:public class CrossBowCont : WEAPON_CLASS // TypeDefIndex: 696
+  dump.cs:45815:{
+  dump.cs:45816:	// Fields
+  dump.cs:45817:	public int TypeWeapon; // 0x6C
+  dump.cs:45818:	public int numTeam; // 0x70
+  dump.cs:45819:	public FixedJoint2D fj; // 0x78
+  dump.cs:45820:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:45821:	public Vector2 direction; // 0x88
+  dump.cs:45822:	public PlayerDirection playDir; // 0x90
+> dump.cs:45823:	public WeaponData weapData; // 0x98
+> dump.cs:45824:	public ABILITY_CLASS RepeatShots; // 0xA0
+> dump.cs:45825:	public ABILITY_CLASS[] abilities; // 0xA8
+  dump.cs:45826:	public bool AbilityEnabled; // 0xB0
+  dump.cs:45827:	public int TimeAbilityActive; // 0xB4
+  dump.cs:45828:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:45829:	public SpriteRenderer sp; // 0xC0
+  dump.cs:45830:	public SpriteRenderer spIndic; // 0xC8
+  dump.cs:45831:	public int AbilityActive; // 0xD0
+  dump.cs:45832:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:45833:	public int StartGame; // 0xE0
+  dump.cs:45834:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:45835:	public LineRenderer ArcFil; // 0xF0
+  dump.cs:45836:	public float posspIndic; // 0xF8
+  dump.cs:45837:	public int PartEquipped; // 0xFC
+  dump.cs:45838:	public float maniement; // 0x100
+  dump.cs:45839:	public GameObject[] AttachFil; // 0x108
+  dump.cs:45840:	public int TimeRepeatShoot; // 0x110
+  dump.cs:46057:}
+  dump.cs:46058:
+  dump.cs:46059:// Namespace: 
+> dump.cs:46060:public class CrossBowShot : ABILITY_CLASS // TypeDefIndex: 697
+  dump.cs:46061:{
+  dump.cs:46062:	// Fields
+  dump.cs:46063:	public CrossBowCont crossbow; // 0x68
+  dump.cs:46064:	public GameObject arme; // 0x70
+  dump.cs:46065:	public Rigidbody2D rb; // 0x78
+  dump.cs:46066:	public Vector2 PowerHit; // 0x80
+  dump.cs:46067:	public PlayerDirection playDir; // 0x88
+  dump.cs:46068:	public int time; // 0x90
+  dump.cs:46069:	public Transform SpawnPoint; // 0x98
+  dump.cs:46070:	public AudioSource source; // 0xA0
+  dump.cs:46071:	public AudioClip shot; // 0xA8
+  dump.cs:46072:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:46073:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:46074:	public bool FirstTime; // 0xC0
+  dump.cs:46075:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:46267:}
+  dump.cs:46268:
+  dump.cs:46269:// Namespace: 
+> dump.cs:46270:public class DaggerCont : WEAPON_CLASS // TypeDefIndex: 699
+  dump.cs:46271:{
+  dump.cs:46272:	// Fields
+  dump.cs:46273:	public int TypeWeapon; // 0x6C
+  dump.cs:46274:	public int numTeam; // 0x70
+  dump.cs:46275:	public HingeJoint2D hj; // 0x78
+  dump.cs:46276:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:46277:	public Vector2 direction; // 0x88
+  dump.cs:46278:	public PlayerDirection playDir; // 0x90
+> dump.cs:46279:	public WeaponData weapData; // 0x98
+> dump.cs:46280:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:46281:	public bool AbilityEnabled; // 0xA8
+  dump.cs:46282:	public int TimeAbilityActive; // 0xAC
+  dump.cs:46283:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:46284:	public SpriteRenderer sp; // 0xB8
+  dump.cs:46285:	public int AbilityActive; // 0xC0
+  dump.cs:46286:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:46287:	public int StartGame; // 0xD0
+  dump.cs:46288:	public Rigidbody2D rbDagger; // 0xD8
+  dump.cs:46289:	public float maniment; // 0xE0
+  dump.cs:46290:	public Rigidbody2D[] rigid; // 0xE8
+  dump.cs:46291:	public DaggerDash dagDash; // 0xF0
+  dump.cs:46292:	public int numberOfUlt; // 0xF8
+  dump.cs:46293:	public bool Multiplayer; // 0xFC
+  dump.cs:46294:
+  dump.cs:46295:	// Methods
+  dump.cs:46497:}
+  dump.cs:46498:
+  dump.cs:46499:// Namespace: 
+> dump.cs:46500:public class DaggerDash : ABILITY_CLASS // TypeDefIndex: 700
+  dump.cs:46501:{
+  dump.cs:46502:	// Fields
+  dump.cs:46503:	public DaggerCont dagger; // 0x68
+  dump.cs:46504:	public Vector2 PowerHit; // 0x70
+  dump.cs:46505:	public PlayerDirection playDir; // 0x78
+  dump.cs:46506:	public int time; // 0x80
+  dump.cs:46507:	public SpriteRenderer sp; // 0x88
+  dump.cs:46508:	public float TotalTime; // 0x90
+  dump.cs:46509:	public AudioSource source; // 0x98
+  dump.cs:46510:	public AudioClip dash; // 0xA0
+  dump.cs:46511:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:46512:	public GameObject Flow; // 0xB0
+  dump.cs:46513:	public bool FirstTime; // 0xB8
+  dump.cs:46514:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:46515:	public float speedDash; // 0xC8
+  dump.cs:46594:}
+  dump.cs:46595:
+  dump.cs:46596:// Namespace: 
+> dump.cs:46597:public class SaberCont : WEAPON_CLASS // TypeDefIndex: 701
+  dump.cs:46598:{
+  dump.cs:46599:	// Fields
+  dump.cs:46600:	public GameObject[] Indic; // 0x70
+  dump.cs:46601:	public int TypeWeapon; // 0x78
+  dump.cs:46602:	public int numTeam; // 0x7C
+  dump.cs:46603:	public HingeJoint2D[] hj; // 0x80
+  dump.cs:46604:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:46605:	public Vector2 direction; // 0x90
+  dump.cs:46606:	public PlayerDirection playDir; // 0x98
+> dump.cs:46607:	public WeaponData weapData; // 0xA0
+  dump.cs:46608:	public bool stance; // 0xA8
+  dump.cs:46609:	public bool Ability; // 0xA9
+> dump.cs:46610:	public ABILITY_CLASS StanceSwitch; // 0xB0
+> dump.cs:46611:	public ABILITY_CLASS[] Abilities; // 0xB8
+  dump.cs:46612:	public string[] elec; // 0xC0
+  dump.cs:46613:	public bool AbilityEnabled; // 0xC8
+  dump.cs:46614:	public int TimeAbilityActive; // 0xCC
+  dump.cs:46615:	public int TimeAbilityActiveMax; // 0xD0
+  dump.cs:46616:	public SpriteRenderer[] sp; // 0xD8
+  dump.cs:46617:	public int AbilityActive; // 0xE0
+  dump.cs:46618:	public CollisionWeapon[] colWeap; // 0xE8
+  dump.cs:46619:	public int StartGame; // 0xF0
+  dump.cs:46620:	public float speedMain; // 0xF4
+  dump.cs:46621:	public Rigidbody2D[] rbgloves; // 0xF8
+  dump.cs:46622:	public GameObject[] Flux; // 0x100
+  dump.cs:46623:	public int numPower; // 0x108
+  dump.cs:46624:	public Rigidbody2D[] rigid; // 0x110
+  dump.cs:46625:	public float energy; // 0x118
+  dump.cs:46626:	public Transform bar; // 0x120
+  dump.cs:46769:}
+  dump.cs:46770:
+  dump.cs:46771:// Namespace: 
+> dump.cs:46772:public class saberDoubleShot : ABILITY_CLASS // TypeDefIndex: 703
+  dump.cs:46773:{
+  dump.cs:46774:	// Fields
+  dump.cs:46775:	public SaberCont saberC; // 0x68
+  dump.cs:46776:	public Vector2 PowerHit; // 0x70
+  dump.cs:46777:	public PlayerDirection playDir; // 0x78
+  dump.cs:46778:	public int time; // 0x80
+  dump.cs:46779:	public int timeMax; // 0x84
+  dump.cs:46780:	public Transform[] SpawnPoint; // 0x88
+  dump.cs:46781:	public float TotalTime; // 0x90
+  dump.cs:46782:	public AudioSource source; // 0x98
+  dump.cs:46783:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:46784:	public bool FirstTime; // 0xA8
+  dump.cs:46785:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:46786:	public AudioClip shot; // 0xB8
+  dump.cs:46787:	public AudioClip prep; // 0xC0
+  dump.cs:46836:}
+  dump.cs:46837:
+  dump.cs:46838:// Namespace: 
+> dump.cs:46839:public class saberRotate : ABILITY_CLASS // TypeDefIndex: 704
+  dump.cs:46840:{
+  dump.cs:46841:	// Fields
+  dump.cs:46842:	public SaberCont saberC; // 0x68
+  dump.cs:46843:	public Vector2 PowerHitStable; // 0x70
+  dump.cs:46844:	public Vector2 PowerHit; // 0x78
+  dump.cs:46845:	public Vector2 dirVel; // 0x80
+  dump.cs:46846:	public Vector2 dirVel2; // 0x88
+  dump.cs:46847:	public PlayerDirection playDir; // 0x90
+  dump.cs:46848:	public int time; // 0x98
+  dump.cs:46849:	public float TotalTime; // 0x9C
+  dump.cs:46850:	public AudioSource source; // 0xA0
+  dump.cs:46851:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:46852:	public bool FirstTime; // 0xB0
+  dump.cs:46853:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:46854:	public HingeJoint2D[] hjs; // 0xC0
+  dump.cs:46881:}
+  dump.cs:46882:
+  dump.cs:46883:// Namespace: 
+> dump.cs:46884:public class saberStance : ABILITY_CLASS // TypeDefIndex: 705
+  dump.cs:46885:{
+  dump.cs:46886:	// Fields
+  dump.cs:46887:	public SaberCont saberC; // 0x68
+  dump.cs:46888:	public Vector2 PowerHit; // 0x70
+  dump.cs:46889:	public PlayerDirection playDir; // 0x78
+  dump.cs:46890:	public int time; // 0x80
+  dump.cs:46891:	public float TotalTime; // 0x84
+  dump.cs:46892:	public AudioSource source; // 0x88
+  dump.cs:46893:	public AudioClip soundMono; // 0x90
+  dump.cs:46894:	public AudioClip soundDual; // 0x98
+  dump.cs:46895:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:46896:	public bool FirstTime; // 0xA8
+  dump.cs:46897:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:46898:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:46899:
+  dump.cs:47017:}
+  dump.cs:47018:
+  dump.cs:47019:// Namespace: 
+> dump.cs:47020:public class fanCont : WEAPON_CLASS // TypeDefIndex: 707
+  dump.cs:47021:{
+  dump.cs:47022:	// Fields
+  dump.cs:47023:	public int TypeWeapon; // 0x6C
+  dump.cs:47024:	public int numTeam; // 0x70
+  dump.cs:47025:	public HingeJoint2D hj; // 0x78
+  dump.cs:47026:	public Rigidbody2D rb; // 0x80
+  dump.cs:47027:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:47028:	public Vector2 direction; // 0x90
+  dump.cs:47029:	public PlayerDirection playDir; // 0x98
+> dump.cs:47030:	public WeaponData weapData; // 0xA0
+> dump.cs:47031:	public ABILITY_CLASS[] DashAttack; // 0xA8
+  dump.cs:47032:	public bool AbilityEnabled; // 0xB0
+  dump.cs:47033:	public int TimeAbilityActive; // 0xB4
+  dump.cs:47034:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:47035:	public SpriteRenderer sp; // 0xC0
+  dump.cs:47036:	public int AbilityActive; // 0xC8
+  dump.cs:47037:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:47038:	public int StartGame; // 0xD8
+  dump.cs:47039:	public float speedMain; // 0xDC
+  dump.cs:47040:	public Rigidbody2D rbgloves; // 0xE0
+  dump.cs:47041:	public GameObject windTrail; // 0xE8
+  dump.cs:47042:	public float maniement; // 0xF0
+  dump.cs:47043:	public Transform gradientIndic; // 0xF8
+  dump.cs:47044:
+  dump.cs:47045:	// Methods
+  dump.cs:47046:
+  dump.cs:47133:}
+  dump.cs:47134:
+  dump.cs:47135:// Namespace: 
+> dump.cs:47136:public class smallToarnade : ABILITY_CLASS // TypeDefIndex: 708
+  dump.cs:47137:{
+  dump.cs:47138:	// Fields
+  dump.cs:47139:	public fanCont fanC; // 0x68
+  dump.cs:47140:	public Vector2 PowerHit; // 0x70
+  dump.cs:47141:	public PlayerDirection playDir; // 0x78
+  dump.cs:47142:	public int time; // 0x80
+  dump.cs:47143:	public Transform SpawnPoint; // 0x88
+  dump.cs:47144:	public AudioSource source; // 0x90
+  dump.cs:47145:	public AudioClip shot; // 0x98
+  dump.cs:47146:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:47147:	public Rigidbody2D[] bullets; // 0xA8
+  dump.cs:47148:	public bool FirstTime; // 0xB0
+  dump.cs:47149:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:47150:	public int numAb; // 0xC0
+  dump.cs:47151:	public int TeamAbi; // 0xC4
+  dump.cs:47294:}
+  dump.cs:47295:
+  dump.cs:47296:// Namespace: 
+> dump.cs:47297:public class tornade : ABILITY_CLASS // TypeDefIndex: 710
+  dump.cs:47298:{
+  dump.cs:47299:	// Fields
+  dump.cs:47300:	public fanCont fanC; // 0x68
+  dump.cs:47301:	public Vector2 PowerHit; // 0x70
+  dump.cs:47302:	public PlayerDirection playDir; // 0x78
+  dump.cs:47303:	public int time; // 0x80
+  dump.cs:47304:	public float TotalTime; // 0x84
+  dump.cs:47305:	public AudioSource source; // 0x88
+  dump.cs:47306:	public AudioClip champ; // 0x90
+  dump.cs:47307:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:47308:	public Rigidbody2D Grab; // 0xA0
+  dump.cs:47309:	public bool FirstTime; // 0xA8
+  dump.cs:47310:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:47311:	public float maniment; // 0xB8
+  dump.cs:47312:	public bool JoystickOnZero; // 0xBC
+  dump.cs:47391:}
+  dump.cs:47392:
+  dump.cs:47393:// Namespace: 
+> dump.cs:47394:public class FlailCont : WEAPON_CLASS // TypeDefIndex: 711
+  dump.cs:47395:{
+  dump.cs:47396:	// Fields
+  dump.cs:47397:	public BoxCollider2D[] Pic; // 0x70
+  dump.cs:47398:	public LineRenderer filDuYoyo; // 0x78
+  dump.cs:47399:	public int TypeWeapon; // 0x80
+  dump.cs:47400:	public int numTeam; // 0x84
+  dump.cs:47401:	public DistanceJoint2D dj; // 0x88
+  dump.cs:47402:	public Rigidbody2D rbAttached; // 0x90
+  dump.cs:47403:	public Vector2 direction; // 0x98
+  dump.cs:47404:	public PlayerDirection playDir; // 0xA0
+  dump.cs:47405:	public CharHP charData; // 0xA8
+> dump.cs:47406:	public WeaponData weapData; // 0xB0
+> dump.cs:47407:	public ABILITY_CLASS exploseFlail; // 0xB8
+  dump.cs:47408:	public bool AbilityEnabled; // 0xC0
+  dump.cs:47409:	public int TimeAbilityActive; // 0xC4
+  dump.cs:47410:	public int TimeAbilityActiveMax; // 0xC8
+  dump.cs:47411:	public SpriteRenderer sp; // 0xD0
+  dump.cs:47412:	public int AbilityActive; // 0xD8
+  dump.cs:47413:	public CollisionWeapon[] colWeap; // 0xE0
+  dump.cs:47414:	public int StartGame; // 0xE8
+  dump.cs:47415:	public Rigidbody2D rb; // 0xF0
+  dump.cs:47416:	public int PartEquipped; // 0xF8
+  dump.cs:47417:	public float distyoyo; // 0xFC
+  dump.cs:47418:	public int stopCounter; // 0x100
+  dump.cs:47419:	public float maniement; // 0x104
+  dump.cs:47420:	public bool Multiplayer; // 0x108
+  dump.cs:47421:
+  dump.cs:47422:	// Methods
+  dump.cs:47576:}
+  dump.cs:47577:
+  dump.cs:47578:// Namespace: 
+> dump.cs:47579:public class FlailExplosion : ABILITY_CLASS // TypeDefIndex: 712
+  dump.cs:47580:{
+  dump.cs:47581:	// Fields
+  dump.cs:47582:	public FlailCont flail; // 0x68
+  dump.cs:47583:	public Rigidbody2D rb; // 0x70
+  dump.cs:47584:	public Vector2 PowerHit; // 0x78
+  dump.cs:47585:	public PlayerDirection playDir; // 0x80
+  dump.cs:47586:	public int time; // 0x88
+  dump.cs:47587:	public int timeToStop; // 0x8C
+  dump.cs:47588:	public int timeToActive; // 0x90
+  dump.cs:47589:	public SpriteRenderer sp; // 0x98
+  dump.cs:47590:	public AudioSource source; // 0xA0
+  dump.cs:47591:	public AudioClip explose; // 0xA8
+  dump.cs:47592:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:47593:	public GameObject explose1; // 0xB8
+  dump.cs:47594:	public GameObject explose2; // 0xC0
+  dump.cs:47677:}
+  dump.cs:47678:
+  dump.cs:47679:// Namespace: 
+> dump.cs:47680:public class flashlightAb : ABILITY_CLASS // TypeDefIndex: 713
+  dump.cs:47681:{
+  dump.cs:47682:	// Fields
+  dump.cs:47683:	public GameObject arme; // 0x68
+  dump.cs:47684:	public Rigidbody2D rb; // 0x70
+  dump.cs:47685:	public Vector2 PowerHit; // 0x78
+  dump.cs:47686:	public PlayerDirection playDir; // 0x80
+  dump.cs:47687:	public int time; // 0x88
+  dump.cs:47688:	public Transform SpawnPoint; // 0x90
+  dump.cs:47689:	public AudioSource source; // 0x98
+  dump.cs:47690:	public AudioClip fire; // 0xA0
+  dump.cs:47691:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:47692:	public bool FirstTime; // 0xB0
+  dump.cs:47693:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:47694:	public int numAb; // 0xC0
+  dump.cs:47695:	public int TeamAbi; // 0xC4
+  dump.cs:47761:}
+  dump.cs:47762:
+  dump.cs:47763:// Namespace: 
+> dump.cs:47764:public class flashLightAb2 : ABILITY_CLASS // TypeDefIndex: 714
+  dump.cs:47765:{
+  dump.cs:47766:	// Fields
+  dump.cs:47767:	public GameObject arme; // 0x68
+  dump.cs:47768:	public Rigidbody2D rb; // 0x70
+  dump.cs:47769:	public Vector2 PowerHit; // 0x78
+  dump.cs:47770:	public PlayerDirection playDir; // 0x80
+  dump.cs:47771:	public int time; // 0x88
+  dump.cs:47772:	public Transform SpawnPoint; // 0x90
+  dump.cs:47773:	public AudioSource source; // 0x98
+  dump.cs:47774:	public AudioClip lightSound; // 0xA0
+  dump.cs:47775:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:47776:	public bool FirstTime; // 0xB0
+  dump.cs:47777:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:47778:	public int numAb; // 0xC0
+  dump.cs:47779:	public int TeamAbi; // 0xC4
+  dump.cs:47823:}
+  dump.cs:47824:
+  dump.cs:47825:// Namespace: 
+> dump.cs:47826:public class flashlightCont : WEAPON_CLASS // TypeDefIndex: 715
+  dump.cs:47827:{
+  dump.cs:47828:	// Fields
+  dump.cs:47829:	public int TypeWeapon; // 0x6C
+  dump.cs:47830:	public int numTeam; // 0x70
+  dump.cs:47831:	public HingeJoint2D hj; // 0x78
+  dump.cs:47832:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:47833:	public Vector2 direction; // 0x88
+  dump.cs:47834:	public PlayerDirection playDir; // 0x90
+> dump.cs:47835:	public WeaponData weapData; // 0x98
+> dump.cs:47836:	public ABILITY_CLASS[] DashAttack; // 0xA0
+  dump.cs:47837:	public bool AbilityEnabled; // 0xA8
+  dump.cs:47838:	public int TimeAbilityActive; // 0xAC
+  dump.cs:47839:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:47840:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:47841:	public int AbilityActive; // 0xC0
+  dump.cs:47842:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:47843:	public int StartGame; // 0xD0
+  dump.cs:47844:	public float maniment; // 0xD4
+  dump.cs:47845:	public Rigidbody2D rbSablier; // 0xD8
+  dump.cs:47846:	public AudioSource source; // 0xE0
+  dump.cs:47847:	public string[] flight; // 0xE8
+  dump.cs:47848:	public AudioClip activeSound; // 0xF0
+  dump.cs:47849:
+  dump.cs:47850:	// Methods
+  dump.cs:47851:
+  dump.cs:47998:}
+  dump.cs:47999:
+  dump.cs:48000:// Namespace: 
+> dump.cs:48001:public class GauntletCont : WEAPON_CLASS // TypeDefIndex: 717
+  dump.cs:48002:{
+  dump.cs:48003:	// Fields
+  dump.cs:48004:	public ColorSheme colSch; // 0x70
+  dump.cs:48005:	public int TypeWeapon; // 0x78
+  dump.cs:48006:	public int numTeam; // 0x7C
+  dump.cs:48007:	public HingeJoint2D hj; // 0x80
+  dump.cs:48008:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:48009:	public Vector2 direction; // 0x90
+  dump.cs:48010:	public PlayerDirection playDir; // 0x98
+> dump.cs:48011:	public WeaponData weapData; // 0xA0
+> dump.cs:48012:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:48013:	public bool AbilityEnabled; // 0xB0
+  dump.cs:48014:	public int TimeAbilityActive; // 0xB4
+  dump.cs:48015:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:48016:	public SpriteRenderer sp; // 0xC0
+  dump.cs:48017:	public SpriteRenderer spSkin; // 0xC8
+  dump.cs:48018:	public int AbilityActive; // 0xD0
+  dump.cs:48019:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:48020:	public int StartGame; // 0xE0
+  dump.cs:48021:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:48022:	public int PartEquipped; // 0xF0
+  dump.cs:48023:	public float maniement; // 0xF4
+  dump.cs:48024:	public bool Multiplayer; // 0xF8
+  dump.cs:48025:	public GauntletPower skills; // 0x100
+  dump.cs:48026:
+  dump.cs:48027:	// Methods
+  dump.cs:48205:}
+  dump.cs:48206:
+  dump.cs:48207:// Namespace: 
+> dump.cs:48208:public class GauntletPower : ABILITY_CLASS // TypeDefIndex: 718
+  dump.cs:48209:{
+  dump.cs:48210:	// Fields
+  dump.cs:48211:	public GameObject arme; // 0x68
+  dump.cs:48212:	public Rigidbody2D rb; // 0x70
+  dump.cs:48213:	public Vector2 PowerHit; // 0x78
+  dump.cs:48214:	public PlayerDirection playDir; // 0x80
+  dump.cs:48215:	public int time; // 0x88
+  dump.cs:48216:	public Transform SpawnPoint; // 0x90
+  dump.cs:48217:	public AudioSource source; // 0x98
+  dump.cs:48218:	public AudioClip ability; // 0xA0
+  dump.cs:48219:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:48220:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:48221:	public GameObject[] Champ; // 0xB8
+  dump.cs:48222:	public bool FirstTime; // 0xC0
+  dump.cs:48223:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:48331:}
+  dump.cs:48332:
+  dump.cs:48333:// Namespace: 
+> dump.cs:48334:public class GrappinCont : WEAPON_CLASS // TypeDefIndex: 719
+  dump.cs:48335:{
+  dump.cs:48336:	// Fields
+  dump.cs:48337:	public int TypeWeapon; // 0x6C
+  dump.cs:48338:	public int numTeam; // 0x70
+  dump.cs:48339:	public FixedJoint2D fj; // 0x78
+  dump.cs:48340:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:48341:	public Vector2 direction; // 0x88
+  dump.cs:48342:	public PlayerDirection playDir; // 0x90
+> dump.cs:48343:	public WeaponData weapData; // 0x98
+> dump.cs:48344:	public ABILITY_CLASS LaunchGrappin; // 0xA0
+  dump.cs:48345:	public bool AbilityEnabled; // 0xA8
+  dump.cs:48346:	public int TimeAbilityActive; // 0xAC
+  dump.cs:48347:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:48348:	public SpriteRenderer sp; // 0xB8
+  dump.cs:48349:	public int AbilityActive; // 0xC0
+  dump.cs:48350:	public CollisionWeapon[] colWeap; // 0xC8
+  dump.cs:48351:	public int StartGame; // 0xD0
+  dump.cs:48352:	public Rigidbody2D Rb; // 0xD8
+  dump.cs:48353:	public int PartEquipped; // 0xE0
+  dump.cs:48354:	public GameManager gameManager; // 0xE8
+  dump.cs:48355:	public float maniement; // 0xF0
+  dump.cs:48356:	public bool Multiplayer; // 0xF4
+  dump.cs:48357:
+  dump.cs:48358:	// Methods
+  dump.cs:48359:
+  dump.cs:48488:}
+  dump.cs:48489:
+  dump.cs:48490:// Namespace: 
+> dump.cs:48491:public class GrappinShot : ABILITY_CLASS // TypeDefIndex: 720
+  dump.cs:48492:{
+  dump.cs:48493:	// Fields
+  dump.cs:48494:	public GrappinCont grappin; // 0x68
+  dump.cs:48495:	public Rigidbody2D rbStaticGrappin; // 0x70
+  dump.cs:48496:	public Rigidbody2D rbShotGrappin; // 0x78
+  dump.cs:48497:	public Vector2 PowerHit; // 0x80
+  dump.cs:48498:	public Transform BaseGrappin; // 0x88
+  dump.cs:48499:	public PlayerDirection playDir; // 0x90
+  dump.cs:48500:	public int time; // 0x98
+  dump.cs:48501:	public LineRenderer filDuGrappin; // 0xA0
+  dump.cs:48502:	public float speed; // 0xA8
+  dump.cs:48503:	public float shootForce; // 0xAC
+  dump.cs:48504:	public bool PowerhitReady; // 0xB0
+  dump.cs:48505:	public float Distance; // 0xB4
+  dump.cs:48506:	public Collider2D colGrabStatic; // 0xB8
+  dump.cs:48732:}
+  dump.cs:48733:
+  dump.cs:48734:// Namespace: 
+> dump.cs:48735:public class GuitareAbilities : ABILITY_CLASS // TypeDefIndex: 721
+  dump.cs:48736:{
+  dump.cs:48737:	// Fields
+  dump.cs:48738:	public GuitareCont guitCont; // 0x68
+  dump.cs:48739:	public GameObject arme; // 0x70
+  dump.cs:48740:	public Rigidbody2D rb; // 0x78
+  dump.cs:48741:	public Vector2 PowerHit; // 0x80
+  dump.cs:48742:	public PlayerDirection playDir; // 0x88
+  dump.cs:48743:	public int time; // 0x90
+  dump.cs:48744:	public Transform SpawnPoint; // 0x98
+  dump.cs:48745:	public AudioSource source; // 0xA0
+  dump.cs:48746:	public AudioClip PowerAbilityMONTE; // 0xA8
+  dump.cs:48747:	public AudioClip PowerAbilitySTAGNE; // 0xB0
+  dump.cs:48748:	public AudioClip PowerAbilityATTACK; // 0xB8
+  dump.cs:48749:	public ParticleConteneur ListPrefabEffect; // 0xC0
+  dump.cs:48750:	public bool FirstTime; // 0xC8
+  dump.cs:48825:}
+  dump.cs:48826:
+  dump.cs:48827:// Namespace: 
+> dump.cs:48828:public class GuitareCont : WEAPON_CLASS // TypeDefIndex: 722
+  dump.cs:48829:{
+  dump.cs:48830:	// Fields
+  dump.cs:48831:	public ColorSheme colSch; // 0x70
+  dump.cs:48832:	public int TypeWeapon; // 0x78
+  dump.cs:48833:	public int numTeam; // 0x7C
+  dump.cs:48834:	public HingeJoint2D hj; // 0x80
+  dump.cs:48835:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:48836:	public Vector2 direction; // 0x90
+  dump.cs:48837:	public PlayerDirection playDir; // 0x98
+> dump.cs:48838:	public WeaponData weapData; // 0xA0
+> dump.cs:48839:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:48840:	public bool AbilityEnabled; // 0xB0
+  dump.cs:48841:	public int TimeAbilityActive; // 0xB4
+  dump.cs:48842:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:48843:	public SpriteRenderer sp; // 0xC0
+  dump.cs:48844:	public int AbilityActive; // 0xC8
+  dump.cs:48845:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:48846:	public int StartGame; // 0xD8
+  dump.cs:48847:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:48848:	public int PartEquipped; // 0xE8
+  dump.cs:48849:	public float maniement; // 0xEC
+  dump.cs:48850:	public bool Multiplayer; // 0xF0
+  dump.cs:48851:
+  dump.cs:48852:	// Methods
+  dump.cs:48853:
+  dump.cs:48854:	// RVA: 0x1C0B418 Offset: 0x1C07418 VA: 0x1C0B418
+  dump.cs:49057:}
+  dump.cs:49058:
+  dump.cs:49059:// Namespace: 
+> dump.cs:49060:public class gunCont : WEAPON_CLASS // TypeDefIndex: 726
+  dump.cs:49061:{
+  dump.cs:49062:	// Fields
+  dump.cs:49063:	public int TypeWeapon; // 0x6C
+  dump.cs:49064:	public int numTeam; // 0x70
+  dump.cs:49065:	public HingeJoint2D hj; // 0x78
+  dump.cs:49066:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:49067:	public Vector2 direction; // 0x88
+  dump.cs:49068:	public PlayerDirection playDir; // 0x90
+  dump.cs:49069:	public CharHP charData; // 0x98
+> dump.cs:49070:	public WeaponData weapData; // 0xA0
+> dump.cs:49071:	public ABILITY_CLASS TripleShot; // 0xA8
+> dump.cs:49072:	public ABILITY_CLASS ConstantShot; // 0xB0
+  dump.cs:49073:	public bool AbilityEnabled; // 0xB8
+  dump.cs:49074:	public int TimeAbilityActive; // 0xBC
+  dump.cs:49075:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:49076:	public SpriteRenderer sp; // 0xC8
+  dump.cs:49077:	public SpriteRenderer sp2; // 0xD0
+  dump.cs:49078:	public SpriteRenderer spIndic; // 0xD8
+  dump.cs:49079:	public int AbilityActive; // 0xE0
+  dump.cs:49080:	public CollisionWeapon[] colWeap; // 0xE8
+  dump.cs:49081:	public int StartGame; // 0xF0
+  dump.cs:49082:	public Rigidbody2D Rb; // 0xF8
+  dump.cs:49083:	public float posXHj; // 0x100
+  dump.cs:49084:	public float posSp; // 0x104
+  dump.cs:49085:	public float posSp2; // 0x108
+  dump.cs:49086:	public float posspIndic; // 0x10C
+  dump.cs:49087:	public int PartEquipped; // 0x110
+  dump.cs:49324:}
+  dump.cs:49325:
+  dump.cs:49326:// Namespace: 
+> dump.cs:49327:public class gunTrileShot : ABILITY_CLASS // TypeDefIndex: 727
+  dump.cs:49328:{
+  dump.cs:49329:	// Fields
+  dump.cs:49330:	public gunCont gun; // 0x68
+  dump.cs:49331:	public Rigidbody2D rb; // 0x70
+  dump.cs:49332:	public Vector2 PowerHit; // 0x78
+  dump.cs:49333:	public PlayerDirection playDir; // 0x80
+  dump.cs:49334:	public int time; // 0x88
+  dump.cs:49335:	public SpriteRenderer sp; // 0x90
+  dump.cs:49336:	public AudioSource source; // 0x98
+  dump.cs:49337:	public AudioClip tripleShot; // 0xA0
+  dump.cs:49338:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:49339:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:49340:	public bool FirstTime; // 0xB8
+  dump.cs:49341:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:49342:	public int numAb; // 0xC8
+  dump.cs:49427:}
+  dump.cs:49428:
+  dump.cs:49429:// Namespace: 
+> dump.cs:49430:public class HammerCont : WEAPON_CLASS // TypeDefIndex: 728
+  dump.cs:49431:{
+  dump.cs:49432:	// Fields
+  dump.cs:49433:	public int TypeWeapon; // 0x6C
+  dump.cs:49434:	public int numTeam; // 0x70
+  dump.cs:49435:	public HingeJoint2D hj; // 0x78
+  dump.cs:49436:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:49437:	public Vector2 direction; // 0x88
+  dump.cs:49438:	public PlayerDirection playDir; // 0x90
+  dump.cs:49439:	public CharHP charData; // 0x98
+> dump.cs:49440:	public WeaponData weapData; // 0xA0
+> dump.cs:49441:	public ABILITY_CLASS RotationAttack; // 0xA8
+  dump.cs:49442:	public bool AbilityEnabled; // 0xB0
+  dump.cs:49443:	public int TimeAbilityActive; // 0xB4
+  dump.cs:49444:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:49445:	public SpriteRenderer sp; // 0xC0
+  dump.cs:49446:	public int AbilityActive; // 0xC8
+  dump.cs:49447:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:49448:	public int StartGame; // 0xD8
+  dump.cs:49449:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:49450:	public Rigidbody2D rbManche; // 0xE8
+  dump.cs:49451:	public float compense; // 0xF0
+  dump.cs:49452:	public int PartEquipped; // 0xF4
+  dump.cs:49453:	public bool frappe; // 0xF8
+  dump.cs:49454:	public CharHP corpAutre; // 0x100
+  dump.cs:49455:	public bool type; // 0x108
+  dump.cs:49456:	public Vector2 veloce; // 0x10C
+  dump.cs:49607:}
+  dump.cs:49608:
+  dump.cs:49609:// Namespace: 
+> dump.cs:49610:public class HammerRotation : ABILITY_CLASS // TypeDefIndex: 729
+  dump.cs:49611:{
+  dump.cs:49612:	// Fields
+  dump.cs:49613:	public HammerCont hammer; // 0x68
+  dump.cs:49614:	public Rigidbody2D rbhammer; // 0x70
+  dump.cs:49615:	public Rigidbody2D rbmanche; // 0x78
+  dump.cs:49616:	public Vector2 PowerHit; // 0x80
+  dump.cs:49617:	public PlayerDirection playDir; // 0x88
+  dump.cs:49618:	public int time; // 0x90
+  dump.cs:49619:	public SpriteRenderer sp; // 0x98
+  dump.cs:49620:	public float TotalTime; // 0xA0
+  dump.cs:49621:	public AudioSource source; // 0xA8
+  dump.cs:49622:	public AudioClip rotSound; // 0xB0
+  dump.cs:49623:	public ParticleConteneur ListPrefabEffect; // 0xB8
+  dump.cs:49624:	public GameObject Flow; // 0xC0
+  dump.cs:49625:	public bool FirstTime; // 0xC8
+  dump.cs:49724:}
+  dump.cs:49725:
+  dump.cs:49726:// Namespace: 
+> dump.cs:49727:public class HarpCont : WEAPON_CLASS // TypeDefIndex: 731
+  dump.cs:49728:{
+  dump.cs:49729:	// Fields
+  dump.cs:49730:	public ColorSheme colSch; // 0x70
+  dump.cs:49731:	public int TypeWeapon; // 0x78
+  dump.cs:49732:	public int numTeam; // 0x7C
+  dump.cs:49733:	public HingeJoint2D hj; // 0x80
+  dump.cs:49734:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:49735:	public Vector2 direction; // 0x90
+  dump.cs:49736:	public PlayerDirection playDir; // 0x98
+> dump.cs:49737:	public WeaponData weapData; // 0xA0
+> dump.cs:49738:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:49739:	public bool AbilityEnabled; // 0xB0
+  dump.cs:49740:	public int TimeAbilityActive; // 0xB4
+  dump.cs:49741:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:49742:	public SpriteRenderer sp; // 0xC0
+  dump.cs:49743:	public int AbilityActive; // 0xC8
+  dump.cs:49744:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:49745:	public int StartGame; // 0xD8
+  dump.cs:49746:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:49747:	public int PartEquipped; // 0xE8
+  dump.cs:49748:	public float maniement; // 0xEC
+  dump.cs:49749:	public bool Multiplayer; // 0xF0
+  dump.cs:49750:	public GameObject[] Effects; // 0xF8
+  dump.cs:49751:
+  dump.cs:49752:	// Methods
+  dump.cs:49753:
+  dump.cs:49903:}
+  dump.cs:49904:
+  dump.cs:49905:// Namespace: 
+> dump.cs:49906:public class obTurbo : ABILITY_CLASS // TypeDefIndex: 733
+  dump.cs:49907:{
+  dump.cs:49908:	// Fields
+  dump.cs:49909:	public overBoardCont board; // 0x68
+  dump.cs:49910:	public Vector2 PowerHit; // 0x70
+  dump.cs:49911:	public PlayerDirection playDir; // 0x78
+  dump.cs:49912:	public int time; // 0x80
+  dump.cs:49913:	public float TotalTime; // 0x84
+  dump.cs:49914:	public AudioSource source; // 0x88
+  dump.cs:49915:	public ParticleConteneur ListPrefabEffect; // 0x90
+  dump.cs:49916:	public GameObject Flow; // 0x98
+  dump.cs:49917:	public bool FirstTime; // 0xA0
+  dump.cs:49918:	public EFFECT_CLASS effect; // 0xA8
+  dump.cs:49919:
+  dump.cs:49920:	// Methods
+  dump.cs:49921:
+  dump.cs:49954:}
+  dump.cs:49955:
+  dump.cs:49956:// Namespace: 
+> dump.cs:49957:public class overBoardCont : WEAPON_CLASS // TypeDefIndex: 734
+  dump.cs:49958:{
+  dump.cs:49959:	// Fields
+  dump.cs:49960:	public int TypeWeapon; // 0x6C
+  dump.cs:49961:	public int numTeam; // 0x70
+  dump.cs:49962:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:49963:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:49964:	public Vector2 direction; // 0x88
+  dump.cs:49965:	public PlayerDirection playDir; // 0x90
+> dump.cs:49966:	public WeaponData weapData; // 0x98
+  dump.cs:49967:	public bool stance; // 0xA0
+  dump.cs:49968:	public bool Ability; // 0xA1
+  dump.cs:49969:	public int speedHoverboard; // 0xA4
+> dump.cs:49970:	public ABILITY_CLASS StanceSwitch; // 0xA8
+> dump.cs:49971:	public ABILITY_CLASS[] Abilities; // 0xB0
+  dump.cs:49972:	public AudioClip[] application; // 0xB8
+  dump.cs:49973:	public bool AbilityEnabled; // 0xC0
+  dump.cs:49974:	public int TimeAbilityActive; // 0xC4
+  dump.cs:49975:	public int TimeAbilityActiveMax; // 0xC8
+  dump.cs:49976:	public SpriteRenderer sp; // 0xD0
+  dump.cs:49977:	public SpriteRenderer spOverboard; // 0xD8
+  dump.cs:49978:	public int AbilityActive; // 0xE0
+  dump.cs:49979:	public CollisionWeapon colWeap; // 0xE8
+  dump.cs:49980:	public int StartGame; // 0xF0
+  dump.cs:49981:	private int jkb; // 0xF4
+  dump.cs:49982:	public float speedMain; // 0xF8
+  dump.cs:49983:	public Rigidbody2D rbBoard; // 0x100
+  dump.cs:49984:	public GameObject[] Flux; // 0x108
+  dump.cs:49985:	public int numPower; // 0x110
+  dump.cs:49986:	public float energy; // 0x114
+  dump.cs:50167:}
+  dump.cs:50168:
+  dump.cs:50169:// Namespace: 
+> dump.cs:50170:public class overBoardStance : ABILITY_CLASS // TypeDefIndex: 735
+  dump.cs:50171:{
+  dump.cs:50172:	// Fields
+  dump.cs:50173:	public overBoardCont overC; // 0x68
+  dump.cs:50174:	public Vector2 PowerHit; // 0x70
+  dump.cs:50175:	public PlayerDirection playDir; // 0x78
+  dump.cs:50176:	public int time; // 0x80
+  dump.cs:50177:	public float TotalTime; // 0x84
+  dump.cs:50178:	public AudioSource source; // 0x88
+  dump.cs:50179:	public ParticleConteneur ListPrefabEffect; // 0x90
+  dump.cs:50180:	public bool FirstTime; // 0x98
+  dump.cs:50181:	public EFFECT_CLASS effect; // 0xA0
+  dump.cs:50182:	public HingeJoint2D[] hj; // 0xA8
+  dump.cs:50183:	[SerializeField]
+  dump.cs:50184:	private string[] ghoul; // 0xB0
+  dump.cs:50185:	public SpriteRenderer sp; // 0xB8
+  dump.cs:50277:}
+  dump.cs:50278:
+  dump.cs:50279:// Namespace: 
+> dump.cs:50280:public class IceCreamCont : WEAPON_CLASS // TypeDefIndex: 737
+  dump.cs:50281:{
+  dump.cs:50282:	// Fields
+  dump.cs:50283:	public int TypeWeapon; // 0x6C
+  dump.cs:50284:	public int numTeam; // 0x70
+  dump.cs:50285:	public HingeJoint2D hj; // 0x78
+  dump.cs:50286:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:50287:	public Vector2 direction; // 0x88
+  dump.cs:50288:	public PlayerDirection playDir; // 0x90
+> dump.cs:50289:	public WeaponData weapData; // 0x98
+> dump.cs:50290:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:50291:	public bool AbilityEnabled; // 0xA8
+  dump.cs:50292:	public int TimeAbilityActive; // 0xAC
+  dump.cs:50293:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:50294:	public SpriteRenderer sp; // 0xB8
+  dump.cs:50295:	public int AbilityActive; // 0xC0
+  dump.cs:50296:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:50297:	public int StartGame; // 0xD0
+  dump.cs:50298:	public float maniment; // 0xD4
+  dump.cs:50299:	public Rigidbody2D rbIceCream; // 0xD8
+  dump.cs:50300:	public string[] weapSet; // 0xE0
+  dump.cs:50301:	public bool Multiplayer; // 0xE8
+  dump.cs:50302:	public GameObject[] Effects; // 0xF0
+  dump.cs:50303:
+  dump.cs:50304:	// Methods
+  dump.cs:50305:
+  dump.cs:50446:}
+  dump.cs:50447:
+  dump.cs:50448:// Namespace: 
+> dump.cs:50449:public class InstanteProjectil : ABILITY_CLASS // TypeDefIndex: 738
+  dump.cs:50450:{
+  dump.cs:50451:	// Fields
+  dump.cs:50452:	public GameObject arme; // 0x68
+  dump.cs:50453:	public Rigidbody2D rb; // 0x70
+  dump.cs:50454:	public Vector2 PowerHit; // 0x78
+  dump.cs:50455:	public PlayerDirection playDir; // 0x80
+  dump.cs:50456:	public int time; // 0x88
+  dump.cs:50457:	public Transform SpawnPoint; // 0x90
+  dump.cs:50458:	public AudioSource source; // 0x98
+  dump.cs:50459:	public AudioClip shot; // 0xA0
+  dump.cs:50460:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:50461:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:50462:	public bool FirstTime; // 0xB8
+  dump.cs:50463:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:50464:	public int numAb; // 0xC8
+  dump.cs:50567:}
+  dump.cs:50568:
+  dump.cs:50569:// Namespace: 
+> dump.cs:50570:public class IronHandAbilities : ABILITY_CLASS // TypeDefIndex: 739
+  dump.cs:50571:{
+  dump.cs:50572:	// Fields
+  dump.cs:50573:	public bool Multiplayer; // 0x68
+  dump.cs:50574:	public GameObject arme; // 0x70
+  dump.cs:50575:	public Rigidbody2D rb; // 0x78
+  dump.cs:50576:	public Vector2 PowerHit; // 0x80
+  dump.cs:50577:	public PlayerDirection playDir; // 0x88
+  dump.cs:50578:	public int time; // 0x90
+  dump.cs:50579:	public Transform SpawnPoint; // 0x98
+  dump.cs:50580:	public AudioSource source; // 0xA0
+  dump.cs:50581:	public AudioClip fire; // 0xA8
+  dump.cs:50582:	public AudioClip laser; // 0xB0
+  dump.cs:50583:	public ParticleConteneur ListPrefabEffect; // 0xB8
+  dump.cs:50584:	public bool FirstTime; // 0xC0
+  dump.cs:50585:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:50662:}
+  dump.cs:50663:
+  dump.cs:50664:// Namespace: 
+> dump.cs:50665:public class IronHandCont : WEAPON_CLASS // TypeDefIndex: 740
+  dump.cs:50666:{
+  dump.cs:50667:	// Fields
+  dump.cs:50668:	public ColorSheme colSch; // 0x70
+  dump.cs:50669:	public int TypeWeapon; // 0x78
+  dump.cs:50670:	public int numTeam; // 0x7C
+  dump.cs:50671:	public HingeJoint2D hj; // 0x80
+  dump.cs:50672:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:50673:	public Vector2 direction; // 0x90
+  dump.cs:50674:	public PlayerDirection playDir; // 0x98
+> dump.cs:50675:	public WeaponData weapData; // 0xA0
+> dump.cs:50676:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:50677:	public bool AbilityEnabled; // 0xB0
+  dump.cs:50678:	public int TimeAbilityActive; // 0xB4
+  dump.cs:50679:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:50680:	public SpriteRenderer sp; // 0xC0
+  dump.cs:50681:	public int AbilityActive; // 0xC8
+  dump.cs:50682:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:50683:	public int StartGame; // 0xD8
+  dump.cs:50684:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:50685:	public int PartEquipped; // 0xE8
+  dump.cs:50686:	public float maniement; // 0xEC
+  dump.cs:50687:	public SpriteRenderer spSkin; // 0xF0
+  dump.cs:50688:	public float posYHj; // 0xF8
+  dump.cs:50689:	public float posIndicY; // 0xFC
+  dump.cs:50690:	public bool Multiplayer; // 0x100
+  dump.cs:50691:
+  dump.cs:50843:}
+  dump.cs:50844:
+  dump.cs:50845:// Namespace: 
+> dump.cs:50846:public class KatanaCont : WEAPON_CLASS // TypeDefIndex: 742
+  dump.cs:50847:{
+  dump.cs:50848:	// Fields
+  dump.cs:50849:	public int TypeWeapon; // 0x6C
+  dump.cs:50850:	public int numTeam; // 0x70
+  dump.cs:50851:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:50852:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:50853:	public Vector2 direction; // 0x88
+  dump.cs:50854:	public PlayerDirection playDir; // 0x90
+> dump.cs:50855:	public WeaponData weapData; // 0x98
+> dump.cs:50856:	public ABILITY_CLASS[] Ability; // 0xA0
+  dump.cs:50857:	public bool AbilityEnabled; // 0xA8
+  dump.cs:50858:	public int TimeAbilityActive; // 0xAC
+  dump.cs:50859:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:50860:	public SpriteRenderer sp; // 0xB8
+  dump.cs:50861:	public int AbilityActive; // 0xC0
+  dump.cs:50862:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:50863:	public int StartGame; // 0xD0
+  dump.cs:50864:	public float maniment; // 0xD4
+  dump.cs:50865:	public Rigidbody2D rbKatana; // 0xD8
+  dump.cs:50866:	public Effect fire; // 0xE0
+  dump.cs:50867:	public ParticleSystem ps; // 0xE8
+  dump.cs:50868:	public Gradient colDragon; // 0xF0
+  dump.cs:50869:	public Gradient colSlash; // 0xF8
+  dump.cs:50870:	public float T; // 0x100
+  dump.cs:50871:	public float CanAttack; // 0x104
+  dump.cs:51091:}
+  dump.cs:51092:
+  dump.cs:51093:// Namespace: 
+> dump.cs:51094:public class KatanaCut : ABILITY_CLASS // TypeDefIndex: 743
+  dump.cs:51095:{
+  dump.cs:51096:	// Fields
+  dump.cs:51097:	public KatanaCont saberC; // 0x68
+  dump.cs:51098:	public Vector2 PowerHit; // 0x70
+  dump.cs:51099:	public PlayerDirection playDir; // 0x78
+  dump.cs:51100:	public int time; // 0x80
+  dump.cs:51101:	public float TotalTime; // 0x84
+  dump.cs:51102:	public AudioSource source; // 0x88
+  dump.cs:51103:	public bool FirstTime; // 0x90
+  dump.cs:51104:	public EFFECT_CLASS effect; // 0x98
+  dump.cs:51105:	public AudioClip ability; // 0xA0
+  dump.cs:51106:	public int attackTImer; // 0xA8
+  dump.cs:51107:	public float defaultRot; // 0xAC
+  dump.cs:51108:	public int prepTime; // 0xB0
+  dump.cs:51109:	public float baseDamage; // 0xB4
+  dump.cs:51145:}
+  dump.cs:51146:
+  dump.cs:51147:// Namespace: 
+> dump.cs:51148:public class kunaiAbility : ABILITY_CLASS // TypeDefIndex: 744
+  dump.cs:51149:{
+  dump.cs:51150:	// Fields
+  dump.cs:51151:	public KunaiCont arme; // 0x68
+  dump.cs:51152:	public Rigidbody2D rb; // 0x70
+  dump.cs:51153:	public Vector2 PowerHit; // 0x78
+  dump.cs:51154:	public PlayerDirection playDir; // 0x80
+  dump.cs:51155:	public int time; // 0x88
+  dump.cs:51156:	public Transform SpawnPoint; // 0x90
+  dump.cs:51157:	public AudioSource source; // 0x98
+  dump.cs:51158:	public AudioClip trow; // 0xA0
+  dump.cs:51159:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:51160:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:51161:	public bool FirstTime; // 0xB8
+  dump.cs:51162:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:51163:	public int numAb; // 0xC8
+  dump.cs:51212:}
+  dump.cs:51213:
+  dump.cs:51214:// Namespace: 
+> dump.cs:51215:public class KunaiCont : WEAPON_CLASS // TypeDefIndex: 745
+  dump.cs:51216:{
+  dump.cs:51217:	// Fields
+  dump.cs:51218:	public int TypeWeapon; // 0x6C
+  dump.cs:51219:	public int numTeam; // 0x70
+  dump.cs:51220:	public HingeJoint2D hj; // 0x78
+  dump.cs:51221:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:51222:	public Vector2 direction; // 0x88
+  dump.cs:51223:	public PlayerDirection playDir; // 0x90
+> dump.cs:51224:	public WeaponData weapData; // 0x98
+  dump.cs:51225:	public List<kunaiShot> kunaiShots; // 0xA0
+> dump.cs:51226:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:51227:	public int numberOfshots; // 0xB0
+  dump.cs:51228:	public bool AbilityEnabled; // 0xB4
+  dump.cs:51229:	public int TimeAbilityActive; // 0xB8
+  dump.cs:51230:	public int TimeAbilityActiveMax; // 0xBC
+  dump.cs:51231:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:51232:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:51233:	public int StartGame; // 0xD0
+  dump.cs:51234:	public Rigidbody2D Rb; // 0xD8
+  dump.cs:51235:	public int PartEquipped; // 0xE0
+  dump.cs:51236:	public float maniement; // 0xE4
+  dump.cs:51237:	public AudioSource source; // 0xE8
+  dump.cs:51238:	public AudioClip[] throwSFX; // 0xF0
+  dump.cs:51239:
+  dump.cs:51240:	// Methods
+  dump.cs:51241:
+  dump.cs:51564:}
+  dump.cs:51565:
+  dump.cs:51566:// Namespace: 
+> dump.cs:51567:public class LampAbilities : ABILITY_CLASS // TypeDefIndex: 749
+  dump.cs:51568:{
+  dump.cs:51569:	// Fields
+  dump.cs:51570:	public GameObject arme; // 0x68
+  dump.cs:51571:	public Rigidbody2D rb; // 0x70
+  dump.cs:51572:	public Vector2 PowerHit; // 0x78
+  dump.cs:51573:	public PlayerDirection playDir; // 0x80
+  dump.cs:51574:	public int time; // 0x88
+  dump.cs:51575:	public Transform SpawnPoint; // 0x90
+  dump.cs:51576:	public AudioSource source; // 0x98
+  dump.cs:51577:	public AudioClip[] abilities; // 0xA0
+  dump.cs:51578:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:51579:	public bool FirstTime; // 0xB0
+  dump.cs:51580:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:51581:	public int numAb; // 0xC0
+  dump.cs:51582:	public int TeamAbi; // 0xC4
+  dump.cs:51640:}
+  dump.cs:51641:
+  dump.cs:51642:// Namespace: 
+> dump.cs:51643:public class LampCont : WEAPON_CLASS // TypeDefIndex: 750
+  dump.cs:51644:{
+  dump.cs:51645:	// Fields
+  dump.cs:51646:	public ColorSheme colSch; // 0x70
+  dump.cs:51647:	public int TypeWeapon; // 0x78
+  dump.cs:51648:	public int numTeam; // 0x7C
+  dump.cs:51649:	public HingeJoint2D hj; // 0x80
+  dump.cs:51650:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:51651:	public Vector2 direction; // 0x90
+  dump.cs:51652:	public PlayerDirection playDir; // 0x98
+> dump.cs:51653:	public WeaponData weapData; // 0xA0
+> dump.cs:51654:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:51655:	public bool AbilityEnabled; // 0xB0
+  dump.cs:51656:	public int TimeAbilityActive; // 0xB4
+  dump.cs:51657:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:51658:	public SpriteRenderer sp; // 0xC0
+  dump.cs:51659:	public int AbilityActive; // 0xC8
+  dump.cs:51660:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:51661:	public int StartGame; // 0xD8
+  dump.cs:51662:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:51663:	public int PartEquipped; // 0xE8
+  dump.cs:51664:	public float maniement; // 0xEC
+  dump.cs:51665:
+  dump.cs:51666:	// Methods
+  dump.cs:51667:
+  dump.cs:51668:	// RVA: 0x1C4C92C Offset: 0x1C4892C VA: 0x1C4C92C Slot: 28
+  dump.cs:51669:	public override void activePower(int IGCDHCEGIJIEGGE, int JHDHGHGHIJEECED) { }
+  dump.cs:51739:}
+  dump.cs:51740:
+  dump.cs:51741:// Namespace: 
+> dump.cs:51742:public class LanceCont : WEAPON_CLASS // TypeDefIndex: 751
+  dump.cs:51743:{
+  dump.cs:51744:	// Fields
+  dump.cs:51745:	public int TypeWeapon; // 0x6C
+  dump.cs:51746:	public int numTeam; // 0x70
+  dump.cs:51747:	public DistanceJoint2D hj1; // 0x78
+  dump.cs:51748:	public DistanceJoint2D hj2; // 0x80
+  dump.cs:51749:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:51750:	public Vector2 direction; // 0x90
+  dump.cs:51751:	public PlayerDirection playDir; // 0x98
+> dump.cs:51752:	public WeaponData weapData; // 0xA0
+> dump.cs:51753:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:51754:	public bool AbilityEnabled; // 0xB0
+  dump.cs:51755:	public int TimeAbilityActive; // 0xB4
+  dump.cs:51756:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:51757:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:51758:	public int AbilityActive; // 0xC8
+  dump.cs:51759:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:51760:	public int StartGame; // 0xD8
+  dump.cs:51761:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:51762:	public int PartEquipped; // 0xE8
+  dump.cs:51763:	public float maniment; // 0xEC
+  dump.cs:51764:	public GameObject ElectricIndic; // 0xF0
+  dump.cs:51765:	public bool Multiplayer; // 0xF8
+  dump.cs:51766:	public InstanteProjectil[] skills; // 0x100
+  dump.cs:51767:
+  dump.cs:51768:	// Methods
+  dump.cs:51892:}
+  dump.cs:51893:
+  dump.cs:51894:// Namespace: 
+> dump.cs:51895:public class LanceRotOrb : ABILITY_CLASS // TypeDefIndex: 752
+  dump.cs:51896:{
+  dump.cs:51897:	// Fields
+  dump.cs:51898:	public GameObject arme; // 0x68
+  dump.cs:51899:	public Rigidbody2D rb; // 0x70
+  dump.cs:51900:	public Vector2 PowerHit; // 0x78
+  dump.cs:51901:	public PlayerDirection playDir; // 0x80
+  dump.cs:51902:	public int time; // 0x88
+  dump.cs:51903:	public Transform SpawnPoint; // 0x90
+  dump.cs:51904:	public AudioSource source; // 0x98
+  dump.cs:51905:	public AudioClip electricOrb; // 0xA0
+  dump.cs:51906:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:51907:	public GameObject orb; // 0xB0
+  dump.cs:51908:	public bool FirstTime; // 0xB8
+  dump.cs:51909:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:51910:	public int numAb; // 0xC8
+  dump.cs:52013:}
+  dump.cs:52014:
+  dump.cs:52015:// Namespace: 
+> dump.cs:52016:public class computerCont : WEAPON_CLASS // TypeDefIndex: 754
+  dump.cs:52017:{
+  dump.cs:52018:	// Fields
+  dump.cs:52019:	public ColorSheme colSch; // 0x70
+  dump.cs:52020:	public int TypeWeapon; // 0x78
+  dump.cs:52021:	public int numTeam; // 0x7C
+  dump.cs:52022:	public int teamLayer; // 0x80
+  dump.cs:52023:	public HingeJoint2D hj; // 0x88
+  dump.cs:52024:	public Rigidbody2D rbAttached; // 0x90
+  dump.cs:52025:	public Vector2 direction; // 0x98
+  dump.cs:52026:	public PlayerDirection playDir; // 0xA0
+> dump.cs:52027:	public WeaponData weapData; // 0xA8
+> dump.cs:52028:	public ABILITY_CLASS[] clickAb; // 0xB0
+  dump.cs:52029:	public bool AbilityEnabled; // 0xB8
+  dump.cs:52030:	public int TimeAbilityActive; // 0xBC
+  dump.cs:52031:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:52032:	public SpriteRenderer sp; // 0xC8
+  dump.cs:52033:	public suiveur iconBox; // 0xD0
+  dump.cs:52034:	public GameObject[] iconAb; // 0xD8
+  dump.cs:52035:	public int AbilityActive; // 0xE0
+  dump.cs:52036:	public CollisionWeapon colWeap; // 0xE8
+  dump.cs:52037:	public int StartGame; // 0xF0
+  dump.cs:52038:	public Rigidbody2D Rb; // 0xF8
+  dump.cs:52039:	public int PartEquipped; // 0x100
+  dump.cs:52040:	public float maniement; // 0x104
+  dump.cs:52041:	public float forceMouse; // 0x108
+  dump.cs:52042:	public float distCursor; // 0x10C
+  dump.cs:52043:	public LayerMask cursorLayer; // 0x110
+  dump.cs:52469:}
+  dump.cs:52470:
+  dump.cs:52471:// Namespace: 
+> dump.cs:52472:public class LaserswordAbilities : ABILITY_CLASS // TypeDefIndex: 760
+  dump.cs:52473:{
+  dump.cs:52474:	// Fields
+  dump.cs:52475:	public GameObject arme; // 0x68
+  dump.cs:52476:	public Rigidbody2D rb; // 0x70
+  dump.cs:52477:	public Vector2 PowerHit; // 0x78
+  dump.cs:52478:	public PlayerDirection playDir; // 0x80
+  dump.cs:52479:	public int time; // 0x88
+  dump.cs:52480:	public Transform SpawnPoint; // 0x90
+  dump.cs:52481:	public AudioSource source; // 0x98
+  dump.cs:52482:	public AudioClip electric; // 0xA0
+  dump.cs:52483:	public AudioClip force; // 0xA8
+  dump.cs:52484:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:52485:	public bool FirstTime; // 0xB8
+  dump.cs:52486:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:52487:	public int numAb; // 0xC8
+  dump.cs:52556:}
+  dump.cs:52557:
+  dump.cs:52558:// Namespace: 
+> dump.cs:52559:public class LaserswordCont : WEAPON_CLASS // TypeDefIndex: 761
+  dump.cs:52560:{
+  dump.cs:52561:	// Fields
+  dump.cs:52562:	public GameObject[] Indic; // 0x70
+  dump.cs:52563:	public int TypeWeapon; // 0x78
+  dump.cs:52564:	public int numTeam; // 0x7C
+  dump.cs:52565:	public HingeJoint2D hj; // 0x80
+  dump.cs:52566:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:52567:	public Vector2 direction; // 0x90
+  dump.cs:52568:	public PlayerDirection playDir; // 0x98
+> dump.cs:52569:	public WeaponData weapData; // 0xA0
+> dump.cs:52570:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:52571:	public bool AbilityEnabled; // 0xB0
+  dump.cs:52572:	public int TimeAbilityActive; // 0xB4
+  dump.cs:52573:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:52574:	public SpriteRenderer sp; // 0xC0
+  dump.cs:52575:	public int AbilityActive; // 0xC8
+  dump.cs:52576:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:52577:	public int StartGame; // 0xD8
+  dump.cs:52578:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:52579:	public int PartEquipped; // 0xE8
+  dump.cs:52580:	public float maniement; // 0xEC
+  dump.cs:52581:	public float Distance; // 0xF0
+  dump.cs:52582:	public bool Multiplayer; // 0xF4
+  dump.cs:52583:	public LaserswordAbilities Lability; // 0xF8
+  dump.cs:52584:
+  dump.cs:52585:	// Methods
+  dump.cs:52754:}
+  dump.cs:52755:
+  dump.cs:52756:// Namespace: 
+> dump.cs:52757:public class LaserswordLaunch : ABILITY_CLASS // TypeDefIndex: 762
+  dump.cs:52758:{
+  dump.cs:52759:	// Fields
+  dump.cs:52760:	public LaserswordCont lasersword; // 0x68
+  dump.cs:52761:	public Rigidbody2D rbLasersword; // 0x70
+  dump.cs:52762:	public teleportable telep; // 0x78
+  dump.cs:52763:	public Vector2 PowerHit; // 0x80
+  dump.cs:52764:	public PlayerDirection playDir; // 0x88
+  dump.cs:52765:	public int time; // 0x90
+  dump.cs:52766:	public float TotalTime; // 0x94
+  dump.cs:52767:	public AudioSource source; // 0x98
+  dump.cs:52768:	public AudioClip launch; // 0xA0
+  dump.cs:52769:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:52770:	public bool FirstTime; // 0xB0
+  dump.cs:52771:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:52772:	public float LaunchSpeed; // 0xC0
+  dump.cs:52870:}
+  dump.cs:52871:
+  dump.cs:52872:// Namespace: 
+> dump.cs:52873:public class LollipopCont : WEAPON_CLASS // TypeDefIndex: 763
+  dump.cs:52874:{
+  dump.cs:52875:	// Fields
+  dump.cs:52876:	public int TypeWeapon; // 0x6C
+  dump.cs:52877:	public int numTeam; // 0x70
+  dump.cs:52878:	public HingeJoint2D hj; // 0x78
+  dump.cs:52879:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:52880:	public Vector2 direction; // 0x88
+  dump.cs:52881:	public PlayerDirection playDir; // 0x90
+> dump.cs:52882:	public WeaponData weapData; // 0x98
+> dump.cs:52883:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:52884:	public bool AbilityEnabled; // 0xA8
+  dump.cs:52885:	public int TimeAbilityActive; // 0xAC
+  dump.cs:52886:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:52887:	public SpriteRenderer[] sp; // 0xB8
+  dump.cs:52888:	public int AbilityActive; // 0xC0
+  dump.cs:52889:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:52890:	public int StartGame; // 0xD0
+  dump.cs:52891:	public int equipPartWeap; // 0xD4
+  dump.cs:52892:	public float maniment; // 0xD8
+  dump.cs:52893:	public Rigidbody2D rbLollip; // 0xE0
+  dump.cs:52894:	public bool Multiplayer; // 0xE8
+  dump.cs:52895:	public GameObject[] Effects; // 0xF0
+  dump.cs:52896:
+  dump.cs:52897:	// Methods
+  dump.cs:52898:
+  dump.cs:53075:}
+  dump.cs:53076:
+  dump.cs:53077:// Namespace: 
+> dump.cs:53078:public class LollipopGrab : ABILITY_CLASS // TypeDefIndex: 764
+  dump.cs:53079:{
+  dump.cs:53080:	// Fields
+  dump.cs:53081:	public LollipopCont Lollip; // 0x68
+  dump.cs:53082:	public Rigidbody2D rbLollip; // 0x70
+  dump.cs:53083:	public Vector2 PowerHit; // 0x78
+  dump.cs:53084:	public PlayerDirection playDir; // 0x80
+  dump.cs:53085:	public int time; // 0x88
+  dump.cs:53086:	public float TotalTime; // 0x8C
+  dump.cs:53087:	public AudioSource source; // 0x90
+  dump.cs:53088:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:53089:	public bool FirstTime; // 0xA0
+  dump.cs:53090:	public EFFECT_CLASS effect; // 0xA8
+  dump.cs:53091:	public float speedDash; // 0xB0
+  dump.cs:53092:	public float StartSpeed; // 0xB4
+  dump.cs:53093:	public float maniment; // 0xB8
+  dump.cs:53247:}
+  dump.cs:53248:
+  dump.cs:53249:// Namespace: 
+> dump.cs:53250:public class LaunchMagnet : ABILITY_CLASS // TypeDefIndex: 765
+  dump.cs:53251:{
+  dump.cs:53252:	// Fields
+  dump.cs:53253:	public magnetCont magn; // 0x68
+  dump.cs:53254:	public Rigidbody2D rbMagn; // 0x70
+  dump.cs:53255:	public teleportable telep; // 0x78
+  dump.cs:53256:	public Vector2 PowerHit; // 0x80
+  dump.cs:53257:	public PlayerDirection playDir; // 0x88
+  dump.cs:53258:	public int time; // 0x90
+  dump.cs:53259:	public float TotalTime; // 0x94
+  dump.cs:53260:	public AudioSource source; // 0x98
+  dump.cs:53261:	public AudioClip launch; // 0xA0
+  dump.cs:53262:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:53263:	public GameObject Flow; // 0xB0
+  dump.cs:53264:	public bool FirstTime; // 0xB8
+  dump.cs:53265:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:53313:}
+  dump.cs:53314:
+  dump.cs:53315:// Namespace: 
+> dump.cs:53316:public class magnetCont : WEAPON_CLASS // TypeDefIndex: 766
+  dump.cs:53317:{
+  dump.cs:53318:	// Fields
+  dump.cs:53319:	public int TypeWeapon; // 0x6C
+  dump.cs:53320:	public int numTeam; // 0x70
+  dump.cs:53321:	public HingeJoint2D hj; // 0x78
+  dump.cs:53322:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:53323:	public Vector2 direction; // 0x88
+  dump.cs:53324:	public PlayerDirection playDir; // 0x90
+> dump.cs:53325:	public WeaponData weapData; // 0x98
+> dump.cs:53326:	public ABILITY_CLASS[] Abilities; // 0xA0
+  dump.cs:53327:	public bool AbilityEnabled; // 0xA8
+  dump.cs:53328:	public int TimeAbilityActive; // 0xAC
+  dump.cs:53329:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:53330:	public SpriteRenderer sp; // 0xB8
+  dump.cs:53331:	public SpriteRenderer spWeap; // 0xC0
+  dump.cs:53332:	public int AbilityActive; // 0xC8
+  dump.cs:53333:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:53334:	public int StartGame; // 0xD8
+  dump.cs:53335:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:53336:	public int PartEquipped; // 0xE8
+  dump.cs:53337:	public float maniment; // 0xEC
+  dump.cs:53338:	public Color[] colTeam; // 0xF0
+  dump.cs:53339:
+  dump.cs:53340:	// Methods
+  dump.cs:53341:
+  dump.cs:53416:}
+  dump.cs:53417:
+  dump.cs:53418:// Namespace: 
+> dump.cs:53419:public class magnetGrab : ABILITY_CLASS // TypeDefIndex: 767
+  dump.cs:53420:{
+  dump.cs:53421:	// Fields
+  dump.cs:53422:	public magnetCont magn; // 0x68
+  dump.cs:53423:	public Rigidbody2D rbMagn; // 0x70
+  dump.cs:53424:	public Vector2 PowerHit; // 0x78
+  dump.cs:53425:	public PlayerDirection playDir; // 0x80
+  dump.cs:53426:	public int time; // 0x88
+  dump.cs:53427:	public float TotalTime; // 0x8C
+  dump.cs:53428:	public AudioSource source; // 0x90
+  dump.cs:53429:	public AudioClip champ; // 0x98
+  dump.cs:53430:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:53431:	public GameObject Grab; // 0xA8
+  dump.cs:53432:	public bool FirstTime; // 0xB0
+  dump.cs:53433:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:53434:	public float speedDash; // 0xC0
+  dump.cs:53503:}
+  dump.cs:53504:
+  dump.cs:53505:// Namespace: 
+> dump.cs:53506:public class polariseMagnet : ABILITY_CLASS // TypeDefIndex: 768
+  dump.cs:53507:{
+  dump.cs:53508:	// Fields
+  dump.cs:53509:	public magnetCont magn; // 0x68
+  dump.cs:53510:	public Rigidbody2D rbMagn; // 0x70
+  dump.cs:53511:	public Vector2 PowerHit; // 0x78
+  dump.cs:53512:	public PlayerDirection playDir; // 0x80
+  dump.cs:53513:	public int time; // 0x88
+  dump.cs:53514:	public float TotalTime; // 0x8C
+  dump.cs:53515:	public AudioSource source; // 0x90
+  dump.cs:53516:	public AudioClip magnAttire; // 0x98
+  dump.cs:53517:	public AudioClip magnEloigne; // 0xA0
+  dump.cs:53518:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:53519:	public GameObject Flow; // 0xB0
+  dump.cs:53520:	public bool FirstTime; // 0xB8
+  dump.cs:53521:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:53601:}
+  dump.cs:53602:
+  dump.cs:53603:// Namespace: 
+> dump.cs:53604:public class nc_hit : ABILITY_CLASS // TypeDefIndex: 769
+  dump.cs:53605:{
+  dump.cs:53606:	// Fields
+  dump.cs:53607:	public float angleDir; // 0x68
+  dump.cs:53608:	public nunchunkCont nunC; // 0x70
+  dump.cs:53609:	public Vector2 PowerHit; // 0x78
+  dump.cs:53610:	public PlayerDirection playDir; // 0x80
+  dump.cs:53611:	public int time; // 0x88
+  dump.cs:53612:	public float TotalTime; // 0x8C
+  dump.cs:53613:	public AudioSource source; // 0x90
+  dump.cs:53614:	public bool FirstTime; // 0x98
+  dump.cs:53615:	public EFFECT_CLASS effect; // 0xA0
+  dump.cs:53616:	public AudioClip ability; // 0xA8
+  dump.cs:53617:	public float speedPush; // 0xB0
+  dump.cs:53618:	public float speedForce; // 0xB4
+  dump.cs:53619:	public float speedChangeDir; // 0xB8
+  dump.cs:53710:}
+  dump.cs:53711:
+  dump.cs:53712:// Namespace: 
+> dump.cs:53713:public class nunchuckRotate : ABILITY_CLASS // TypeDefIndex: 770
+  dump.cs:53714:{
+  dump.cs:53715:	// Fields
+  dump.cs:53716:	public float angleDir; // 0x68
+  dump.cs:53717:	public nunchunkCont nunC; // 0x70
+  dump.cs:53718:	public Vector2 PowerHit; // 0x78
+  dump.cs:53719:	public PlayerDirection playDir; // 0x80
+  dump.cs:53720:	public int time; // 0x88
+  dump.cs:53721:	public float TotalTime; // 0x8C
+  dump.cs:53722:	public AudioSource source; // 0x90
+  dump.cs:53723:	public AudioClip ability; // 0x98
+  dump.cs:53724:	public float speedForce; // 0xA0
+  dump.cs:53725:	public float limitVelocity; // 0xA4
+  dump.cs:53726:	public float returnSpeed; // 0xA8
+  dump.cs:53727:	public float ratioDistance; // 0xAC
+  dump.cs:53728:	public Vector2 dirVelNC; // 0xB0
+  dump.cs:53832:}
+  dump.cs:53833:
+  dump.cs:53834:// Namespace: 
+> dump.cs:53835:public class nunchunkCont : WEAPON_CLASS // TypeDefIndex: 771
+  dump.cs:53836:{
+  dump.cs:53837:	// Fields
+  dump.cs:53838:	public float speed_NC; // 0x6C
+  dump.cs:53839:	public float rot_NC; // 0x70
+  dump.cs:53840:	public int TypeWeapon; // 0x74
+  dump.cs:53841:	public int numTeam; // 0x78
+  dump.cs:53842:	public HingeJoint2D[] hj; // 0x80
+  dump.cs:53843:	public DistanceJoint2D dj; // 0x88
+  dump.cs:53844:	public Rigidbody2D rbAttached; // 0x90
+  dump.cs:53845:	public Vector2 direction; // 0x98
+  dump.cs:53846:	public PlayerDirection playDir; // 0xA0
+> dump.cs:53847:	public WeaponData weapData; // 0xA8
+> dump.cs:53848:	public ABILITY_CLASS[] DashAttack; // 0xB0
+  dump.cs:53849:	public float[] abilityWeight; // 0xB8
+  dump.cs:53850:	public bool AbilityEnabled; // 0xC0
+  dump.cs:53851:	public int TimeAbilityActive; // 0xC4
+  dump.cs:53852:	public int TimeAbilityActiveMax; // 0xC8
+  dump.cs:53853:	public SpriteRenderer[] sp; // 0xD0
+  dump.cs:53854:	public SpriteRenderer[] spWeap; // 0xD8
+  dump.cs:53855:	public int AbilityActive; // 0xE0
+  dump.cs:53856:	public CollisionWeapon[] colWeap; // 0xE8
+  dump.cs:53857:	public int StartGame; // 0xF0
+  dump.cs:53858:	public float speedMain; // 0xF4
+  dump.cs:53859:	public Rigidbody2D[] rbgloves; // 0xF8
+  dump.cs:53860:	public LineRenderer chain; // 0x100
+  dump.cs:53861:	public Transform handle; // 0x108
+  dump.cs:53862:	public Vector2 localChain; // 0x110
+  dump.cs:53863:	public GameObject trail; // 0x118
+  dump.cs:54065:}
+  dump.cs:54066:
+  dump.cs:54067:// Namespace: 
+> dump.cs:54068:public class PaintbrushCont : WEAPON_CLASS // TypeDefIndex: 773
+  dump.cs:54069:{
+  dump.cs:54070:	// Fields
+  dump.cs:54071:	public int TypeWeapon; // 0x6C
+  dump.cs:54072:	public int numTeam; // 0x70
+  dump.cs:54073:	public HingeJoint2D hj; // 0x78
+  dump.cs:54074:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:54075:	public Vector2 direction; // 0x88
+  dump.cs:54076:	public PlayerDirection playDir; // 0x90
+> dump.cs:54077:	public WeaponData weapData; // 0x98
+> dump.cs:54078:	public ABILITY_CLASS InkAttack; // 0xA0
+  dump.cs:54079:	public bool AbilityEnabled; // 0xA8
+  dump.cs:54080:	public int TimeAbilityActive; // 0xAC
+  dump.cs:54081:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:54082:	public ParticleSystem sp; // 0xB8
+  dump.cs:54083:	public SpriteRenderer spIndic; // 0xC0
+  dump.cs:54084:	public int AbilityActive; // 0xC8
+  dump.cs:54085:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:54086:	public int StartGame; // 0xD8
+  dump.cs:54087:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:54088:	public Rigidbody2D rbManche; // 0xE8
+  dump.cs:54089:	public int PartEquipped; // 0xF0
+  dump.cs:54090:	public float maniement; // 0xF4
+  dump.cs:54091:	public bool Multiplayer; // 0xF8
+  dump.cs:54092:
+  dump.cs:54093:	// Methods
+  dump.cs:54238:}
+  dump.cs:54239:
+  dump.cs:54240:// Namespace: 
+> dump.cs:54241:public class PaintbrushInk : ABILITY_CLASS // TypeDefIndex: 774
+  dump.cs:54242:{
+  dump.cs:54243:	// Fields
+  dump.cs:54244:	public GameObject arme; // 0x68
+  dump.cs:54245:	public Rigidbody2D rb; // 0x70
+  dump.cs:54246:	public Vector2 PowerHit; // 0x78
+  dump.cs:54247:	public PlayerDirection playDir; // 0x80
+  dump.cs:54248:	public int time; // 0x88
+  dump.cs:54249:	public Transform SpawnPoint; // 0x90
+  dump.cs:54250:	public AudioSource source; // 0x98
+  dump.cs:54251:	public AudioClip ink; // 0xA0
+  dump.cs:54252:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:54253:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:54254:	public bool FirstTime; // 0xB8
+  dump.cs:54255:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:54256:	public int numAb; // 0xC8
+  dump.cs:54365:}
+  dump.cs:54366:
+  dump.cs:54367:// Namespace: 
+> dump.cs:54368:public class InstantReUsed : ABILITY_CLASS // TypeDefIndex: 776
+  dump.cs:54369:{
+  dump.cs:54370:	// Fields
+  dump.cs:54371:	public GameObject arme; // 0x68
+  dump.cs:54372:	public Rigidbody2D rb; // 0x70
+  dump.cs:54373:	public Vector2 PowerHit; // 0x78
+  dump.cs:54374:	public PlayerDirection playDir; // 0x80
+  dump.cs:54375:	public int time; // 0x88
+  dump.cs:54376:	public Transform SpawnPoint; // 0x90
+  dump.cs:54377:	public AudioSource source; // 0x98
+  dump.cs:54378:	public AudioClip shot; // 0xA0
+  dump.cs:54379:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:54380:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:54381:	public bool FirstTime; // 0xB8
+  dump.cs:54382:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:54383:	public int numAb; // 0xC8
+  dump.cs:54468:}
+  dump.cs:54469:
+  dump.cs:54470:// Namespace: 
+> dump.cs:54471:public class PickaxeCont : WEAPON_CLASS // TypeDefIndex: 777
+  dump.cs:54472:{
+  dump.cs:54473:	// Fields
+  dump.cs:54474:	public GameObject[] indic; // 0x70
+  dump.cs:54475:	public int TypeWeapon; // 0x78
+  dump.cs:54476:	public int numTeam; // 0x7C
+  dump.cs:54477:	public HingeJoint2D hj; // 0x80
+  dump.cs:54478:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:54479:	public Vector2 direction; // 0x90
+  dump.cs:54480:	public PlayerDirection playDir; // 0x98
+> dump.cs:54481:	public WeaponData weapData; // 0xA0
+> dump.cs:54482:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:54483:	public bool AbilityEnabled; // 0xB0
+  dump.cs:54484:	public int TimeAbilityActive; // 0xB4
+  dump.cs:54485:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:54486:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:54487:	public int AbilityActive; // 0xC8
+  dump.cs:54488:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:54489:	public int StartGame; // 0xD8
+  dump.cs:54490:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:54491:	public Rigidbody2D rbManche; // 0xE8
+  dump.cs:54492:	public int PartEquipped; // 0xF0
+  dump.cs:54493:	public suiveur suiv; // 0xF8
+  dump.cs:54494:	public float maniement; // 0x100
+  dump.cs:54495:	public bool Multiplayer; // 0x104
+  dump.cs:54496:	public InstantReUsed[] AllAbilities; // 0x108
+  dump.cs:54497:
+  dump.cs:54763:}
+  dump.cs:54764:
+  dump.cs:54765:// Namespace: 
+> dump.cs:54766:public class plasmaDualDir : ABILITY_CLASS // TypeDefIndex: 781
+  dump.cs:54767:{
+  dump.cs:54768:	// Fields
+  dump.cs:54769:	public PlasmaGunsCont gun; // 0x68
+  dump.cs:54770:	public Vector2 PowerHit; // 0x70
+  dump.cs:54771:	public PlayerDirection playDir; // 0x78
+  dump.cs:54772:	public int time; // 0x80
+  dump.cs:54773:	public AudioSource source; // 0x88
+  dump.cs:54774:	public AudioClip shotSFX; // 0x90
+  dump.cs:54775:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:54776:	public Rigidbody2D[] bullets; // 0xA0
+  dump.cs:54777:	public bool FirstTime; // 0xA8
+  dump.cs:54778:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:54779:	public int numAb; // 0xB8
+  dump.cs:54780:	public int TeamAbi; // 0xBC
+  dump.cs:54781:	public float SpeedBullet; // 0xC0
+  dump.cs:54843:}
+  dump.cs:54844:
+  dump.cs:54845:// Namespace: 
+> dump.cs:54846:public class PlasmaGunsCont : WEAPON_CLASS // TypeDefIndex: 782
+  dump.cs:54847:{
+  dump.cs:54848:	// Fields
+  dump.cs:54849:	public int TypeWeapon; // 0x6C
+  dump.cs:54850:	public int numTeam; // 0x70
+  dump.cs:54851:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:54852:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:54853:	public Vector2 direction; // 0x88
+  dump.cs:54854:	public PlayerDirection playDir; // 0x90
+  dump.cs:54855:	public CharHP charData; // 0x98
+> dump.cs:54856:	public WeaponData weapData; // 0xA0
+> dump.cs:54857:	public ABILITY_CLASS[] abilities; // 0xA8
+> dump.cs:54858:	public ABILITY_CLASS[] ConstantShot; // 0xB0
+  dump.cs:54859:	public bool AbilityEnabled; // 0xB8
+  dump.cs:54860:	public int TimeAbilityActive; // 0xBC
+  dump.cs:54861:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:54862:	public SpriteRenderer[] sp; // 0xC8
+  dump.cs:54863:	public SpriteRenderer[] indic; // 0xD0
+  dump.cs:54864:	public int AbilityActive; // 0xD8
+  dump.cs:54865:	public CollisionWeapon[] colWeap; // 0xE0
+  dump.cs:54866:	public int StartGame; // 0xE8
+  dump.cs:54867:	public Rigidbody2D[] Rb; // 0xF0
+  dump.cs:54868:	public float posXHj; // 0xF8
+  dump.cs:54869:	public float posSp; // 0xFC
+  dump.cs:54870:	public float posSp2; // 0x100
+  dump.cs:54871:	public float posspIndic; // 0x104
+  dump.cs:54872:	public int PartEquipped; // 0x108
+  dump.cs:54873:	public float maniement; // 0x10C
+  dump.cs:54959:}
+  dump.cs:54960:
+  dump.cs:54961:// Namespace: 
+> dump.cs:54962:public class plasmaRiffleShot : ABILITY_CLASS // TypeDefIndex: 783
+  dump.cs:54963:{
+  dump.cs:54964:	// Fields
+  dump.cs:54965:	public PlasmaGunsCont gun; // 0x68
+  dump.cs:54966:	public Vector2 PowerHit; // 0x70
+  dump.cs:54967:	public PlayerDirection playDir; // 0x78
+  dump.cs:54968:	public int time; // 0x80
+  dump.cs:54969:	public AudioSource source; // 0x88
+  dump.cs:54970:	public AudioClip shotSFX; // 0x90
+  dump.cs:54971:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:54972:	public Rigidbody2D[] bullets; // 0xA0
+  dump.cs:54973:	public bool FirstTime; // 0xA8
+  dump.cs:54974:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:54975:	public int numAb; // 0xB8
+  dump.cs:54976:	public int TeamAbi; // 0xBC
+  dump.cs:54977:	public float SpeedBullet; // 0xC0
+  dump.cs:55205:}
+  dump.cs:55206:
+  dump.cs:55207:// Namespace: 
+> dump.cs:55208:public class PortalGunCont : WEAPON_CLASS // TypeDefIndex: 786
+  dump.cs:55209:{
+  dump.cs:55210:	// Fields
+  dump.cs:55211:	public int TypeWeapon; // 0x6C
+  dump.cs:55212:	public int numTeam; // 0x70
+  dump.cs:55213:	public HingeJoint2D hj; // 0x78
+  dump.cs:55214:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:55215:	public Rigidbody2D rb; // 0x88
+  dump.cs:55216:	public float maniement; // 0x90
+  dump.cs:55217:	public Vector2 direction; // 0x94
+  dump.cs:55218:	public PlayerDirection playDir; // 0xA0
+> dump.cs:55219:	public WeaponData weapData; // 0xA8
+> dump.cs:55220:	public ABILITY_CLASS DashAttack; // 0xB0
+  dump.cs:55221:	public bool AbilityEnabled; // 0xB8
+  dump.cs:55222:	public int TimeAbilityActive; // 0xBC
+  dump.cs:55223:	public int TimeAbilityActiveMax; // 0xC0
+  dump.cs:55224:	public SpriteRenderer sp; // 0xC8
+  dump.cs:55225:	public int AbilityActive; // 0xD0
+  dump.cs:55226:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:55227:	public int StartGame; // 0xE0
+  dump.cs:55228:	public bool Multiplayer; // 0xE4
+  dump.cs:55229:
+  dump.cs:55230:	// Methods
+  dump.cs:55231:
+  dump.cs:55232:	// RVA: 0x1CAE2DC Offset: 0x1CAA2DC VA: 0x1CAE2DC Slot: 33
+  dump.cs:55233:	public override void got(int IGCDHCEGIJIEGGE, int JHDHGHGHIJEECED) { }
+  dump.cs:55234:
+  dump.cs:55235:	// RVA: 0x1CAE4D8 Offset: 0x1CAA4D8 VA: 0x1CAE4D8
+  dump.cs:55375:}
+  dump.cs:55376:
+  dump.cs:55377:// Namespace: 
+> dump.cs:55378:public class PortalGunShot : ABILITY_CLASS // TypeDefIndex: 787
+  dump.cs:55379:{
+  dump.cs:55380:	// Fields
+  dump.cs:55381:	public GameObject arme; // 0x68
+  dump.cs:55382:	public Rigidbody2D rb; // 0x70
+  dump.cs:55383:	public Vector2 PowerHit; // 0x78
+  dump.cs:55384:	public PlayerDirection playDir; // 0x80
+  dump.cs:55385:	public int time; // 0x88
+  dump.cs:55386:	public Transform SpawnPoint; // 0x90
+  dump.cs:55387:	public AudioSource source; // 0x98
+  dump.cs:55388:	public AudioClip shot; // 0xA0
+  dump.cs:55389:	public Rigidbody2D[] bullets; // 0xA8
+  dump.cs:55390:	public Effect[] Portals; // 0xB0
+  dump.cs:55391:	public bool FirstTime; // 0xB8
+  dump.cs:55392:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:55393:	public int numAb; // 0xC8
+  dump.cs:55515:}
+  dump.cs:55516:
+  dump.cs:55517:// Namespace: 
+> dump.cs:55518:public class PotionCont : WEAPON_CLASS // TypeDefIndex: 788
+  dump.cs:55519:{
+  dump.cs:55520:	// Fields
+  dump.cs:55521:	public int TypeWeapon; // 0x6C
+  dump.cs:55522:	public int numTeam; // 0x70
+  dump.cs:55523:	public HingeJoint2D hj; // 0x78
+  dump.cs:55524:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:55525:	public Vector2 direction; // 0x88
+  dump.cs:55526:	public PlayerDirection playDir; // 0x90
+> dump.cs:55527:	public WeaponData weapData; // 0x98
+> dump.cs:55528:	public ABILITY_CLASS[] potion; // 0xA0
+  dump.cs:55529:	public bool AbilityEnabled; // 0xA8
+  dump.cs:55530:	public int TimeAbilityActive; // 0xAC
+  dump.cs:55531:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:55532:	public SpriteRenderer spSkin; // 0xB8
+  dump.cs:55533:	public SpriteRenderer spIndic; // 0xC0
+  dump.cs:55534:	public int AbilityActive; // 0xC8
+  dump.cs:55535:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:55536:	public int StartGame; // 0xD8
+  dump.cs:55537:	public GameObject fluidEffect; // 0xE0
+  dump.cs:55538:	public float posSpIndic; // 0xE8
+  dump.cs:55539:	public bool Multiplayer; // 0xEC
+  dump.cs:55540:	public GameObject[] Effects; // 0xF0
+  dump.cs:55541:
+  dump.cs:55542:	// Methods
+  dump.cs:55543:
+  dump.cs:55815:}
+  dump.cs:55816:
+  dump.cs:55817:// Namespace: 
+> dump.cs:55818:public class PotionGeant : ABILITY_CLASS // TypeDefIndex: 790
+  dump.cs:55819:{
+  dump.cs:55820:	// Fields
+  dump.cs:55821:	public PotionCont potion; // 0x68
+  dump.cs:55822:	public Rigidbody2D rbPotion; // 0x70
+  dump.cs:55823:	public Vector2 PowerHit; // 0x78
+  dump.cs:55824:	public PlayerDirection playDir; // 0x80
+  dump.cs:55825:	public int time; // 0x88
+  dump.cs:55826:	public float TotalTime; // 0x8C
+  dump.cs:55827:	public AudioSource source; // 0x90
+  dump.cs:55828:	public AudioClip Grow; // 0x98
+  dump.cs:55829:	public AudioClip Small; // 0xA0
+  dump.cs:55830:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:55831:	public GameObject Flow; // 0xB0
+  dump.cs:55832:	public bool FirstTime; // 0xB8
+  dump.cs:55833:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:55932:}
+  dump.cs:55933:
+  dump.cs:55934:// Namespace: 
+> dump.cs:55935:public class fencingDash : ABILITY_CLASS // TypeDefIndex: 791
+  dump.cs:55936:{
+  dump.cs:55937:	// Fields
+  dump.cs:55938:	public fencingSwordCont rapierCont; // 0x68
+  dump.cs:55939:	public Vector2 PowerHit; // 0x70
+  dump.cs:55940:	public PlayerDirection playDir; // 0x78
+  dump.cs:55941:	public int time; // 0x80
+  dump.cs:55942:	public AudioSource source; // 0x88
+  dump.cs:55943:	public AudioClip abilitySFX; // 0x90
+  dump.cs:55944:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:55945:	public GameObject orb; // 0xA0
+  dump.cs:55946:	public bool FirstTime; // 0xA8
+  dump.cs:55947:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:55948:	public int numAb; // 0xB8
+  dump.cs:55949:	public int TeamAbi; // 0xBC
+  dump.cs:55950:	public float dist; // 0xC0
+  dump.cs:56018:}
+  dump.cs:56019:
+  dump.cs:56020:// Namespace: 
+> dump.cs:56021:public class fencingSwordCont : WEAPON_CLASS // TypeDefIndex: 792
+  dump.cs:56022:{
+  dump.cs:56023:	// Fields
+  dump.cs:56024:	public int TypeWeapon; // 0x6C
+  dump.cs:56025:	public int numTeam; // 0x70
+  dump.cs:56026:	public HingeJoint2D hj; // 0x78
+  dump.cs:56027:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:56028:	public Vector2 direction; // 0x88
+  dump.cs:56029:	public PlayerDirection playDir; // 0x90
+> dump.cs:56030:	public WeaponData weapData; // 0x98
+> dump.cs:56031:	public ABILITY_CLASS[] Abilities; // 0xA0
+  dump.cs:56032:	public bool AbilityEnabled; // 0xA8
+  dump.cs:56033:	public int TimeAbilityActive; // 0xAC
+  dump.cs:56034:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:56035:	public SpriteRenderer spWeap; // 0xB8
+  dump.cs:56036:	public SpriteRenderer spIndic; // 0xC0
+  dump.cs:56037:	public int AbilityActive; // 0xC8
+  dump.cs:56038:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:56039:	public int StartGame; // 0xD8
+  dump.cs:56040:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:56041:	public int PartEquipped; // 0xE8
+  dump.cs:56042:	public float maniement; // 0xEC
+  dump.cs:56043:
+  dump.cs:56044:	// Methods
+  dump.cs:56045:
+  dump.cs:56046:	// RVA: 0x1CC2A08 Offset: 0x1CBEA08 VA: 0x1CC2A08
+  dump.cs:56129:}
+  dump.cs:56130:
+  dump.cs:56131:// Namespace: 
+> dump.cs:56132:public class parryFencing : ABILITY_CLASS // TypeDefIndex: 793
+  dump.cs:56133:{
+  dump.cs:56134:	// Fields
+  dump.cs:56135:	public fencingSwordCont swordC; // 0x68
+  dump.cs:56136:	public Vector2 PowerHit; // 0x70
+  dump.cs:56137:	public PlayerDirection playDir; // 0x78
+  dump.cs:56138:	public int time; // 0x80
+  dump.cs:56139:	public float TotalTime; // 0x84
+  dump.cs:56140:	public AudioSource source; // 0x88
+  dump.cs:56141:	public bool FirstTime; // 0x90
+  dump.cs:56142:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:56143:	public GameObject parryEplosion; // 0xA0
+  dump.cs:56144:	public EFFECT_CLASS effect; // 0xA8
+  dump.cs:56145:	public AudioClip ability; // 0xB0
+  dump.cs:56146:	public float mass; // 0xB8
+  dump.cs:56147:	public float speedPush; // 0xBC
+  dump.cs:56233:}
+  dump.cs:56234:
+  dump.cs:56235:// Namespace: 
+> dump.cs:56236:public class thrustDash : ABILITY_CLASS // TypeDefIndex: 794
+  dump.cs:56237:{
+  dump.cs:56238:	// Fields
+  dump.cs:56239:	public fencingSwordCont swordC; // 0x68
+  dump.cs:56240:	public Vector2 PowerHit; // 0x70
+  dump.cs:56241:	public PlayerDirection playDir; // 0x78
+  dump.cs:56242:	public int time; // 0x80
+  dump.cs:56243:	public float TotalTime; // 0x84
+  dump.cs:56244:	public AudioSource source; // 0x88
+  dump.cs:56245:	public bool FirstTime; // 0x90
+  dump.cs:56246:	public EFFECT_CLASS effect; // 0x98
+  dump.cs:56247:	public AudioClip ability; // 0xA0
+  dump.cs:56248:	public float mass; // 0xA8
+  dump.cs:56249:	public float speedPush; // 0xAC
+  dump.cs:56250:	private float jlc; // 0xB0
+  dump.cs:56251:	[SerializeField]
+  dump.cs:56413:}
+  dump.cs:56414:
+  dump.cs:56415:// Namespace: 
+> dump.cs:56416:public class ScepterCont : WEAPON_CLASS // TypeDefIndex: 796
+  dump.cs:56417:{
+  dump.cs:56418:	// Fields
+  dump.cs:56419:	public ColorSheme colSch; // 0x70
+  dump.cs:56420:	public int TypeWeapon; // 0x78
+  dump.cs:56421:	public int numTeam; // 0x7C
+  dump.cs:56422:	public HingeJoint2D hj; // 0x80
+  dump.cs:56423:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:56424:	public Vector2 direction; // 0x90
+  dump.cs:56425:	public PlayerDirection playDir; // 0x98
+> dump.cs:56426:	public WeaponData weapData; // 0xA0
+> dump.cs:56427:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:56428:	public bool AbilityEnabled; // 0xB0
+  dump.cs:56429:	public int TimeAbilityActive; // 0xB4
+  dump.cs:56430:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:56431:	public ParticleSystem sp; // 0xC0
+  dump.cs:56432:	public int AbilityActive; // 0xC8
+  dump.cs:56433:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:56434:	public int StartGame; // 0xD8
+  dump.cs:56435:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:56436:	public Rigidbody2D rbManche; // 0xE8
+  dump.cs:56437:	public int PartEquipped; // 0xF0
+  dump.cs:56438:	public float maniement; // 0xF4
+  dump.cs:56439:	public bool Multiplayer; // 0xF8
+  dump.cs:56440:	public InstanteProjectil[] skills; // 0x100
+  dump.cs:56441:	public int TotalSkills; // 0x108
+  dump.cs:56442:
+  dump.cs:56633:}
+  dump.cs:56634:
+  dump.cs:56635:// Namespace: 
+> dump.cs:56636:public class ScytheCont : WEAPON_CLASS // TypeDefIndex: 797
+  dump.cs:56637:{
+  dump.cs:56638:	// Fields
+  dump.cs:56639:	public int TypeWeapon; // 0x6C
+  dump.cs:56640:	public int numTeam; // 0x70
+  dump.cs:56641:	public HingeJoint2D hj; // 0x78
+  dump.cs:56642:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:56643:	public Vector2 direction; // 0x88
+  dump.cs:56644:	public PlayerDirection playDir; // 0x90
+> dump.cs:56645:	public WeaponData weapData; // 0x98
+> dump.cs:56646:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:56647:	public bool AbilityEnabled; // 0xA8
+  dump.cs:56648:	public int TimeAbilityActive; // 0xAC
+  dump.cs:56649:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:56650:	public SpriteRenderer sp; // 0xB8
+  dump.cs:56651:	public int AbilityActive; // 0xC0
+  dump.cs:56652:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:56653:	public int StartGame; // 0xD0
+  dump.cs:56654:	public float maniment; // 0xD4
+  dump.cs:56655:	public SpriteRenderer spManche; // 0xD8
+  dump.cs:56656:	public float posXHj; // 0xE0
+  dump.cs:56657:	public float posSp; // 0xE4
+  dump.cs:56658:	public float posspIndic; // 0xE8
+  dump.cs:56659:	public bool Multiplayer; // 0xEC
+  dump.cs:56660:	public InstanteProjectil[] skills; // 0xF0
+  dump.cs:56661:	public Rigidbody2D rb; // 0xF8
+  dump.cs:56866:}
+  dump.cs:56867:
+  dump.cs:56868:// Namespace: 
+> dump.cs:56869:public class ShieldCont : WEAPON_CLASS // TypeDefIndex: 799
+  dump.cs:56870:{
+  dump.cs:56871:	// Fields
+  dump.cs:56872:	public ColorSheme colSch; // 0x70
+  dump.cs:56873:	public int TypeWeapon; // 0x78
+  dump.cs:56874:	public int numTeam; // 0x7C
+  dump.cs:56875:	public HingeJoint2D hj; // 0x80
+  dump.cs:56876:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:56877:	public Vector2 direction; // 0x90
+  dump.cs:56878:	public PlayerDirection playDir; // 0x98
+> dump.cs:56879:	public WeaponData weapData; // 0xA0
+> dump.cs:56880:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:56881:	public bool AbilityEnabled; // 0xB0
+  dump.cs:56882:	public int TimeAbilityActive; // 0xB4
+  dump.cs:56883:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:56884:	public SpriteRenderer sp; // 0xC0
+  dump.cs:56885:	public int AbilityActive; // 0xC8
+  dump.cs:56886:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:56887:	public int StartGame; // 0xD8
+  dump.cs:56888:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:56889:	public int PartEquipped; // 0xE8
+  dump.cs:56890:	public float maniement; // 0xEC
+  dump.cs:56891:	public bool Multiplayer; // 0xF0
+  dump.cs:56892:	public InstanteProjectil[] skills; // 0xF8
+  dump.cs:56893:
+  dump.cs:56894:	// Methods
+  dump.cs:56895:
+  dump.cs:57057:}
+  dump.cs:57058:
+  dump.cs:57059:// Namespace: 
+> dump.cs:57060:public class ShieldGrow : ABILITY_CLASS // TypeDefIndex: 800
+  dump.cs:57061:{
+  dump.cs:57062:	// Fields
+  dump.cs:57063:	public ShieldCont shield; // 0x68
+  dump.cs:57064:	public Rigidbody2D rbshield; // 0x70
+  dump.cs:57065:	public Rigidbody2D Bras; // 0x78
+  dump.cs:57066:	public Vector2 PowerHit; // 0x80
+  dump.cs:57067:	public PlayerDirection playDir; // 0x88
+  dump.cs:57068:	public int time; // 0x90
+  dump.cs:57069:	public float TotalTime; // 0x94
+  dump.cs:57070:	public AudioSource source; // 0x98
+  dump.cs:57071:	public AudioClip grow; // 0xA0
+  dump.cs:57072:	public bool FirstTime; // 0xA8
+  dump.cs:57073:	public float speedDash; // 0xAC
+  dump.cs:57074:	public float ExpandRatio; // 0xB0
+  dump.cs:57075:
+  dump.cs:57128:}
+  dump.cs:57129:
+  dump.cs:57130:// Namespace: 
+> dump.cs:57131:public class ShieldLaunch : ABILITY_CLASS // TypeDefIndex: 801
+  dump.cs:57132:{
+  dump.cs:57133:	// Fields
+  dump.cs:57134:	public ShieldCont shield; // 0x68
+  dump.cs:57135:	public Rigidbody2D rbshield; // 0x70
+  dump.cs:57136:	private Vector2 jld; // 0x78
+  dump.cs:57137:	public Vector2 PowerHit; // 0x80
+  dump.cs:57138:	public PlayerDirection playDir; // 0x88
+  dump.cs:57139:	public int time; // 0x90
+  dump.cs:57140:	public float TotalTime; // 0x94
+  dump.cs:57141:	public AudioSource source; // 0x98
+  dump.cs:57142:	public AudioClip Launch; // 0xA0
+  dump.cs:57143:	public bool FirstTime; // 0xA8
+  dump.cs:57144:	public float speedLaunch; // 0xAC
+  dump.cs:57145:	public float newMass; // 0xB0
+  dump.cs:57146:	public float distance; // 0xB4
+  dump.cs:57270:}
+  dump.cs:57271:
+  dump.cs:57272:// Namespace: 
+> dump.cs:57273:public class shovelAbility : ABILITY_CLASS // TypeDefIndex: 803
+  dump.cs:57274:{
+  dump.cs:57275:	// Fields
+  dump.cs:57276:	public shovelCont Axe; // 0x68
+  dump.cs:57277:	public Vector2 PowerHit; // 0x70
+  dump.cs:57278:	public PlayerDirection playDir; // 0x78
+  dump.cs:57279:	public int time; // 0x80
+  dump.cs:57280:	public float speedRatio; // 0x84
+  dump.cs:57281:	public float TotalTime; // 0x88
+  dump.cs:57282:	public AudioSource source; // 0x90
+  dump.cs:57283:	public AudioClip explosion; // 0x98
+  dump.cs:57284:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:57285:	public GameObject ExplosionAxe; // 0xA8
+  dump.cs:57286:	public ParticleConteneur ListPrefabEffectShot; // 0xB0
+  dump.cs:57287:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:57288:	public bool FirstTime; // 0xC0
+  dump.cs:57404:}
+  dump.cs:57405:
+  dump.cs:57406:// Namespace: 
+> dump.cs:57407:public class shovelCont : WEAPON_CLASS // TypeDefIndex: 804
+  dump.cs:57408:{
+  dump.cs:57409:	// Fields
+  dump.cs:57410:	public int TypeWeapon; // 0x6C
+  dump.cs:57411:	public int numTeam; // 0x70
+  dump.cs:57412:	public HingeJoint2D hj; // 0x78
+  dump.cs:57413:	public HingeJoint2D hj2; // 0x80
+  dump.cs:57414:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:57415:	public Vector2 direction; // 0x90
+  dump.cs:57416:	public PlayerDirection playDir; // 0x98
+> dump.cs:57417:	public WeaponData weapData; // 0xA0
+> dump.cs:57418:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:57419:	public bool AbilityEnabled; // 0xB0
+  dump.cs:57420:	public int TimeAbilityActive; // 0xB4
+  dump.cs:57421:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:57422:	public SpriteRenderer sp; // 0xC0
+  dump.cs:57423:	public int AbilityActive; // 0xC8
+  dump.cs:57424:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:57425:	public int StartGame; // 0xD8
+  dump.cs:57426:	public float maniment; // 0xDC
+  dump.cs:57427:	public Rigidbody2D rbAxe; // 0xE0
+  dump.cs:57428:
+  dump.cs:57429:	// Methods
+  dump.cs:57430:
+  dump.cs:57431:	// RVA: 0x1CE4D48 Offset: 0x1CE0D48 VA: 0x1CE4D48
+  dump.cs:57432:	private string nfo() { }
+  dump.cs:57433:
+  dump.cs:57496:}
+  dump.cs:57497:
+  dump.cs:57498:// Namespace: 
+> dump.cs:57499:public class shovelDash : ABILITY_CLASS // TypeDefIndex: 805
+  dump.cs:57500:{
+  dump.cs:57501:	// Fields
+  dump.cs:57502:	public shovelCont shovel; // 0x68
+  dump.cs:57503:	public Rigidbody2D rbrbShovel; // 0x70
+  dump.cs:57504:	public Vector2 PowerHit; // 0x78
+  dump.cs:57505:	public PlayerDirection playDir; // 0x80
+  dump.cs:57506:	public int time; // 0x88
+  dump.cs:57507:	public float TotalTime; // 0x8C
+  dump.cs:57508:	public AudioSource source; // 0x90
+  dump.cs:57509:	public AudioClip attack; // 0x98
+  dump.cs:57510:	public bool FirstTime; // 0xA0
+  dump.cs:57511:	public float SpeedBullet; // 0xA4
+  dump.cs:57512:	public ParticleConteneur ListPrefabEffectShot; // 0xA8
+  dump.cs:57513:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:57514:	public Transform SpawnPoint; // 0xB8
+  dump.cs:57581:}
+  dump.cs:57582:
+  dump.cs:57583:// Namespace: 
+> dump.cs:57584:public class FireDash : ABILITY_CLASS // TypeDefIndex: 806
+  dump.cs:57585:{
+  dump.cs:57586:	// Fields
+  dump.cs:57587:	public ShurikenCont shuriken; // 0x68
+  dump.cs:57588:	public GameObject arme; // 0x70
+  dump.cs:57589:	public Rigidbody2D rb; // 0x78
+  dump.cs:57590:	public Vector2 PowerHit; // 0x80
+  dump.cs:57591:	public PlayerDirection playDir; // 0x88
+  dump.cs:57592:	public int time; // 0x90
+  dump.cs:57593:	public Transform SpawnPoint; // 0x98
+  dump.cs:57594:	public AudioSource source; // 0xA0
+  dump.cs:57595:	public AudioClip fire; // 0xA8
+  dump.cs:57596:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:57597:	public GameObject bullets; // 0xB8
+  dump.cs:57598:	public bool FirstTime; // 0xC0
+  dump.cs:57599:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:57676:}
+  dump.cs:57677:
+  dump.cs:57678:// Namespace: 
+> dump.cs:57679:public class ShurikenCont : WEAPON_CLASS // TypeDefIndex: 807
+  dump.cs:57680:{
+  dump.cs:57681:	// Fields
+  dump.cs:57682:	public SpriteRenderer spBase; // 0x70
+  dump.cs:57683:	public GameObject[] indic; // 0x78
+  dump.cs:57684:	public int TypeWeapon; // 0x80
+  dump.cs:57685:	public int numTeam; // 0x84
+  dump.cs:57686:	public HingeJoint2D hj; // 0x88
+  dump.cs:57687:	public Rigidbody2D rbAttached; // 0x90
+  dump.cs:57688:	public Vector2 direction; // 0x98
+  dump.cs:57689:	public PlayerDirection playDir; // 0xA0
+> dump.cs:57690:	public WeaponData weapData; // 0xA8
+> dump.cs:57691:	public ABILITY_CLASS Launch; // 0xB0
+> dump.cs:57692:	public ABILITY_CLASS FireDash; // 0xB8
+  dump.cs:57693:	public bool AbilityEnabled; // 0xC0
+  dump.cs:57694:	public int TimeAbilityActive; // 0xC4
+  dump.cs:57695:	public int TimeAbilityActiveMax; // 0xC8
+  dump.cs:57696:	public int AbilityActive; // 0xCC
+  dump.cs:57697:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:57698:	public int StartGame; // 0xD8
+  dump.cs:57699:	public float maniment; // 0xDC
+  dump.cs:57700:	public Rigidbody2D rbShuriken; // 0xE0
+  dump.cs:57701:	public int NumAbility; // 0xE8
+  dump.cs:57702:	public bool Multiplayer; // 0xEC
+  dump.cs:57703:
+  dump.cs:57704:	// Methods
+  dump.cs:57705:
+  dump.cs:57706:	// RVA: 0x1CEB200 Offset: 0x1CE7200 VA: 0x1CEB200 Slot: 33
+  dump.cs:57707:	public override void nhl(Rigidbody2D FCDDIGICDHFEFIC, int JHHDGJHDDIFDEHI, PlayerDirection CHJGHGJIJEF
+CDIJ, int JHDHGHGHIJEECED, int FHDCFIIEHHJJCCD) { }
+  dump.cs:58094:}
+  dump.cs:58095:
+  dump.cs:58096:// Namespace: 
+> dump.cs:58097:public class slingshotCont : WEAPON_CLASS // TypeDefIndex: 812
+  dump.cs:58098:{
+  dump.cs:58099:	// Fields
+  dump.cs:58100:	public int TypeWeapon; // 0x6C
+  dump.cs:58101:	public int numTeam; // 0x70
+  dump.cs:58102:	public HingeJoint2D hj; // 0x78
+  dump.cs:58103:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:58104:	public Vector2 direction; // 0x88
+  dump.cs:58105:	public PlayerDirection playDir; // 0x90
+> dump.cs:58106:	public WeaponData weapData; // 0x98
+> dump.cs:58107:	public ABILITY_CLASS[] MegaShots; // 0xA0
+  dump.cs:58108:	public GameObject[] indicatorAb; // 0xA8
+  dump.cs:58109:	public bool AbilityEnabled; // 0xB0
+  dump.cs:58110:	public int TimeAbilityActive; // 0xB4
+  dump.cs:58111:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:58112:	public SpriteRenderer sp; // 0xC0
+  dump.cs:58113:	public SpriteRenderer spIndic; // 0xC8
+  dump.cs:58114:	public int AbilityActive; // 0xD0
+  dump.cs:58115:	public CollisionWeapon[] colWeap; // 0xD8
+  dump.cs:58116:	public int StartGame; // 0xE0
+  dump.cs:58117:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:58118:	public LineRenderer ArcFil; // 0xF0
+  dump.cs:58119:	public LineRenderer[] trajectoryLine; // 0xF8
+  dump.cs:58120:	public float posspIndic; // 0x100
+  dump.cs:58121:	public int PartEquipped; // 0x104
+  dump.cs:58122:	public float maniement; // 0x108
+  dump.cs:58254:}
+  dump.cs:58255:
+  dump.cs:58256:// Namespace: 
+> dump.cs:58257:public class slingshotDouble : ABILITY_CLASS // TypeDefIndex: 813
+  dump.cs:58258:{
+  dump.cs:58259:	// Fields
+  dump.cs:58260:	public slingshotCont bow; // 0x68
+  dump.cs:58261:	public GameObject arme; // 0x70
+  dump.cs:58262:	public Rigidbody2D rb; // 0x78
+  dump.cs:58263:	public Vector2 PowerHit; // 0x80
+  dump.cs:58264:	public PlayerDirection playDir; // 0x88
+  dump.cs:58265:	public int time; // 0x90
+  dump.cs:58266:	public Transform SpawnPoint; // 0x98
+  dump.cs:58267:	public AudioSource source; // 0xA0
+  dump.cs:58268:	public AudioClip shot; // 0xA8
+  dump.cs:58269:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:58270:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:58271:	public bool FirstTime; // 0xC0
+  dump.cs:58272:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:58386:}
+  dump.cs:58387:
+  dump.cs:58388:// Namespace: 
+> dump.cs:58389:public class slingshot_shot : ABILITY_CLASS // TypeDefIndex: 814
+  dump.cs:58390:{
+  dump.cs:58391:	// Fields
+  dump.cs:58392:	public slingshotCont bow; // 0x68
+  dump.cs:58393:	public GameObject arme; // 0x70
+  dump.cs:58394:	public Rigidbody2D rb; // 0x78
+  dump.cs:58395:	public Vector2 PowerHit; // 0x80
+  dump.cs:58396:	public PlayerDirection playDir; // 0x88
+  dump.cs:58397:	public int time; // 0x90
+  dump.cs:58398:	public Transform SpawnPoint; // 0x98
+  dump.cs:58399:	public AudioSource source; // 0xA0
+  dump.cs:58400:	public AudioClip shot; // 0xA8
+  dump.cs:58401:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:58402:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:58403:	public bool FirstTime; // 0xC0
+  dump.cs:58404:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:58507:}
+  dump.cs:58508:
+  dump.cs:58509:// Namespace: 
+> dump.cs:58510:public class ShootSniper : ABILITY_CLASS // TypeDefIndex: 815
+  dump.cs:58511:{
+  dump.cs:58512:	// Fields
+  dump.cs:58513:	public SniperCont sniper; // 0x68
+  dump.cs:58514:	public GameObject arme; // 0x70
+  dump.cs:58515:	public Rigidbody2D rb; // 0x78
+  dump.cs:58516:	public Vector2 PowerHit; // 0x80
+  dump.cs:58517:	public PlayerDirection playDir; // 0x88
+  dump.cs:58518:	public int time; // 0x90
+  dump.cs:58519:	public Transform SpawnPoint; // 0x98
+  dump.cs:58520:	public AudioSource source; // 0xA0
+  dump.cs:58521:	public AudioClip shot; // 0xA8
+  dump.cs:58522:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:58523:	public Rigidbody2D[] bullets; // 0xB8
+  dump.cs:58524:	public bool FirstTime; // 0xC0
+  dump.cs:58525:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:58597:}
+  dump.cs:58598:
+  dump.cs:58599:// Namespace: 
+> dump.cs:58600:public class SniperCont : WEAPON_CLASS // TypeDefIndex: 816
+  dump.cs:58601:{
+  dump.cs:58602:	// Fields
+  dump.cs:58603:	public int TypeWeapon; // 0x6C
+  dump.cs:58604:	public int numTeam; // 0x70
+  dump.cs:58605:	public HingeJoint2D hj1; // 0x78
+  dump.cs:58606:	public HingeJoint2D hj2; // 0x80
+  dump.cs:58607:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:58608:	public Vector2 direction; // 0x90
+  dump.cs:58609:	public PlayerDirection playDir; // 0x98
+> dump.cs:58610:	public WeaponData weapData; // 0xA0
+> dump.cs:58611:	public ABILITY_CLASS Abilities; // 0xA8
+  dump.cs:58612:	public bool AbilityEnabled; // 0xB0
+  dump.cs:58613:	public int TimeAbilityActive; // 0xB4
+  dump.cs:58614:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:58615:	public SpriteRenderer sp; // 0xC0
+  dump.cs:58616:	public SpriteRenderer spSniper; // 0xC8
+  dump.cs:58617:	public int AbilityActive; // 0xD0
+  dump.cs:58618:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:58619:	public int StartGame; // 0xE0
+  dump.cs:58620:	public Rigidbody2D RbSniper; // 0xE8
+  dump.cs:58621:	public int PartEquipped; // 0xF0
+  dump.cs:58622:	public GameObject viseur; // 0xF8
+  dump.cs:58623:	public float maniment; // 0x100
+  dump.cs:58624:	public float posXHj; // 0x104
+  dump.cs:58625:	public float posX2Hj; // 0x108
+  dump.cs:58626:	public float posSp; // 0x10C
+  dump.cs:58901:}
+  dump.cs:58902:
+  dump.cs:58903:// Namespace: 
+> dump.cs:58904:public class snowBallCont : WEAPON_CLASS // TypeDefIndex: 818
+  dump.cs:58905:{
+  dump.cs:58906:	// Fields
+  dump.cs:58907:	public int TypeWeapon; // 0x6C
+  dump.cs:58908:	public int numTeam; // 0x70
+  dump.cs:58909:	public Collider2D cl; // 0x78
+  dump.cs:58910:	public HingeJoint2D hj; // 0x80
+  dump.cs:58911:	public GameObject trail; // 0x88
+  dump.cs:58912:	public Rigidbody2D rbAttached; // 0x90
+  dump.cs:58913:	public Vector2 direction; // 0x98
+  dump.cs:58914:	public PlayerDirection playDir; // 0xA0
+> dump.cs:58915:	public WeaponData weapData; // 0xA8
+> dump.cs:58916:	public ABILITY_CLASS Abilities; // 0xB0
+  dump.cs:58917:	public int numBallAlive; // 0xB8
+  dump.cs:58918:	public bool AbilityEnabled; // 0xBC
+  dump.cs:58919:	public int TimeAbilityActive; // 0xC0
+  dump.cs:58920:	public int TimeAbilityActiveMax; // 0xC4
+  dump.cs:58921:	public SpriteRenderer sp; // 0xC8
+  dump.cs:58922:	public SpriteRenderer spOutline; // 0xD0
+  dump.cs:58923:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:58924:	public int StartGame; // 0xE0
+  dump.cs:58925:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:58926:	public int PartEquipped; // 0xF0
+  dump.cs:58927:	public float maniement; // 0xF4
+  dump.cs:58928:
+  dump.cs:58929:	// Methods
+  dump.cs:58930:
+  dump.cs:58931:	// RVA: 0x1D0871C Offset: 0x1D0471C VA: 0x1D0871C
+  dump.cs:59005:}
+  dump.cs:59006:
+  dump.cs:59007:// Namespace: 
+> dump.cs:59008:public class snowBallLaunch : ABILITY_CLASS // TypeDefIndex: 819
+  dump.cs:59009:{
+  dump.cs:59010:	// Fields
+  dump.cs:59011:	public snowBallCont snowBallC; // 0x68
+  dump.cs:59012:	public GameObject arme; // 0x70
+  dump.cs:59013:	public Rigidbody2D rb; // 0x78
+  dump.cs:59014:	public Vector2 PowerHit; // 0x80
+  dump.cs:59015:	public PlayerDirection playDir; // 0x88
+  dump.cs:59016:	public int time; // 0x90
+  dump.cs:59017:	public Transform SpawnPoint; // 0x98
+  dump.cs:59018:	public SpriteRenderer sp; // 0xA0
+  dump.cs:59019:	public AudioSource source; // 0xA8
+  dump.cs:59020:	public AudioClip[] shot; // 0xB0
+  dump.cs:59021:	public ParticleConteneur snowBallConteneur; // 0xB8
+  dump.cs:59022:	public ParticleConteneur snowManConteneur; // 0xC0
+  dump.cs:59023:	public snowBallBehavior[] bullets; // 0xC8
+  dump.cs:59353:}
+  dump.cs:59354:
+  dump.cs:59355:// Namespace: 
+> dump.cs:59356:public class MaceAb : ABILITY_CLASS // TypeDefIndex: 822
+  dump.cs:59357:{
+  dump.cs:59358:	// Fields
+  dump.cs:59359:	public MaceCont Mace; // 0x68
+  dump.cs:59360:	public Vector2 PowerHit; // 0x70
+  dump.cs:59361:	public PlayerDirection playDir; // 0x78
+  dump.cs:59362:	public int time; // 0x80
+  dump.cs:59363:	public float TotalTime; // 0x84
+  dump.cs:59364:	public AudioSource source; // 0x88
+  dump.cs:59365:	public AudioClip explosion; // 0x90
+  dump.cs:59366:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:59367:	public Rigidbody2D icePath; // 0xA0
+  dump.cs:59368:	public bool FirstTime; // 0xA8
+  dump.cs:59369:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:59370:	public float speedDash; // 0xB8
+  dump.cs:59371:	public bool Impact; // 0xBC
+  dump.cs:59433:}
+  dump.cs:59434:
+  dump.cs:59435:// Namespace: 
+> dump.cs:59436:public class MaceCont : WEAPON_CLASS // TypeDefIndex: 823
+  dump.cs:59437:{
+  dump.cs:59438:	// Fields
+  dump.cs:59439:	public int TypeWeapon; // 0x6C
+  dump.cs:59440:	public int numTeam; // 0x70
+  dump.cs:59441:	public int equipedP; // 0x74
+  dump.cs:59442:	public HingeJoint2D hj; // 0x78
+  dump.cs:59443:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:59444:	public Vector2 direction; // 0x88
+  dump.cs:59445:	public PlayerDirection playDir; // 0x90
+> dump.cs:59446:	public WeaponData weapData; // 0x98
+> dump.cs:59447:	public ABILITY_CLASS DashAttack; // 0xA0
+  dump.cs:59448:	public bool AbilityEnabled; // 0xA8
+  dump.cs:59449:	public int TimeAbilityActive; // 0xAC
+  dump.cs:59450:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:59451:	public SpriteRenderer sp; // 0xB8
+  dump.cs:59452:	public int AbilityActive; // 0xC0
+  dump.cs:59453:	public CollisionWeapon colWeap; // 0xC8
+  dump.cs:59454:	public int StartGame; // 0xD0
+  dump.cs:59455:	public float maniment; // 0xD4
+  dump.cs:59456:	public Rigidbody2D rbMace; // 0xD8
+  dump.cs:59457:	public ColorSheme colTeam; // 0xE0
+  dump.cs:59458:	public ColorSheme colTeamIndic; // 0xE8
+  dump.cs:59459:	public SpriteRenderer spTeam; // 0xF0
+  dump.cs:59460:	public string[] weapSet; // 0xF8
+  dump.cs:59461:
+  dump.cs:59462:	// Methods
+  dump.cs:59626:}
+  dump.cs:59627:
+  dump.cs:59628:// Namespace: 
+> dump.cs:59629:public class instantBigBubble : ABILITY_CLASS // TypeDefIndex: 826
+  dump.cs:59630:{
+  dump.cs:59631:	// Fields
+  dump.cs:59632:	public GameObject arme; // 0x68
+  dump.cs:59633:	public Rigidbody2D rb; // 0x70
+  dump.cs:59634:	public Vector2 PowerHit; // 0x78
+  dump.cs:59635:	public PlayerDirection playDir; // 0x80
+  dump.cs:59636:	public int time; // 0x88
+  dump.cs:59637:	public AudioSource source; // 0x90
+  dump.cs:59638:	public AudioClip shot; // 0x98
+  dump.cs:59639:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:59640:	public Rigidbody2D bullets; // 0xA8
+  dump.cs:59641:	public bool FirstTime; // 0xB0
+  dump.cs:59642:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:59643:	public int numAb; // 0xC0
+  dump.cs:59644:	public int TeamAbi; // 0xC4
+  dump.cs:59695:}
+  dump.cs:59696:
+  dump.cs:59697:// Namespace: 
+> dump.cs:59698:public class multiShotSoap : ABILITY_CLASS // TypeDefIndex: 827
+  dump.cs:59699:{
+  dump.cs:59700:	// Fields
+  dump.cs:59701:	public GameObject arme; // 0x68
+  dump.cs:59702:	public Rigidbody2D rb; // 0x70
+  dump.cs:59703:	public Vector2 PowerHit; // 0x78
+  dump.cs:59704:	public PlayerDirection playDir; // 0x80
+  dump.cs:59705:	public int time; // 0x88
+  dump.cs:59706:	public Transform SpawnPoint; // 0x90
+  dump.cs:59707:	public AudioSource source; // 0x98
+  dump.cs:59708:	public AudioClip shot; // 0xA0
+  dump.cs:59709:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:59710:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:59711:	public bool FirstTime; // 0xB8
+  dump.cs:59712:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:59713:	public int numAb; // 0xC8
+  dump.cs:59778:}
+  dump.cs:59779:
+  dump.cs:59780:// Namespace: 
+> dump.cs:59781:public class SoapCont : WEAPON_CLASS // TypeDefIndex: 828
+  dump.cs:59782:{
+  dump.cs:59783:	// Fields
+  dump.cs:59784:	public ColorSheme colSch; // 0x70
+  dump.cs:59785:	public int TypeWeapon; // 0x78
+  dump.cs:59786:	public int numTeam; // 0x7C
+  dump.cs:59787:	public HingeJoint2D hj; // 0x80
+  dump.cs:59788:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:59789:	public Vector2 direction; // 0x90
+  dump.cs:59790:	public PlayerDirection playDir; // 0x98
+> dump.cs:59791:	public WeaponData weapData; // 0xA0
+> dump.cs:59792:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:59793:	public bool AbilityEnabled; // 0xB0
+  dump.cs:59794:	public int TimeAbilityActive; // 0xB4
+  dump.cs:59795:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:59796:	public SpriteRenderer sp; // 0xC0
+  dump.cs:59797:	public int AbilityActive; // 0xC8
+  dump.cs:59798:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:59799:	public int StartGame; // 0xD8
+  dump.cs:59800:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:59801:	public int PartEquipped; // 0xE8
+  dump.cs:59802:	public float maniement; // 0xEC
+  dump.cs:59803:	public Collider2D cc; // 0xF0
+  dump.cs:59804:
+  dump.cs:59805:	// Methods
+  dump.cs:59806:
+  dump.cs:59807:	// RVA: 0x1D1A2BC Offset: 0x1D162BC VA: 0x1D1A2BC
+  dump.cs:59890:}
+  dump.cs:59891:
+  dump.cs:59892:// Namespace: 
+> dump.cs:59893:public class soapGhost : ABILITY_CLASS // TypeDefIndex: 829
+  dump.cs:59894:{
+  dump.cs:59895:	// Fields
+  dump.cs:59896:	public SoapCont soap; // 0x68
+  dump.cs:59897:	public Vector2 PowerHit; // 0x70
+  dump.cs:59898:	public PlayerDirection playDir; // 0x78
+  dump.cs:59899:	public int time; // 0x80
+  dump.cs:59900:	public GameObject sfx; // 0x88
+  dump.cs:59901:	public float TotalTime; // 0x90
+  dump.cs:59902:	public AudioSource source; // 0x98
+  dump.cs:59903:	public AudioClip dashSound; // 0xA0
+  dump.cs:59904:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:59905:	public bool FirstTime; // 0xB0
+  dump.cs:59906:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:59907:	public SpriteRenderer[] allSp; // 0xC0
+  dump.cs:59908:	public int baseLayer; // 0xC8
+  dump.cs:59953:}
+  dump.cs:59954:
+  dump.cs:59955:// Namespace: 
+> dump.cs:59956:public class soapLaunch : ABILITY_CLASS // TypeDefIndex: 830
+  dump.cs:59957:{
+  dump.cs:59958:	// Fields
+  dump.cs:59959:	public SoapCont spring; // 0x68
+  dump.cs:59960:	public Rigidbody2D rb; // 0x70
+  dump.cs:59961:	public Vector2 PowerHit; // 0x78
+  dump.cs:59962:	public PlayerDirection playDir; // 0x80
+  dump.cs:59963:	public int time; // 0x88
+  dump.cs:59964:	public float TotalTime; // 0x8C
+  dump.cs:59965:	public AudioSource source; // 0x90
+  dump.cs:59966:	public AudioClip Launch; // 0x98
+  dump.cs:59967:	public bool FirstTime; // 0xA0
+  dump.cs:59968:	public float timeStun; // 0xA4
+  dump.cs:59969:	public teleportable telep; // 0xA8
+  dump.cs:59970:	public Vector2 vel; // 0xB0
+  dump.cs:59971:	public Color colDef; // 0xB8
+  dump.cs:60034:}
+  dump.cs:60035:
+  dump.cs:60036:// Namespace: 
+> dump.cs:60037:public class SpearAttack : ABILITY_CLASS // TypeDefIndex: 831
+  dump.cs:60038:{
+  dump.cs:60039:	// Fields
+  dump.cs:60040:	public SpearCont spear; // 0x68
+  dump.cs:60041:	public Rigidbody2D rbSpear; // 0x70
+  dump.cs:60042:	public Rigidbody2D rbManche; // 0x78
+  dump.cs:60043:	public Vector2 PowerHit; // 0x80
+  dump.cs:60044:	public PlayerDirection playDir; // 0x88
+  dump.cs:60045:	public int time; // 0x90
+  dump.cs:60046:	public float TotalTime; // 0x94
+  dump.cs:60047:	public AudioSource source; // 0x98
+  dump.cs:60048:	public AudioClip attack; // 0xA0
+  dump.cs:60049:	public bool FirstTime; // 0xA8
+  dump.cs:60050:	public float speedDash; // 0xAC
+  dump.cs:60051:	public bool avant; // 0xB0
+  dump.cs:60052:	public bool AvantArriere; // 0xB1
+  dump.cs:60170:}
+  dump.cs:60171:
+  dump.cs:60172:// Namespace: 
+> dump.cs:60173:public class SpearCont : WEAPON_CLASS // TypeDefIndex: 832
+  dump.cs:60174:{
+  dump.cs:60175:	// Fields
+  dump.cs:60176:	public ColorSheme colSch; // 0x70
+  dump.cs:60177:	public int TypeWeapon; // 0x78
+  dump.cs:60178:	public int numTeam; // 0x7C
+  dump.cs:60179:	public HingeJoint2D hj; // 0x80
+  dump.cs:60180:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:60181:	public Vector2 direction; // 0x90
+  dump.cs:60182:	public PlayerDirection playDir; // 0x98
+> dump.cs:60183:	public WeaponData weapData; // 0xA0
+> dump.cs:60184:	public ABILITY_CLASS[] SpearAtt; // 0xA8
+  dump.cs:60185:	public bool AbilityEnabled; // 0xB0
+  dump.cs:60186:	public int TimeAbilityActive; // 0xB4
+  dump.cs:60187:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:60188:	public SpriteRenderer sp; // 0xC0
+  dump.cs:60189:	public int AbilityActive; // 0xC8
+  dump.cs:60190:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:60191:	public int StartGame; // 0xD8
+  dump.cs:60192:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:60193:	public Rigidbody2D rbManche; // 0xE8
+  dump.cs:60194:	public int PartEquipped; // 0xF0
+  dump.cs:60195:	public int numAbility; // 0xF4
+  dump.cs:60196:	public float maniement; // 0xF8
+  dump.cs:60197:	public bool Multiplayer; // 0xFC
+  dump.cs:60198:
+  dump.cs:60199:	// Methods
+  dump.cs:60368:}
+  dump.cs:60369:
+  dump.cs:60370:// Namespace: 
+> dump.cs:60371:public class SpearThrow : ABILITY_CLASS // TypeDefIndex: 833
+  dump.cs:60372:{
+  dump.cs:60373:	// Fields
+  dump.cs:60374:	public SpearCont spear; // 0x68
+  dump.cs:60375:	public teleportable[] telep; // 0x70
+  dump.cs:60376:	public Vector2 PowerHit; // 0x78
+  dump.cs:60377:	public PlayerDirection playDir; // 0x80
+  dump.cs:60378:	public int time; // 0x88
+  dump.cs:60379:	public ParticleConteneur ListPrefabEffect; // 0x90
+  dump.cs:60380:	public float TotalTime; // 0x98
+  dump.cs:60381:	public AudioSource source; // 0xA0
+  dump.cs:60382:	public AudioClip launch; // 0xA8
+  dump.cs:60383:	public AudioClip teleportSfx; // 0xB0
+  dump.cs:60384:	public GameObject Flow; // 0xB8
+  dump.cs:60385:	public GameObject Teleport; // 0xC0
+  dump.cs:60386:	public bool FirstTime; // 0xC8
+  dump.cs:60587:}
+  dump.cs:60588:
+  dump.cs:60589:// Namespace: 
+> dump.cs:60590:public class springCont : WEAPON_CLASS // TypeDefIndex: 836
+  dump.cs:60591:{
+  dump.cs:60592:	// Fields
+  dump.cs:60593:	public int TypeWeapon; // 0x6C
+  dump.cs:60594:	public int numTeam; // 0x70
+  dump.cs:60595:	public HingeJoint2D hj; // 0x78
+  dump.cs:60596:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:60597:	public Vector2 direction; // 0x88
+  dump.cs:60598:	public PlayerDirection playDir; // 0x90
+> dump.cs:60599:	public WeaponData weapData; // 0x98
+> dump.cs:60600:	public ABILITY_CLASS[] Abilities; // 0xA0
+  dump.cs:60601:	public bool AbilityEnabled; // 0xA8
+  dump.cs:60602:	public int TimeAbilityActive; // 0xAC
+  dump.cs:60603:	public int TimeAbilityActiveMax; // 0xB0
+  dump.cs:60604:	public SpriteRenderer sp; // 0xB8
+  dump.cs:60605:	public SpriteRenderer sp2; // 0xC0
+  dump.cs:60606:	public int AbilityActive; // 0xC8
+  dump.cs:60607:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:60608:	public int StartGame; // 0xD8
+  dump.cs:60609:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:60610:	public int PartEquipped; // 0xE8
+  dump.cs:60611:	public float maniement; // 0xEC
+  dump.cs:60612:
+  dump.cs:60613:	// Methods
+  dump.cs:60614:
+  dump.cs:60615:	// RVA: 0x1D2AFA0 Offset: 0x1D26FA0 VA: 0x1D2AFA0
+  dump.cs:60692:}
+  dump.cs:60693:
+  dump.cs:60694:// Namespace: 
+> dump.cs:60695:public class springGreenAbility : ABILITY_CLASS // TypeDefIndex: 837
+  dump.cs:60696:{
+  dump.cs:60697:	// Fields
+  dump.cs:60698:	public springCont spring; // 0x68
+  dump.cs:60699:	public Rigidbody2D rb; // 0x70
+  dump.cs:60700:	public Vector2 PowerHit; // 0x78
+  dump.cs:60701:	public PlayerDirection playDir; // 0x80
+  dump.cs:60702:	public int time; // 0x88
+  dump.cs:60703:	public float TotalTime; // 0x8C
+  dump.cs:60704:	public AudioSource source; // 0x90
+  dump.cs:60705:	public AudioClip Launch; // 0x98
+  dump.cs:60706:	public bool FirstTime; // 0xA0
+  dump.cs:60707:
+  dump.cs:60708:	// Methods
+  dump.cs:60709:
+  dump.cs:60710:	// RVA: 0x1D2CFBC Offset: 0x1D28FBC VA: 0x1D2CFBC
+  dump.cs:60760:}
+  dump.cs:60761:
+  dump.cs:60762:// Namespace: 
+> dump.cs:60763:public class springPurpleAbility : ABILITY_CLASS // TypeDefIndex: 838
+  dump.cs:60764:{
+  dump.cs:60765:	// Fields
+  dump.cs:60766:	public springCont spring; // 0x68
+  dump.cs:60767:	public Rigidbody2D rb; // 0x70
+  dump.cs:60768:	public Vector2 PowerHit; // 0x78
+  dump.cs:60769:	public PlayerDirection playDir; // 0x80
+  dump.cs:60770:	public int time; // 0x88
+  dump.cs:60771:	public float TotalTime; // 0x8C
+  dump.cs:60772:	public AudioSource source; // 0x90
+  dump.cs:60773:	public AudioClip Launch; // 0x98
+  dump.cs:60774:	public bool FirstTime; // 0xA0
+  dump.cs:60775:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:60776:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:60777:
+  dump.cs:60778:	// Methods
+  dump.cs:60830:}
+  dump.cs:60831:
+  dump.cs:60832:// Namespace: 
+> dump.cs:60833:public class springRedAbility : ABILITY_CLASS // TypeDefIndex: 839
+  dump.cs:60834:{
+  dump.cs:60835:	// Fields
+  dump.cs:60836:	public springCont spring; // 0x68
+  dump.cs:60837:	public Rigidbody2D rb; // 0x70
+  dump.cs:60838:	public Vector2 PowerHit; // 0x78
+  dump.cs:60839:	public PlayerDirection playDir; // 0x80
+  dump.cs:60840:	public int time; // 0x88
+  dump.cs:60841:	public float TotalTime; // 0x8C
+  dump.cs:60842:	public AudioSource source; // 0x90
+  dump.cs:60843:	public AudioClip Launch; // 0x98
+  dump.cs:60844:	public bool FirstTime; // 0xA0
+  dump.cs:60845:	public LineRenderer chain; // 0xA8
+  dump.cs:60846:	public float dist; // 0xB0
+  dump.cs:60847:	public float returnSpeed; // 0xB4
+  dump.cs:60848:	public bool far; // 0xB8
+  dump.cs:60918:}
+  dump.cs:60919:
+  dump.cs:60920:// Namespace: 
+> dump.cs:60921:public class StaffAbility : ABILITY_CLASS // TypeDefIndex: 840
+  dump.cs:60922:{
+  dump.cs:60923:	// Fields
+  dump.cs:60924:	public StaffCont staff; // 0x68
+  dump.cs:60925:	public Rigidbody2D rbStaff; // 0x70
+  dump.cs:60926:	public Vector2 PowerHit; // 0x78
+  dump.cs:60927:	public PlayerDirection playDir; // 0x80
+  dump.cs:60928:	public int time; // 0x88
+  dump.cs:60929:	public float TotalTime; // 0x8C
+  dump.cs:60930:	public AudioSource source; // 0x90
+  dump.cs:60931:	public AudioClip PowerAbility; // 0x98
+  dump.cs:60932:	public AudioClip[] Contact; // 0xA0
+  dump.cs:60933:	public bool FirstTime; // 0xA8
+  dump.cs:60934:	public float NewAnchorSpeed; // 0xAC
+  dump.cs:60935:	public float NewAnchorSpeedReturn; // 0xB0
+  dump.cs:60936:	public bool AvantArriere; // 0xB4
+  dump.cs:61047:}
+  dump.cs:61048:
+  dump.cs:61049:// Namespace: 
+> dump.cs:61050:public class StaffCont : WEAPON_CLASS // TypeDefIndex: 841
+  dump.cs:61051:{
+  dump.cs:61052:	// Fields
+  dump.cs:61053:	public int TypeWeapon; // 0x6C
+  dump.cs:61054:	public int numTeam; // 0x70
+  dump.cs:61055:	public HingeJoint2D hj1; // 0x78
+  dump.cs:61056:	public HingeJoint2D hj2; // 0x80
+  dump.cs:61057:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:61058:	public Vector2 direction; // 0x90
+  dump.cs:61059:	public PlayerDirection playDir; // 0x98
+> dump.cs:61060:	public WeaponData weapData; // 0xA0
+> dump.cs:61061:	public ABILITY_CLASS DashAttack; // 0xA8
+  dump.cs:61062:	public bool AbilityEnabled; // 0xB0
+  dump.cs:61063:	public int TimeAbilityActive; // 0xB4
+  dump.cs:61064:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:61065:	public SpriteRenderer sp; // 0xC0
+  dump.cs:61066:	public int AbilityActive; // 0xC8
+  dump.cs:61067:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:61068:	public int StartGame; // 0xD8
+  dump.cs:61069:	public float maniement; // 0xDC
+  dump.cs:61070:	public Rigidbody2D main1; // 0xE0
+  dump.cs:61071:	public Rigidbody2D main2; // 0xE8
+  dump.cs:61072:	public Rigidbody2D rb; // 0xF0
+  dump.cs:61073:	public float speed; // 0xF8
+  dump.cs:61074:	public bool Multiplayer; // 0xFC
+  dump.cs:61075:
+  dump.cs:61076:	// Methods
+  dump.cs:61212:}
+  dump.cs:61213:
+  dump.cs:61214:// Namespace: 
+> dump.cs:61215:public class SwordCont : WEAPON_CLASS // TypeDefIndex: 842
+  dump.cs:61216:{
+  dump.cs:61217:	// Fields
+  dump.cs:61218:	public int TypeWeapon; // 0x6C
+  dump.cs:61219:	public int numTeam; // 0x70
+  dump.cs:61220:	public HingeJoint2D hj; // 0x78
+  dump.cs:61221:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:61222:	public Vector2 direction; // 0x88
+  dump.cs:61223:	public PlayerDirection playDir; // 0x90
+  dump.cs:61224:	public CharHP charData; // 0x98
+> dump.cs:61225:	public WeaponData weapData; // 0xA0
+> dump.cs:61226:	public ABILITY_CLASS DashAttack; // 0xA8
+  dump.cs:61227:	public bool AbilityEnabled; // 0xB0
+  dump.cs:61228:	public int TimeAbilityActive; // 0xB4
+  dump.cs:61229:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:61230:	public SpriteRenderer sp; // 0xC0
+  dump.cs:61231:	public int AbilityActive; // 0xC8
+  dump.cs:61232:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:61233:	public int StartGame; // 0xD8
+  dump.cs:61234:	public ColorSheme colTeam; // 0xE0
+  dump.cs:61235:	public ColorSheme colTeamIndic; // 0xE8
+  dump.cs:61236:	public SpriteRenderer spTeam; // 0xF0
+  dump.cs:61237:	public float T; // 0xF8
+  dump.cs:61238:	public float CanAttack; // 0xFC
+  dump.cs:61239:	public GameManager gameManager; // 0x100
+  dump.cs:61240:	public bool Multiplayer; // 0x108
+  dump.cs:61241:	public bool Init; // 0x109
+  dump.cs:61388:}
+  dump.cs:61389:
+  dump.cs:61390:// Namespace: 
+> dump.cs:61391:public class SwordDash : ABILITY_CLASS // TypeDefIndex: 843
+  dump.cs:61392:{
+  dump.cs:61393:	// Fields
+  dump.cs:61394:	public SwordCont sword; // 0x68
+  dump.cs:61395:	public Rigidbody2D rbSword; // 0x70
+  dump.cs:61396:	public Vector2 PowerHit; // 0x78
+  dump.cs:61397:	public PlayerDirection playDir; // 0x80
+  dump.cs:61398:	public int time; // 0x88
+  dump.cs:61399:	public SpriteRenderer sp; // 0x90
+  dump.cs:61400:	public float TotalTime; // 0x98
+  dump.cs:61401:	public AudioSource source; // 0xA0
+  dump.cs:61402:	public AudioClip dashSound; // 0xA8
+  dump.cs:61403:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:61404:	public GameObject Flow; // 0xB8
+  dump.cs:61405:	public bool FirstTime; // 0xC0
+  dump.cs:61406:	public EFFECT_CLASS effect; // 0xC8
+  dump.cs:61613:}
+  dump.cs:61614:
+  dump.cs:61615:// Namespace: 
+> dump.cs:61616:public class cloudHit : ABILITY_CLASS // TypeDefIndex: 845
+  dump.cs:61617:{
+  dump.cs:61618:	// Fields
+  dump.cs:61619:	public thunderCont thundCont; // 0x68
+  dump.cs:61620:	public teleportable telep; // 0x70
+  dump.cs:61621:	public Vector2 PowerHit; // 0x78
+  dump.cs:61622:	public PlayerDirection playDir; // 0x80
+  dump.cs:61623:	public int time; // 0x88
+  dump.cs:61624:	public float TotalTime; // 0x8C
+  dump.cs:61625:	public AudioSource source; // 0x90
+  dump.cs:61626:	public AudioClip launchThunder; // 0x98
+  dump.cs:61627:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:61628:	public GameObject cloudExplose; // 0xA8
+  dump.cs:61629:	public bool FirstTime; // 0xB0
+  dump.cs:61630:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:61631:	public float thunderSpeed; // 0xC0
+  dump.cs:61690:}
+  dump.cs:61691:
+  dump.cs:61692:// Namespace: 
+> dump.cs:61693:public class thunderCont : WEAPON_CLASS // TypeDefIndex: 846
+  dump.cs:61694:{
+  dump.cs:61695:	// Fields
+  dump.cs:61696:	public int TypeWeapon; // 0x6C
+  dump.cs:61697:	public int numTeam; // 0x70
+  dump.cs:61698:	public HingeJoint2D hj; // 0x78
+  dump.cs:61699:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:61700:	public Vector2 direction; // 0x88
+  dump.cs:61701:	public PlayerDirection playDir; // 0x90
+> dump.cs:61702:	public WeaponData weapData; // 0x98
+  dump.cs:61703:	public int abilityNum; // 0xA0
+> dump.cs:61704:	public ABILITY_CLASS[] ability; // 0xA8
+  dump.cs:61705:	public bool AbilityEnabled; // 0xB0
+  dump.cs:61706:	public int TimeAbilityActive; // 0xB4
+  dump.cs:61707:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:61708:	public SpriteRenderer sp; // 0xC0
+  dump.cs:61709:	public SpriteRenderer spOutline; // 0xC8
+  dump.cs:61710:	public int AbilityActive; // 0xD0
+  dump.cs:61711:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:61712:	public int StartGame; // 0xE0
+  dump.cs:61713:	public float maniment; // 0xE4
+  dump.cs:61714:	public Rigidbody2D rb; // 0xE8
+  dump.cs:61715:	public GameObject trail; // 0xF0
+  dump.cs:61716:	public ParticleSystem ps; // 0xF8
+  dump.cs:61717:
+  dump.cs:61718:	// Methods
+  dump.cs:61719:
+  dump.cs:61800:}
+  dump.cs:61801:
+  dump.cs:61802:// Namespace: 
+> dump.cs:61803:public class thunderHit : ABILITY_CLASS // TypeDefIndex: 847
+  dump.cs:61804:{
+  dump.cs:61805:	// Fields
+  dump.cs:61806:	public thunderCont thundCont; // 0x68
+  dump.cs:61807:	public teleportable telep; // 0x70
+  dump.cs:61808:	public Vector2 PowerHit; // 0x78
+  dump.cs:61809:	public PlayerDirection playDir; // 0x80
+  dump.cs:61810:	public int time; // 0x88
+  dump.cs:61811:	public float TotalTime; // 0x8C
+  dump.cs:61812:	public AudioSource source; // 0x90
+  dump.cs:61813:	public AudioClip launchThunder; // 0x98
+  dump.cs:61814:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:61815:	public GameObject thunderExplose; // 0xA8
+  dump.cs:61816:	public bool FirstTime; // 0xB0
+  dump.cs:61817:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:61818:	public float thunderSpeed; // 0xC0
+  dump.cs:61895:}
+  dump.cs:61896:
+  dump.cs:61897:// Namespace: 
+> dump.cs:61898:public class FishAttack : ABILITY_CLASS // TypeDefIndex: 848
+  dump.cs:61899:{
+  dump.cs:61900:	// Fields
+  dump.cs:61901:	public tridentCont tridentC; // 0x68
+  dump.cs:61902:	public Vector2 PowerHit; // 0x70
+  dump.cs:61903:	public PlayerDirection playDir; // 0x78
+  dump.cs:61904:	public int time; // 0x80
+  dump.cs:61905:	public AudioSource source; // 0x88
+  dump.cs:61906:	public AudioClip shot; // 0x90
+  dump.cs:61907:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:61908:	public Rigidbody2D[] fishes; // 0xA0
+  dump.cs:61909:	public bool FirstTime; // 0xA8
+  dump.cs:61910:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:61911:	public int numAb; // 0xB8
+  dump.cs:61912:	public int TeamAbi; // 0xBC
+  dump.cs:61913:	public float SpeedBullet; // 0xC0
+  dump.cs:62112:}
+  dump.cs:62113:
+  dump.cs:62114:// Namespace: 
+> dump.cs:62115:public class throwTrident : ABILITY_CLASS // TypeDefIndex: 851
+  dump.cs:62116:{
+  dump.cs:62117:	// Fields
+  dump.cs:62118:	public tridentCont tridentC; // 0x68
+  dump.cs:62119:	public Vector2 PowerHit; // 0x70
+  dump.cs:62120:	public PlayerDirection playDir; // 0x78
+  dump.cs:62121:	public int time; // 0x80
+  dump.cs:62122:	public Transform pointAttached; // 0x88
+  dump.cs:62123:	public AudioSource source; // 0x90
+  dump.cs:62124:	public AudioClip shot; // 0x98
+  dump.cs:62125:	public bool FirstTime; // 0xA0
+  dump.cs:62126:	public EFFECT_CLASS effect; // 0xA8
+  dump.cs:62127:	public int numAb; // 0xB0
+  dump.cs:62128:	public int TeamAbi; // 0xB4
+  dump.cs:62129:	public float SpeedBullet; // 0xB8
+  dump.cs:62130:	public float volume; // 0xBC
+  dump.cs:62192:}
+  dump.cs:62193:
+  dump.cs:62194:// Namespace: 
+> dump.cs:62195:public class tridentCont : WEAPON_CLASS // TypeDefIndex: 852
+  dump.cs:62196:{
+  dump.cs:62197:	// Fields
+  dump.cs:62198:	public int TypeWeapon; // 0x6C
+  dump.cs:62199:	public int numTeam; // 0x70
+  dump.cs:62200:	public DistanceJoint2D hj1; // 0x78
+  dump.cs:62201:	public DistanceJoint2D hj2; // 0x80
+  dump.cs:62202:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:62203:	public Vector2 direction; // 0x90
+  dump.cs:62204:	public PlayerDirection playDir; // 0x98
+> dump.cs:62205:	public WeaponData weapData; // 0xA0
+> dump.cs:62206:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:62207:	public bool AbilityEnabled; // 0xB0
+  dump.cs:62208:	public int TimeAbilityActive; // 0xB4
+  dump.cs:62209:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:62210:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:62211:	public int AbilityActive; // 0xC8
+  dump.cs:62212:	public CollisionWeapon colWeap; // 0xD0
+  dump.cs:62213:	public int StartGame; // 0xD8
+  dump.cs:62214:	public Rigidbody2D Rb; // 0xE0
+  dump.cs:62215:	public int PartEquipped; // 0xE8
+  dump.cs:62216:	public float maniment; // 0xEC
+  dump.cs:62217:
+  dump.cs:62218:	// Methods
+  dump.cs:62219:
+  dump.cs:62220:	// RVA: 0x1D5E6B8 Offset: 0x1D5A6B8 VA: 0x1D5E6B8 Slot: 33
+  dump.cs:62221:	public override void gdd(Rigidbody2D FCDDIGICDHFEFIC, int JHHDGJHDDIFDEHI, PlayerDirection CHJGHGJIJEF
+CDIJ, int JHDHGHGHIJEECED, int FHDCFIIEHHJJCCD) { }
+  dump.cs:62288:}
+  dump.cs:62289:
+  dump.cs:62290:// Namespace: 
+> dump.cs:62291:public class waterWave : ABILITY_CLASS // TypeDefIndex: 853
+  dump.cs:62292:{
+  dump.cs:62293:	// Fields
+  dump.cs:62294:	public tridentCont tridentC; // 0x68
+  dump.cs:62295:	public Vector2 PowerHit; // 0x70
+  dump.cs:62296:	public PlayerDirection playDir; // 0x78
+  dump.cs:62297:	public int time; // 0x80
+  dump.cs:62298:	public Transform SpawnPoint; // 0x88
+  dump.cs:62299:	public AudioSource source; // 0x90
+  dump.cs:62300:	public AudioClip shot; // 0x98
+  dump.cs:62301:	public ParticleConteneur ListPrefabEffect; // 0xA0
+  dump.cs:62302:	public Rigidbody2D[] bullets; // 0xA8
+  dump.cs:62303:	public Rigidbody2D waveTobeOnTop; // 0xB0
+  dump.cs:62304:	public bool FirstTime; // 0xB8
+  dump.cs:62305:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:62306:	public int numAb; // 0xC8
+  dump.cs:62439:}
+  dump.cs:62440:
+  dump.cs:62441:// Namespace: 
+> dump.cs:62442:public class umbrellaCont : WEAPON_CLASS // TypeDefIndex: 855
+  dump.cs:62443:{
+  dump.cs:62444:	// Fields
+  dump.cs:62445:	public ColorSheme colSch; // 0x70
+  dump.cs:62446:	public int TypeWeapon; // 0x78
+  dump.cs:62447:	public int numTeam; // 0x7C
+  dump.cs:62448:	public HingeJoint2D hj; // 0x80
+  dump.cs:62449:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:62450:	public Vector2 direction; // 0x90
+  dump.cs:62451:	public PlayerDirection playDir; // 0x98
+> dump.cs:62452:	public WeaponData weapData; // 0xA0
+> dump.cs:62453:	public ABILITY_CLASS[] Abilities; // 0xA8
+  dump.cs:62454:	public bool AbilityEnabled; // 0xB0
+  dump.cs:62455:	public int TimeAbilityActive; // 0xB4
+  dump.cs:62456:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:62457:	public SpriteRenderer sp; // 0xC0
+  dump.cs:62458:	public SpriteRenderer spBar; // 0xC8
+  dump.cs:62459:	public int AbilityActive; // 0xD0
+  dump.cs:62460:	public CollisionWeapon colWeap; // 0xD8
+  dump.cs:62461:	public int StartGame; // 0xE0
+  dump.cs:62462:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:62463:	public int PartEquipped; // 0xF0
+  dump.cs:62464:	public GameObject[] spDeploy; // 0xF8
+  dump.cs:62465:	public float maniement; // 0x100
+  dump.cs:62466:	public static List<umbrellaCont> umbre; // 0x0
+  dump.cs:62467:	public Vector2 scrollSpeed; // 0x104
+  dump.cs:62468:	public Material instanceMaterial; // 0x110
+  dump.cs:62575:}
+  dump.cs:62576:
+  dump.cs:62577:// Namespace: 
+> dump.cs:62578:public class umbrellaFlow : ABILITY_CLASS // TypeDefIndex: 856
+  dump.cs:62579:{
+  dump.cs:62580:	// Fields
+  dump.cs:62581:	public GameObject arme; // 0x68
+  dump.cs:62582:	public Rigidbody2D rb; // 0x70
+  dump.cs:62583:	public Vector2 PowerHit; // 0x78
+  dump.cs:62584:	public PlayerDirection playDir; // 0x80
+  dump.cs:62585:	public int time; // 0x88
+  dump.cs:62586:	public Transform SpawnPoint; // 0x90
+  dump.cs:62587:	public AudioSource source; // 0x98
+  dump.cs:62588:	public AudioClip waterJet; // 0xA0
+  dump.cs:62589:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:62590:	public bool FirstTime; // 0xB0
+  dump.cs:62591:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:62592:	public int numAb; // 0xC0
+  dump.cs:62593:	public int TeamAbi; // 0xC4
+  dump.cs:62657:}
+  dump.cs:62658:
+  dump.cs:62659:// Namespace: 
+> dump.cs:62660:public class umbrellaMegaShield : ABILITY_CLASS // TypeDefIndex: 857
+  dump.cs:62661:{
+  dump.cs:62662:	// Fields
+  dump.cs:62663:	public umbrellaCont umbrella; // 0x68
+  dump.cs:62664:	public Vector2 PowerHit; // 0x70
+  dump.cs:62665:	public PlayerDirection playDir; // 0x78
+  dump.cs:62666:	public int time; // 0x80
+  dump.cs:62667:	public AudioSource source; // 0x88
+  dump.cs:62668:	public AudioClip expand; // 0x90
+  dump.cs:62669:	public ParticleConteneur ListPrefabEffect; // 0x98
+  dump.cs:62670:	public Rigidbody2D umbrellaShield; // 0xA0
+  dump.cs:62671:	public bool FirstTime; // 0xA8
+  dump.cs:62672:	public EFFECT_CLASS effect; // 0xB0
+  dump.cs:62673:	public int numAb; // 0xB8
+  dump.cs:62674:	public int TeamAbi; // 0xBC
+  dump.cs:62675:	public float speedRot; // 0xC0
+  dump.cs:62727:}
+  dump.cs:62728:
+  dump.cs:62729:// Namespace: 
+> dump.cs:62730:public class umbrellaShield : ABILITY_CLASS // TypeDefIndex: 858
+  dump.cs:62731:{
+  dump.cs:62732:	// Fields
+  dump.cs:62733:	public umbrellaCont umbrella; // 0x68
+  dump.cs:62734:	public GameObject arme; // 0x70
+  dump.cs:62735:	public Rigidbody2D rb; // 0x78
+  dump.cs:62736:	public Vector2 PowerHit; // 0x80
+  dump.cs:62737:	public PlayerDirection playDir; // 0x88
+  dump.cs:62738:	public int time; // 0x90
+  dump.cs:62739:	public Transform SpawnPoint; // 0x98
+  dump.cs:62740:	public AudioSource source; // 0xA0
+  dump.cs:62741:	public AudioClip ability; // 0xA8
+  dump.cs:62742:	public ParticleConteneur ListPrefabEffect; // 0xB0
+  dump.cs:62743:	public bool FirstTime; // 0xB8
+  dump.cs:62744:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:62745:	public int numAb; // 0xC8
+  dump.cs:62805:}
+  dump.cs:62806:
+  dump.cs:62807:// Namespace: 
+> dump.cs:62808:public class wheelAbility : ABILITY_CLASS // TypeDefIndex: 859
+  dump.cs:62809:{
+  dump.cs:62810:	// Fields
+  dump.cs:62811:	public wheelCont Wheel; // 0x68
+  dump.cs:62812:	public Vector2 PowerHit; // 0x70
+  dump.cs:62813:	public PlayerDirection playDir; // 0x78
+  dump.cs:62814:	public int time; // 0x80
+  dump.cs:62815:	public float TotalTime; // 0x84
+  dump.cs:62816:	public AudioSource source; // 0x88
+  dump.cs:62817:	public AudioClip dash; // 0x90
+  dump.cs:62818:	public bool FirstTime; // 0x98
+  dump.cs:62819:	public EFFECT_CLASS effect; // 0xA0
+  dump.cs:62820:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:62821:	private float jlq; // 0xB0
+  dump.cs:62822:	public float rotAdjust; // 0xB4
+  dump.cs:62823:	[SerializeField]
+  dump.cs:62968:}
+  dump.cs:62969:
+  dump.cs:62970:// Namespace: 
+> dump.cs:62971:public class wheelCont : WEAPON_CLASS // TypeDefIndex: 861
+  dump.cs:62972:{
+  dump.cs:62973:	// Fields
+  dump.cs:62974:	public int TypeWeapon; // 0x6C
+  dump.cs:62975:	public int numTeam; // 0x70
+  dump.cs:62976:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:62977:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:62978:	public Vector2 direction; // 0x88
+  dump.cs:62979:	public PlayerDirection playDir; // 0x90
+> dump.cs:62980:	public WeaponData weapData; // 0x98
+  dump.cs:62981:	public wheelAbility wheelAb; // 0xA0
+> dump.cs:62982:	public ABILITY_CLASS DashAttack; // 0xA8
+  dump.cs:62983:	public bool AbilityEnabled; // 0xB0
+  dump.cs:62984:	public int TimeAbilityActive; // 0xB4
+  dump.cs:62985:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:62986:	public ParticleSystem[] sp; // 0xC0
+  dump.cs:62987:	public int AbilityActive; // 0xC8
+  dump.cs:62988:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:62989:	public int StartGame; // 0xD8
+  dump.cs:62990:	public Rigidbody2D[] rbBoots; // 0xE0
+  dump.cs:62991:	public Pied[] bootPied; // 0xE8
+  dump.cs:62992:	public ColorSheme colTeamIndic; // 0xF0
+  dump.cs:62993:	private JointMotor2D[] jls; // 0xF8
+  dump.cs:62994:	public Vector2 solDir; // 0x100
+  dump.cs:62995:	public bool shield; // 0x108
+  dump.cs:62996:	public SpriteRenderer[] spShield; // 0x110
+  dump.cs:62997:	public bool mode; // 0x118
+  dump.cs:63250:}
+  dump.cs:63251:
+  dump.cs:63252:// Namespace: 
+> dump.cs:63253:public class wrenchCont : WEAPON_CLASS // TypeDefIndex: 863
+  dump.cs:63254:{
+  dump.cs:63255:	// Fields
+  dump.cs:63256:	public int TypeWeapon; // 0x6C
+  dump.cs:63257:	public int numTeam; // 0x70
+  dump.cs:63258:	public HingeJoint2D hj; // 0x78
+  dump.cs:63259:	public HingeJoint2D hjManche; // 0x80
+  dump.cs:63260:	public Rigidbody2D rbAttached; // 0x88
+  dump.cs:63261:	public Vector2 direction; // 0x90
+  dump.cs:63262:	public PlayerDirection playDir; // 0x98
+> dump.cs:63263:	public WeaponData weapData; // 0xA0
+> dump.cs:63264:	public ABILITY_CLASS DashAttack; // 0xA8
+  dump.cs:63265:	public bool AbilityEnabled; // 0xB0
+  dump.cs:63266:	public int TimeAbilityActive; // 0xB4
+  dump.cs:63267:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:63268:	public SpriteRenderer sp; // 0xC0
+  dump.cs:63269:	public SpriteRenderer spManche; // 0xC8
+  dump.cs:63270:	public int AbilityActive; // 0xD0
+  dump.cs:63271:	public CollisionWeapon[] colWeap; // 0xD8
+  dump.cs:63272:	public int StartGame; // 0xE0
+  dump.cs:63273:	public Rigidbody2D Rb; // 0xE8
+  dump.cs:63274:	public Rigidbody2D rbManche; // 0xF0
+  dump.cs:63275:	public float maniment; // 0xF8
+  dump.cs:63276:	public ColorSheme colTeamIndic; // 0x100
+  dump.cs:63277:
+  dump.cs:63278:	// Methods
+  dump.cs:63279:
+  dump.cs:63354:}
+  dump.cs:63355:
+  dump.cs:63356:// Namespace: 
+> dump.cs:63357:public class wrenchTurret : ABILITY_CLASS // TypeDefIndex: 864
+  dump.cs:63358:{
+  dump.cs:63359:	// Fields
+  dump.cs:63360:	public GameObject arme; // 0x68
+  dump.cs:63361:	public Rigidbody2D rb; // 0x70
+  dump.cs:63362:	public Vector2 PowerHit; // 0x78
+  dump.cs:63363:	public PlayerDirection playDir; // 0x80
+  dump.cs:63364:	public int time; // 0x88
+  dump.cs:63365:	public Transform SpawnPoint; // 0x90
+  dump.cs:63366:	public AudioSource source; // 0x98
+  dump.cs:63367:	public AudioClip shot; // 0xA0
+  dump.cs:63368:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:63369:	public Rigidbody2D[] bullets; // 0xB0
+  dump.cs:63370:	public bool FirstTime; // 0xB8
+  dump.cs:63371:	public EFFECT_CLASS effect; // 0xC0
+  dump.cs:63372:	public int numAb; // 0xC8
+  dump.cs:63426:}
+  dump.cs:63427:
+  dump.cs:63428:// Namespace: 
+> dump.cs:63429:public class createWindProtection : ABILITY_CLASS // TypeDefIndex: 865
+  dump.cs:63430:{
+  dump.cs:63431:	// Fields
+  dump.cs:63432:	public GameObject arme; // 0x68
+  dump.cs:63433:	public YoyoCont yoyo; // 0x70
+  dump.cs:63434:	public Vector2 PowerHit; // 0x78
+  dump.cs:63435:	public PlayerDirection playDir; // 0x80
+  dump.cs:63436:	public int time; // 0x88
+  dump.cs:63437:	public Transform SpawnPoint; // 0x90
+  dump.cs:63438:	public AudioSource source; // 0x98
+  dump.cs:63439:	public AudioClip ability_SFX; // 0xA0
+  dump.cs:63440:	public ParticleConteneur ListPrefabEffect; // 0xA8
+  dump.cs:63441:	public bool FirstTime; // 0xB0
+  dump.cs:63442:	public EFFECT_CLASS effect; // 0xB8
+  dump.cs:63443:	public int numAb; // 0xC0
+  dump.cs:63444:	public int TeamAbi; // 0xC4
+  dump.cs:63516:}
+  dump.cs:63517:
+  dump.cs:63518:// Namespace: 
+> dump.cs:63519:public class yoyoBaseAttack : ABILITY_CLASS // TypeDefIndex: 867
+  dump.cs:63520:{
+  dump.cs:63521:	// Fields
+  dump.cs:63522:	public YoyoCont yoyoC; // 0x68
+  dump.cs:63523:	public Vector2 PowerHit; // 0x70
+  dump.cs:63524:	public PlayerDirection playDir; // 0x78
+  dump.cs:63525:	public int time; // 0x80
+  dump.cs:63526:	public float TotalTime; // 0x84
+  dump.cs:63527:	public AudioSource source; // 0x88
+  dump.cs:63528:	public bool FirstTime; // 0x90
+  dump.cs:63529:	public EFFECT_CLASS effect; // 0x98
+  dump.cs:63530:	public AudioClip ability; // 0xA0
+  dump.cs:63531:	public int attackTImer; // 0xA8
+  dump.cs:63532:	public float defaultRot; // 0xAC
+  dump.cs:63533:	public int prepTime; // 0xB0
+  dump.cs:63534:	public float speedLaunch; // 0xB4
+  dump.cs:63583:}
+  dump.cs:63584:
+  dump.cs:63585:// Namespace: 
+> dump.cs:63586:public class YoyoCont : WEAPON_CLASS // TypeDefIndex: 868
+  dump.cs:63587:{
+  dump.cs:63588:	// Fields
+  dump.cs:63589:	public int TypeWeapon; // 0x6C
+  dump.cs:63590:	public int numTeam; // 0x70
+  dump.cs:63591:	public HingeJoint2D[] hj; // 0x78
+  dump.cs:63592:	public Rigidbody2D rbAttached; // 0x80
+  dump.cs:63593:	public Vector2 direction; // 0x88
+  dump.cs:63594:	public PlayerDirection playDir; // 0x90
+> dump.cs:63595:	public WeaponData weapData; // 0x98
+> dump.cs:63596:	public ABILITY_CLASS[] Ability; // 0xA0
+> dump.cs:63597:	public ABILITY_CLASS baseAbility; // 0xA8
+  dump.cs:63598:	public bool AbilityEnabled; // 0xB0
+  dump.cs:63599:	public int TimeAbilityActive; // 0xB4
+  dump.cs:63600:	public int TimeAbilityActiveMax; // 0xB8
+  dump.cs:63601:	public bool baseAbilityActive; // 0xBC
+  dump.cs:63602:	public SpriteRenderer[] sp; // 0xC0
+  dump.cs:63603:	public int AbilityActive; // 0xC8
+  dump.cs:63604:	public CollisionWeapon[] colWeap; // 0xD0
+  dump.cs:63605:	public int StartGame; // 0xD8
+  dump.cs:63606:	public float speedMain; // 0xDC
+  dump.cs:63607:	public Rigidbody2D[] rbgloves; // 0xE0
+  dump.cs:63608:	public GameObject windTrail; // 0xE8
+  dump.cs:63609:	public LineRenderer line; // 0xF0
+  dump.cs:63610:	public CircleCollider2D cc; // 0xF8
+  dump.cs:63611:	public GameObject indicShield; // 0x100
+  dump.cs:63612:	public Rigidbody2D rb; // 0x108
+  dump.cs:63727:}
+  dump.cs:63728:
+  dump.cs:63729:// Namespace: 
+> dump.cs:63730:public class yoyoKick : ABILITY_CLASS // TypeDefIndex: 869
+  dump.cs:63731:{
+  dump.cs:63732:	// Fields
+  dump.cs:63733:	public YoyoCont yoyoC; // 0x68
+  dump.cs:63734:	public Vector2 PowerHit; // 0x70
+  dump.cs:63735:	public PlayerDirection playDir; // 0x78
+  dump.cs:63736:	public int time; // 0x80
+  dump.cs:63737:	public float TotalTime; // 0x84
+  dump.cs:63738:	public AudioSource source; // 0x88
+  dump.cs:63739:	public bool FirstTime; // 0x90
+  dump.cs:63740:	public EFFECT_CLASS effect; // 0x98
+  dump.cs:63741:	public AudioClip ability; // 0xA0
+  dump.cs:63742:	public int attackTImer; // 0xA8
+  dump.cs:63743:	public float defaultRot; // 0xAC
+  dump.cs:63744:	public int prepTime; // 0xB0
+  dump.cs:63745:	public float baseDamage; // 0xB4
+  dump.cs:63882:}
+  dump.cs:63883:
+  dump.cs:63884:// Namespace: 
+> dump.cs:63885:public abstract class WEAPON_CLASS : NetworkBehaviour // TypeDefIndex: 871
+  dump.cs:63886:{
+  dump.cs:63887:	// Fields
+  dump.cs:63888:	public int Connection; // 0x68
+  dump.cs:63889:
+  dump.cs:63890:	// Properties
+  dump.cs:63891:	public int tmb { get; set; }
+  dump.cs:63892:
+  dump.cs:63893:	// Methods
+  dump.cs:63894:
+  dump.cs:63895:	// RVA: 0x1D842F4 Offset: 0x1D802F4 VA: 0x1D842F4
+  dump.cs:63896:	public void chm([In] int FCEJFCIHIIJCDJI) { }
+  dump.cs:63897:
+  dump.cs:63898:	// RVA: 0x1D843AC Offset: 0x1D803AC VA: 0x1D843AC Slot: 25
+  dump.cs:63899:	public override void jgz(NetworkWriter GJFCGDHEGIDEEEG, bool IDGJHFCFFIEICGC) { }
+  dump.cs:63900:
+  dump.cs:64717:	// Fields
+  dump.cs:64718:	public int Conn; // 0x68
+  dump.cs:64719:	public bool ChildEffect; // 0x6C
+> dump.cs:64720:	public WEAPON_CLASS[] wEAPON_CLASSes; // 0x70
+  dump.cs:64721:	public bool FollowPos; // 0x78
+  dump.cs:64722:	public bool Inde; // 0x79
+  dump.cs:64723:	public bool NotNeed; // 0x7A
+  dump.cs:64724:	public bool FirstTime; // 0x7B
+  dump.cs:64725:
+  dump.cs:64726:	// Properties
+  dump.cs:64727:	public int tmr { get; set; }
+  dump.cs:64728:
+  dump.cs:64729:	// Methods
+  dump.cs:64730:
+  dump.cs:64731:	// RVA: 0x1D90170 Offset: 0x1D8C170 VA: 0x1D90170
+  dump.cs:64732:	public void gzm([In] int FCEJFCIHIIJCDJI) { }
+  dump.cs:64733:
+  dump.cs:64734:	// RVA: 0x1D90228 Offset: 0x1D8C228 VA: 0x1D90228
+  dump.cs:64735:	public void Pos(Vector2 GIEGHIFJCJJHGCF) { }
+  dump.cs:64956:{
+  dump.cs:64957:	// Fields
+  dump.cs:64958:	public int maxPlayers; // 0xAC
+> dump.cs:64959:	public weaponChoose Weapons; // 0xB0
+  dump.cs:64960:	public List<GameObject> NetworkObjects; // 0xB8
+  dump.cs:64961:	public static MyNetworkManager instance; // 0x0
+  dump.cs:64962:	public List<int> WeaponIndex; // 0xC0
+  dump.cs:64963:	public bool ServerBuild; // 0xC8
+  dump.cs:64964:	public TextMeshProUGUI Txt; // 0xD0
+  dump.cs:64965:	public GameObject FindMatchTxt; // 0xD8
+  dump.cs:64966:	public TextMeshProUGUI TotalPlayersTxt; // 0xE0
+  dump.cs:64967:	public TextMeshProUGUI TimerCountTxt; // 0xE8
+  dump.cs:64968:	public float Seconds; // 0xF0
+  dump.cs:64969:	public TextMeshProUGUI MyNameTxt; // 0xF8
+  dump.cs:64970:	public TextMeshProUGUI OtherNameTxt; // 0x100
+  dump.cs:64971:	public Sprite[] Maps; // 0x108
+  dump.cs:64972:	public Animator Ani; // 0x110
+  dump.cs:64973:	public Image MapBase; // 0x118
+  dump.cs:64974:	public GameObject Profile1; // 0x120
+
+
